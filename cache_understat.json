@@ -1,0 +1,3642 @@
+{
+  "Degerfors IF_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Halmstad_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Sonderjyske_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC Fredericia_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "IFK Goteborg_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Mjallby AIF_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Dordrecht_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Waalwijk_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Jong AZ_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Willem II_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Jong PSV_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "ADO Den Haag_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Roda_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Almere City FC_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Cadiz_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Burgos_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Cremonese_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Udinese_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "West Ham_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Brentford_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Alaves_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Valencia_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Juventude_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "RB Bragantino_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Vasco DA Gama_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Fluminense_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "La Equidad_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Deportes Tolima_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Santos_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Vitoria_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Independiente Medellin_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Santa Fe_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Kairat Almaty_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Pafos_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Barcelona_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Olympiakos Piraeus_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Den Bosch_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Helmond Sport_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "MVV_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Vitesse_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC OSS_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Jong Ajax_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "VVV Venlo_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Jong Utrecht_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Union St. Gilloise_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Inter_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "PSV Eindhoven_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Napoli_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Bayer Leverkusen_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Paris Saint Germain_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Arsenal_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Atletico Madrid_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC Copenhagen_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Borussia Dortmund_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Villarreal_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Manchester City_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Newcastle United_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Benfica_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Millonarios_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Bucaramanga_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Galatasaray_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Bodo/Glimt_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Athletic Club_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Qarabag_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Monaco_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Tottenham_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Real Madrid_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Juventus_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Eintracht Frankfurt_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Liverpool_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Chelsea_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Ajax_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Atalanta_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Slavia Praha_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Sporting CP_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Marseille_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Bayern München_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Club Brugge KV_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Bahia_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Internacional_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Fenerbahce_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "VfB Stuttgart_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Brann_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Rangers_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Go Ahead Eagles_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Aston Villa_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Genk_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Real Betis_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Red Bull Salzburg_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Ferencvarosi TC_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Lyon_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC Basel 1893_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "SC Braga_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FK Crvena Zvezda_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FCSB_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Bologna_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Breidablik_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "KuPS_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "BK Hacken_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Rayo Vallecano_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Strasbourg_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Jagiellonia_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Rapid Vienna_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Fiorentina_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Shkendija_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Shelbourne_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Shakhtar Donetsk_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Legia Warszawa_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Drita_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Omonia Nicosia_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "AZ Alkmaar_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Slovan Bratislava_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "AEK Athens FC_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Aberdeen_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Feyenoord_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Panathinaikos_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Celta Vigo_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Nice_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "BSC Young Boys_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Ludogorets_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Celtic_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Sturm Graz_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Roma_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Plzen_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Nottingham Forest_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Porto_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Maccabi Tel Aviv_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC Midtjylland_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Lille_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "PAOK_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Malmo FF_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Dinamo Zagreb_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Lincoln Red Imps FC_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Lech Poznan_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Sigma Olomouc_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Raków Częstochowa_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Universitatea Craiova_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC Noah_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Samsunspor_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Dynamo Kyiv_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FSV Mainz 05_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Zrinjski_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Hamrun Spartans_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Lausanne_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Crystal Palace_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "AEK Larnaca_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Shamrock Rovers_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Celje_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "SC Freiburg_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Utrecht_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "HNK Rijeka_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Sparta Praha_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "SpVgg Greuther Fürth_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Karlsruher SC_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC Schalke 04_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "SV Darmstadt 98_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Orgryte IS_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Vasteras SK FK_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Aarhus_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC Nordsjaelland_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Stade Nyonnais_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Yverdon Sport_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Neuchatel Xamax FC_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Rapperswil_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Heerenveen_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "NAC Breda_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "De Graafschap_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC Eindhoven_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Emmen_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Cambuur_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC Aarau_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC WIL 1900_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Werder Bremen_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Union Berlin_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Huesca_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Las Palmas_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "AC Milan_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Pisa_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Paris FC_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Nantes_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Leeds_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Real Sociedad_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Sevilla_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Alverca_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Gil Vicente_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Alianza Petrolera_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Fortaleza FC_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Deportivo Pasto_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "America de Cali_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Junior_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Deportivo Pereira_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Rionegro Aguilas_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Umeå FC_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Varbergs BoIS FC_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Arminia Bielefeld_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "SV Elversberg_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Holstein Kiel_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "VfL Bochum_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Dynamo Dresden_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "SC Paderborn 07_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Girona_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Oviedo_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Cultural Leonesa_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "AD Ceuta FC_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "GIF Sundsvall_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Kalmar FF_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "IK brage_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Helsingborg_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Oddevold_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Ostersunds FK_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Sandviken_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Utsikten_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Djurgardens IF_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "IFK Varnamo_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Parma_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Como_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Lecce_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC Augsburg_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "RB Leipzig_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Borussia M.Gladbach_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC St. Pauli_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Hamburger SV_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "VfL Wolfsburg_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "1899 Hoffenheim_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "1. FC Heidenheim_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Sunderland_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Fulham_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Dundee Utd_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "ST Mirren_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Falkirk_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Dundee_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Livingston_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Motherwell_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Espanyol_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Elche_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Eibar_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Leganes_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Albacete_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Cordoba_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Fortuna Sittard_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Groningen_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Stade Brestois 29_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "WSG Wattens_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC BW Linz_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "SCR Altach_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "TSV Hartberg_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Lask Linz_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Grazer AK_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Osters IF_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Bellinzona_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Stade Lausanne-Ouchy_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC Sion_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC Thun_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC ST. Gallen_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Grasshoppers_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Manchester United_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Brighton_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "1.FC Köln_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Getafe_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Granada CF_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Real Sociedad II_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Sparta Rotterdam_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Telstar_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Toulouse_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Santa Clara_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "AVS_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC Volendam_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Heracles_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC Winterthur_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC Luzern_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Hertha BSC_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Fortuna Düsseldorf_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Atletico-MG_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Ceara_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Corinthians_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "PEC Zwolle_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "NEC Nijmegen_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Mirandes_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Racing Santander_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Envigado_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Chico_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Lens_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Arouca_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Estrela_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Rio Ave_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Deportivo Cali_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Llaneros_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Sport Recife_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Mirassol_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Fortaleza EC_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Flamengo_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "IF Brommapojkarna_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Gais_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Odense_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Brondby_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Hammarby FF_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Moreirense_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Sao Paulo_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Once Caldas_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Union Magdalena_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Twente_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Torino_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Genoa_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "trelleborgs FF_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Falkenbergs FF_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Heart Of Midlothian_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Eintracht Braunschweig_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Hannover 96_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "1. FC Kaiserslautern_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "1. FC Nürnberg_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "1. FC Magdeburg_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Preußen Münster_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "IFK Norrkoping_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Sirius_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "IF Elfsborg_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Vejle_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Silkeborg_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC Vaduz_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Étoile Carouge_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC Zurich_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Mallorca_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Levante_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Malaga_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC Andorra_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Wolfsberger AC_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Ried_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Orebro SK_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Landskrona BoIS_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Sassuolo_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Verona_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Cagliari_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Bournemouth_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Wolverhampton_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Burnley_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Metz_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Hibernian_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Randers FC_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Kilmarnock_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "AIK Stockholm_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Servette FC_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FC Lugano_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Estoril_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Nacional_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Famalicao_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Guimaraes_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Austria Vienna_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Angers_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Lorient_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Auxerre_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Havre AC_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Rennes_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Everton_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Viborg_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Osasuna_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Sporting Gijon_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Zaragoza_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Almeria_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Castellón_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Tondela_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Botafogo_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Gremio_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Excelsior_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Lazio_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Deportivo La Coruna_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Valladolid_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Casa Pia_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Palmeiras_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Cruzeiro_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Atletico Nacional_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Atletico Madrid W_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Manchester United W_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "SL Benfica_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Arsenal W_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Bayern Munich W_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Juventus W_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Paris Saint Germain W_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Real Madrid W_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Vålerenga W_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "VfL Wolfsburg W_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Lyon W_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "St. Pölten W_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Chelsea W_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Paris FC W_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "OH Leuven W_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Twente W_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Roma W_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Barcelona W_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Burundi_2023": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Kenya_2023": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Somalia_2023": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Algeria_2023": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Mozambique_2023": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Guinea_2023": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Botswana_2023": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Uganda_2023": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Malawi_2023": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Equatorial Guinea_2023": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Liberia_2023": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Namibia_2023": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Finland_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Lithuania_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Scotland_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Greece_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Austria_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "San Marino_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Cyprus_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Bosnia & Herzegovina_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Faroe Islands_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Montenegro_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Belarus_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Denmark_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Malta_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Netherlands_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Czech Republic_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Croatia_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Kazakhstan_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Liechtenstein_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Northern Ireland_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Slovakia_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Kosovo_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Slovenia_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Sweden_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Switzerland_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Iceland_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Ukraine_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Belgium_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "FYR Macedonia_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Germany_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Luxembourg_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "France_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Azerbaijan_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Latvia_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Andorra_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Hungary_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Armenia_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Norway_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Israel_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Bulgaria_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Türkiye_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Serbia_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Albania_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Spain_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Georgia_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Portugal_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Rep. Of Ireland_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Estonia_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Italy_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Poland_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Romania_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Gibraltar_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Wales_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Moldova_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "England_2024": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Jong PSV U21_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  },
+  "Energie Cottbus_2025": {
+    "xg_home": 1.3,
+    "xga_home": 1.2,
+    "xg_away": 1.1,
+    "xga_away": 1.3,
+    "xg_overall": 1.2,
+    "xga_overall": 1.2
+  }
+}

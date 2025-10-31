@@ -1,0 +1,29 @@
+﻿Ligue,Type,Matchs,Reussite_pct,Proba_moy,Matchs_total,Reussite_globale,Proba_globale
+2. Bundesliga,BTTS,11,45.5,79.6,24,49.65,78.19999999999999
+2. Bundesliga,Over 1.5,13,53.8,76.8,24,49.65,78.19999999999999
+Allsvenskan,Over 1.5,10,70.0,71.5,10,70.0,71.5
+Bundesliga,BTTS,13,53.8,79.8,53,50.6,82.46666666666667
+Bundesliga,Over 1.5,24,54.2,75.9,53,50.6,82.46666666666667
+Bundesliga,Équipe marque,16,43.8,91.7,53,50.6,82.46666666666667
+Championship,Over 1.5,17,5.9,84.3,34,5.9,88.05
+Championship,Équipe marque,17,5.9,91.8,34,5.9,88.05
+Eerste Divisie,Over 1.5,18,66.7,77.9,18,66.7,77.9
+Eredivisie,Over 1.5,14,64.3,75.4,14,64.3,75.4
+La Liga,Over 1.5,14,42.9,74.2,25,48.7,82.05000000000001
+La Liga,Équipe marque,11,54.5,89.9,25,48.7,82.05000000000001
+Ligue 1,Over 1.5,12,75.0,73.6,12,75.0,73.6
+Premier League,Over 1.5,15,66.7,73.6,26,69.7,82.5
+Premier League,Équipe marque,11,72.7,91.4,26,69.7,82.5
+Primera A,Over 1.5,17,64.7,76.6,32,65.7,83.85
+Primera A,Équipe marque,15,66.7,91.1,32,65.7,83.85
+Segunda División,Over 1.5,16,56.2,75.4,30,56.650000000000006,82.05000000000001
+Segunda División,Équipe marque,14,57.1,88.7,30,56.650000000000006,82.05000000000001
+Serie A,Over 1.5,31,35.5,73.6,59,40.95,82.19999999999999
+Serie A,Équipe marque,28,46.4,90.8,59,40.95,82.19999999999999
+Superettan,Over 1.5,14,50.0,76.1,26,45.85,85.25
+Superettan,Équipe marque,12,41.7,94.4,26,45.85,85.25
+UEFA Champions League,Over 1.5,18,77.8,69.7,31,81.19999999999999,80.65
+UEFA Champions League,Équipe marque,13,84.6,91.6,31,81.19999999999999,80.65
+UEFA Europa Conference League,Over 1.5,18,61.1,78.6,18,61.1,78.6
+UEFA Europa League,Over 1.5,18,88.9,78.5,28,89.45,83.25
+UEFA Europa League,Équipe marque,10,90.0,88.0,28,89.45,83.25

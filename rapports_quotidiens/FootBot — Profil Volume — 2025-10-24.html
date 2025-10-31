@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>FootBot — Profil Volume — 2025-10-24</title>
+<style>
+:root {
+  --bg:#f4f7fa; --text:#2c3e50; --card:#fff; --muted:#6b7c93;
+  --ok:#2ecc71; --ko:#e74c3c; --blue:#3498db;
+}
+body {
+  font-family:Segoe UI,Arial,sans-serif;
+  background:url('ai-stade.jpg') center/cover fixed no-repeat;
+  color:var(--text);
+  padding:24px;
+  margin:0;
+}
+.main-title {
+  text-align:center;
+  font-size:1.9rem;
+  font-weight:600;
+  margin:10px 0 18px 0;
+  color:#0e3b2c;
+  text-shadow:0 1px 3px rgba(0,0,0,0.25);
+}
+.panel {
+  background:rgba(255,255,255,0.92);
+  border-radius:16px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.1);
+  padding:18px 20px;
+  margin:25px auto;
+  max-width:1200px;
+}
+.summary { text-align:center; margin-bottom:16px; }
+.summary p {
+  font-size:1rem; color:#1f2d27; background:rgba(255,255,255,0.95);
+  display:inline-block; padding:8px 16px; border-radius:12px;
+  box-shadow:0 2px 6px rgba(0,0,0,.05);
+}
+.ratios {
+  display:flex; justify-content:center; flex-wrap:wrap; gap:10px; margin:10px 0 16px 0;
+}
+.card {
+  flex:1; min-width:140px; max-width:190px; border-radius:12px; color:#fff; padding:10px 12px;
+  font-size:0.9rem; text-align:center; border:none; cursor:pointer;
+  transition:transform 0.15s ease, box-shadow 0.15s ease;
+}
+.card:hover { transform:scale(1.05); box-shadow:0 4px 12px rgba(0,0,0,.15); }
+.card .val { font-weight:700; background:rgba(255,255,255,.15); padding:4px 6px; border-radius:8px; display:block; margin-top:6px; font-size:0.85rem; }
+.card.res { background:linear-gradient(135deg,#2980b9,#3498db); }
+.card.o15 { background:linear-gradient(135deg,#27ae60,#2ecc71); }
+.card.btts { background:linear-gradient(135deg,#8e44ad,#9b59b6); }
+.card.team { background:linear-gradient(135deg,#f39c12,#f1c40f); }
+table.signals {
+  width:100%;
+  border-collapse:collapse;
+  margin-top:20px;
+  font-size:0.9rem;
+  background:rgba(255,255,255,0.97);
+  border-radius:10px;
+  overflow:hidden;
+  box-shadow:0 4px 12px rgba(0,0,0,0.05);
+}
+table.signals thead th {
+  position:sticky;
+  top:0;
+  background:linear-gradient(135deg,#2980b9,#3498db);
+  color:#fff;
+  font-weight:600;
+  z-index:10;
+  cursor:pointer;
+  text-align:center;
+  padding:10px 6px;
+  box-shadow:0 2px 4px rgba(0,0,0,0.1);
+  user-select:none;
+}
+th.sorted {
+  background:#1d6fa5 !important;
+  box-shadow:inset 0 -3px 0 #fff;
+}
+table.signals tbody td {
+  text-align:center;
+  padding:8px 6px;
+  border-bottom:1px solid #e0e0e0;
+  background:rgba(255,255,255,0.97);
+}
+.section td {
+  background:#eef5ff;
+  font-weight:600;
+  color:#1f3b5c;
+  text-align:left;
+  border-bottom:2px solid #c8daf5;
+}
+</style>
+</head>
+<body>
+<h1 class="main-title">⚽ Résumé FootBot : carte du 2025-10-24 ⚽</h1>
+<div class="panel">
+  <div class="summary">
+    <p>
+      📊 <b>Matchs analysés :</b> 24 |
+      💡 <b>Signaux :</b> 75 |
+      ✅ <b>56</b> — ❌ <b>18</b> |
+      🎯 <b>Taux global :</b> 75.7%
+    </p>
+  </div>
+  <div class="ratios">
+    <button class="card res" onclick="filterType('Résultat')">
+      ⚽ Résultat
+      <div class="val">71.4% (5/7)</div>
+    </button>
+    <button class="card o15" onclick="filterType('Over 1.5')">
+      🔥 Over 1.5
+      <div class="val">68.2% (15/23)</div>
+    </button>
+    <button class="card btts" onclick="filterType('BTTS')">
+      🤝 BTTS
+      <div class="val">62.5% (5/8)</div>
+    </button>
+    <button class="card team" onclick="filterType('Équipe marque')">
+      🎯 Équipe marque
+      <div class="val">83.8% (31/37)</div>
+    </button>
+    <button class="card" style="background:linear-gradient(135deg,#7f8c8d,#95a5a6);" onclick="showAll()">
+      🔄 Tout afficher
+    </button>
+  </div>
+  <table class="signals" id="signalsTable">
+    <thead>
+      <tr>
+        <th onclick="sortTable(0)">Date</th>
+        <th onclick="sortTable(1)">Heure</th>
+        <th onclick="sortTable(2)">Ligue</th>
+        <th onclick="sortTable(3)">Match</th>
+        <th onclick="sortTable(4)">xG Home</th>
+        <th onclick="sortTable(5)">BE Home</th>
+        <th onclick="sortTable(6)">xG Away</th>
+        <th onclick="sortTable(7)">BE Away</th>
+        <th onclick="sortTable(8)">Type</th>
+        <th onclick="sortTable(9)">Suggestion</th>
+        <th onclick="sortTable(10)">IC</th>
+        <th onclick="sortTable(11)">Probabilité</th>
+        <th onclick="sortTable(12)">Source</th>
+        <th onclick="sortTable(13)">Résultat</th>
+      </tr>
+    </thead>
+    <tbody><tr class='section'><td colspan='13'>World – UEFA Europa Conference League</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>UEFA Europa Conference League</td><td>HNK Rijeka – Sparta Praha</td><td>1.05</td><td>0.00</td><td>1.47</td><td>1.25</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>68.9%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>1–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>UEFA Europa Conference League</td><td>HNK Rijeka – Sparta Praha</td><td>1.05</td><td>0.00</td><td>1.47</td><td>1.25</td><td>Équipe marque</td><td>HNK Rijeka marque</td><td>IC</td><td>67.3%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–0</td></tr><tr class='section'><td colspan='13'>Germany – 2. Bundesliga</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>2. Bundesliga</td><td>SpVgg Greuther Fürth – Karlsruher SC</td><td>1.37</td><td>2.60</td><td>1.59</td><td>1.40</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>98.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–4</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>2. Bundesliga</td><td>SpVgg Greuther Fürth – Karlsruher SC</td><td>1.37</td><td>2.60</td><td>1.59</td><td>1.40</td><td>Équipe marque</td><td>SpVgg Greuther Fürth marque</td><td>IC</td><td>76.9%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–4</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>2. Bundesliga</td><td>SpVgg Greuther Fürth – Karlsruher SC</td><td>1.37</td><td>2.60</td><td>1.59</td><td>1.40</td><td>Équipe marque</td><td>Karlsruher SC marque</td><td>IC</td><td>89.9%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–4</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>2. Bundesliga</td><td>FC Schalke 04 – SV Darmstadt 98</td><td>1.29</td><td>0.60</td><td>1.33</td><td>1.00</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>78.8%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>1–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>2. Bundesliga</td><td>FC Schalke 04 – SV Darmstadt 98</td><td>1.29</td><td>0.60</td><td>1.33</td><td>1.00</td><td>Équipe marque</td><td>FC Schalke 04 marque</td><td>IC</td><td>91.3%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–0</td></tr><tr class='section'><td colspan='13'>Sweden – Superettan</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Superettan</td><td>Orgryte IS – Vasteras SK FK</td><td>1.71</td><td>1.25</td><td>2.15</td><td>1.40</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>98.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>0–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Superettan</td><td>Orgryte IS – Vasteras SK FK</td><td>1.71</td><td>1.25</td><td>2.15</td><td>1.40</td><td>BTTS</td><td>Les deux équipes marquent (cote None)</td><td>IC</td><td>73.3%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>0–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Superettan</td><td>Orgryte IS – Vasteras SK FK</td><td>1.71</td><td>1.25</td><td>2.15</td><td>1.40</td><td>Équipe marque</td><td>Orgryte IS marque</td><td>IC</td><td>95.0%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>0–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Superettan</td><td>Orgryte IS – Vasteras SK FK</td><td>1.71</td><td>1.25</td><td>2.15</td><td>1.40</td><td>Équipe marque</td><td>Vasteras SK FK marque</td><td>IC</td><td>95.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>0–2</td></tr><tr class='section'><td colspan='13'>Denmark – Superliga</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Superliga</td><td>Aarhus – FC Nordsjaelland</td><td>1.58</td><td>0.40</td><td>1.39</td><td>1.80</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>95.8%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>1–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Superliga</td><td>Aarhus – FC Nordsjaelland</td><td>1.58</td><td>0.40</td><td>1.39</td><td>1.80</td><td>Équipe marque</td><td>Aarhus marque</td><td>IC</td><td>95.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–0</td></tr><tr class='section'><td colspan='13'>Netherlands – Eredivisie</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eredivisie</td><td>Heerenveen – NAC Breda</td><td>1.44</td><td>1.83</td><td>1.39</td><td>2.40</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>98.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>3–3</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eredivisie</td><td>Heerenveen – NAC Breda</td><td>1.44</td><td>1.83</td><td>1.39</td><td>2.40</td><td>BTTS</td><td>Les deux équipes marquent (cote None)</td><td>IC</td><td>76.2%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>3–3</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eredivisie</td><td>Heerenveen – NAC Breda</td><td>1.44</td><td>1.83</td><td>1.39</td><td>2.40</td><td>Équipe marque</td><td>Heerenveen marque</td><td>IC</td><td>95.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>3–3</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eredivisie</td><td>Heerenveen – NAC Breda</td><td>1.44</td><td>1.83</td><td>1.39</td><td>2.40</td><td>Équipe marque</td><td>NAC Breda marque</td><td>IC</td><td>92.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>3–3</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eredivisie</td><td>Heerenveen – NAC Breda</td><td>1.44</td><td>1.83</td><td>1.39</td><td>2.40</td><td>Résultat</td><td>Victoire Domicile (cote None)</td><td>IC</td><td>84.8%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>3–3</td></tr><tr class='section'><td colspan='13'>Netherlands – Eerste Divisie</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Almere City FC – Jong AZ</td><td>1.32</td><td>1.67</td><td>1.42</td><td>1.50</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>98.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–3</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Almere City FC – Jong AZ</td><td>1.32</td><td>1.67</td><td>1.42</td><td>1.50</td><td>Équipe marque</td><td>Almere City FC marque</td><td>IC</td><td>95.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–3</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Almere City FC – Jong AZ</td><td>1.32</td><td>1.67</td><td>1.42</td><td>1.50</td><td>Équipe marque</td><td>Jong AZ marque</td><td>IC</td><td>85.1%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–3</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>De Graafschap – Jong PSV</td><td>1.73</td><td>1.67</td><td>1.36</td><td>2.60</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>98.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>3–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>De Graafschap – Jong PSV</td><td>1.73</td><td>1.67</td><td>1.36</td><td>2.60</td><td>BTTS</td><td>Les deux équipes marquent (cote None)</td><td>IC</td><td>83.5%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>3–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>De Graafschap – Jong PSV</td><td>1.73</td><td>1.67</td><td>1.36</td><td>2.60</td><td>Équipe marque</td><td>De Graafschap marque</td><td>IC</td><td>95.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>3–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>De Graafschap – Jong PSV</td><td>1.73</td><td>1.67</td><td>1.36</td><td>2.60</td><td>Équipe marque</td><td>Jong PSV marque</td><td>IC</td><td>95.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>3–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>FC Eindhoven – VVV Venlo</td><td>1.21</td><td>2.40</td><td>1.33</td><td>1.80</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>98.0%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>0–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>FC Eindhoven – VVV Venlo</td><td>1.21</td><td>2.40</td><td>1.33</td><td>1.80</td><td>BTTS</td><td>Les deux équipes marquent (cote None)</td><td>IC</td><td>70.3%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>0–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>FC Eindhoven – VVV Venlo</td><td>1.21</td><td>2.40</td><td>1.33</td><td>1.80</td><td>Équipe marque</td><td>FC Eindhoven marque</td><td>IC</td><td>79.7%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>0–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>FC Eindhoven – VVV Venlo</td><td>1.21</td><td>2.40</td><td>1.33</td><td>1.80</td><td>Équipe marque</td><td>VVV Venlo marque</td><td>IC</td><td>92.5%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>0–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>FC Eindhoven – VVV Venlo</td><td>1.21</td><td>2.40</td><td>1.33</td><td>1.80</td><td>Résultat</td><td>Victoire Extérieure (cote None)</td><td>IC</td><td>79.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>0–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Helmond Sport – Dordrecht</td><td>1.20</td><td>1.20</td><td>1.29</td><td>1.83</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>98.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Helmond Sport – Dordrecht</td><td>1.20</td><td>1.20</td><td>1.29</td><td>1.83</td><td>Équipe marque</td><td>Helmond Sport marque</td><td>IC</td><td>87.7%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Helmond Sport – Dordrecht</td><td>1.20</td><td>1.20</td><td>1.29</td><td>1.83</td><td>Équipe marque</td><td>Dordrecht marque</td><td>IC</td><td>83.2%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Jong Ajax – Emmen</td><td>1.33</td><td>2.00</td><td>1.53</td><td>2.00</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>98.0%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>0–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Jong Ajax – Emmen</td><td>1.33</td><td>2.00</td><td>1.53</td><td>2.00</td><td>BTTS</td><td>Les deux équipes marquent (cote None)</td><td>IC</td><td>81.1%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>0–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Jong Ajax – Emmen</td><td>1.33</td><td>2.00</td><td>1.53</td><td>2.00</td><td>Équipe marque</td><td>Jong Ajax marque</td><td>IC</td><td>93.8%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>0–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Jong Ajax – Emmen</td><td>1.33</td><td>2.00</td><td>1.53</td><td>2.00</td><td>Équipe marque</td><td>Emmen marque</td><td>IC</td><td>95.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>0–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Jong Ajax – Emmen</td><td>1.33</td><td>2.00</td><td>1.53</td><td>2.00</td><td>Résultat</td><td>Victoire Extérieure (cote None)</td><td>IC</td><td>77.7%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>0–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Jong Utrecht – FC OSS</td><td>1.26</td><td>1.00</td><td>1.14</td><td>2.00</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>93.4%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>0–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Jong Utrecht – FC OSS</td><td>1.26</td><td>1.00</td><td>1.14</td><td>2.00</td><td>Équipe marque</td><td>Jong Utrecht marque</td><td>IC</td><td>78.0%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>0–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Jong Utrecht – FC OSS</td><td>1.26</td><td>1.00</td><td>1.14</td><td>2.00</td><td>Équipe marque</td><td>FC OSS marque</td><td>IC</td><td>72.2%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>0–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Vitesse – Roda</td><td>1.55</td><td>1.40</td><td>1.53</td><td>1.00</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>98.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Vitesse – Roda</td><td>1.55</td><td>1.40</td><td>1.53</td><td>1.00</td><td>BTTS</td><td>Les deux équipes marquent (cote None)</td><td>IC</td><td>73.7%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Vitesse – Roda</td><td>1.55</td><td>1.40</td><td>1.53</td><td>1.00</td><td>Équipe marque</td><td>Vitesse marque</td><td>IC</td><td>95.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Vitesse – Roda</td><td>1.55</td><td>1.40</td><td>1.53</td><td>1.00</td><td>Équipe marque</td><td>Roda marque</td><td>IC</td><td>95.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Waalwijk – Cambuur</td><td>1.66</td><td>1.67</td><td>1.64</td><td>1.60</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>98.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>4–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Waalwijk – Cambuur</td><td>1.66</td><td>1.67</td><td>1.64</td><td>1.60</td><td>BTTS</td><td>Les deux équipes marquent (cote None)</td><td>IC</td><td>79.5%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>4–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Waalwijk – Cambuur</td><td>1.66</td><td>1.67</td><td>1.64</td><td>1.60</td><td>Équipe marque</td><td>Waalwijk marque</td><td>IC</td><td>95.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>4–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Eerste Divisie</td><td>Waalwijk – Cambuur</td><td>1.66</td><td>1.67</td><td>1.64</td><td>1.60</td><td>Équipe marque</td><td>Cambuur marque</td><td>IC</td><td>95.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>4–2</td></tr><tr class='section'><td colspan='13'>Switzerland – Challenge League</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Challenge League</td><td>FC Aarau – FC WIL 1900</td><td>0.88</td><td>0.33</td><td>0.85</td><td>2.60</td><td>Résultat</td><td>Victoire Domicile (cote None)</td><td>IC</td><td>92.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–0</td></tr><tr class='section'><td colspan='13'>Germany – Bundesliga</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Bundesliga</td><td>Werder Bremen – Union Berlin</td><td>1.30</td><td>1.50</td><td>1.23</td><td>2.25</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>96.3%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>1–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Bundesliga</td><td>Werder Bremen – Union Berlin</td><td>1.30</td><td>1.50</td><td>1.23</td><td>2.25</td><td>Équipe marque</td><td>Werder Bremen marque</td><td>IC</td><td>76.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Bundesliga</td><td>Werder Bremen – Union Berlin</td><td>1.30</td><td>1.50</td><td>1.23</td><td>2.25</td><td>Équipe marque</td><td>Union Berlin marque</td><td>IC</td><td>68.3%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>1–0</td></tr><tr class='section'><td colspan='13'>Spain – Segunda División</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Segunda División</td><td>Huesca – Las Palmas</td><td>0.00</td><td>0.83</td><td>0.00</td><td>0.40</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>67.2%</td><td>Fusion</td><td style='color:#333;'>1–1</td></tr><tr class='section'><td colspan='13'>Italy – Serie A</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Serie A</td><td>AC Milan – Pisa</td><td>1.38</td><td>1.20</td><td>1.04</td><td>2.50</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>98.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Serie A</td><td>AC Milan – Pisa</td><td>1.38</td><td>1.20</td><td>1.04</td><td>2.50</td><td>Équipe marque</td><td>AC Milan marque</td><td>IC</td><td>86.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Serie A</td><td>AC Milan – Pisa</td><td>1.38</td><td>1.20</td><td>1.04</td><td>2.50</td><td>Équipe marque</td><td>Pisa marque</td><td>IC</td><td>66.2%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Serie A</td><td>AC Milan – Pisa</td><td>1.38</td><td>1.20</td><td>1.04</td><td>2.50</td><td>Résultat</td><td>Victoire Domicile (cote None)</td><td>IC</td><td>94.9%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>2–2</td></tr><tr class='section'><td colspan='13'>France – Ligue 1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Ligue 1</td><td>Paris FC – Nantes</td><td>1.23</td><td>1.75</td><td>1.11</td><td>1.00</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>90.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Ligue 1</td><td>Paris FC – Nantes</td><td>1.23</td><td>1.75</td><td>1.11</td><td>1.00</td><td>Équipe marque</td><td>Paris FC marque</td><td>IC</td><td>95.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–2</td></tr><tr class='section'><td colspan='13'>England – Premier League</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Premier League</td><td>Leeds – West Ham</td><td>1.39</td><td>1.00</td><td>1.07</td><td>1.60</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>84.8%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Premier League</td><td>Leeds – West Ham</td><td>1.39</td><td>1.00</td><td>1.07</td><td>1.60</td><td>Équipe marque</td><td>Leeds marque</td><td>IC</td><td>94.7%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Premier League</td><td>Leeds – West Ham</td><td>1.39</td><td>1.00</td><td>1.07</td><td>1.60</td><td>Équipe marque</td><td>West Ham marque</td><td>IC</td><td>78.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–1</td></tr><tr class='section'><td colspan='13'>Spain – La Liga</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>La Liga</td><td>Real Sociedad – Sevilla</td><td>1.26</td><td>1.20</td><td>1.15</td><td>1.20</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>88.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>La Liga</td><td>Real Sociedad – Sevilla</td><td>1.26</td><td>1.20</td><td>1.15</td><td>1.20</td><td>BTTS</td><td>Les deux équipes marquent (cote None)</td><td>IC</td><td>70.5%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>La Liga</td><td>Real Sociedad – Sevilla</td><td>1.26</td><td>1.20</td><td>1.15</td><td>1.20</td><td>Équipe marque</td><td>Real Sociedad marque</td><td>IC</td><td>85.1%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>La Liga</td><td>Real Sociedad – Sevilla</td><td>1.26</td><td>1.20</td><td>1.15</td><td>1.20</td><td>Équipe marque</td><td>Sevilla marque</td><td>IC</td><td>89.3%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–1</td></tr><tr class='section'><td colspan='13'>Portugal – Primeira Liga</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Primeira Liga</td><td>Alverca – GIL Vicente</td><td>1.27</td><td>1.80</td><td>1.46</td><td>0.40</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>85.1%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>0–4</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Primeira Liga</td><td>Alverca – GIL Vicente</td><td>1.27</td><td>1.80</td><td>1.46</td><td>0.40</td><td>Équipe marque</td><td>GIL Vicente marque</td><td>IC</td><td>95.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>0–4</td></tr><tr class='section'><td colspan='13'>Colombia – Primera A</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Primera A</td><td>Alianza Petrolera – La Equidad</td><td>1.44</td><td>0.40</td><td>1.23</td><td>2.17</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>88.7%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Primera A</td><td>Alianza Petrolera – La Equidad</td><td>1.44</td><td>0.40</td><td>1.23</td><td>2.17</td><td>Équipe marque</td><td>Alianza Petrolera marque</td><td>IC</td><td>95.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Primera A</td><td>Alianza Petrolera – La Equidad</td><td>1.44</td><td>0.40</td><td>1.23</td><td>2.17</td><td>Résultat</td><td>Victoire Domicile (cote None)</td><td>IC</td><td>94.9%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Primera A</td><td>Fortaleza FC – Deportivo Pasto</td><td>1.33</td><td>0.17</td><td>1.24</td><td>1.80</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>79.1%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Primera A</td><td>Fortaleza FC – Deportivo Pasto</td><td>1.33</td><td>0.17</td><td>1.24</td><td>1.80</td><td>Équipe marque</td><td>Fortaleza FC marque</td><td>IC</td><td>85.1%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-24</td><td></td><td>Primera A</td><td>Fortaleza FC – Deportivo Pasto</td><td>1.33</td><td>0.17</td><td>1.24</td><td>1.80</td><td>Résultat</td><td>Victoire Domicile (cote None)</td><td>IC</td><td>93.9%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–0</td></tr></tbody>
+  </table>
+</div>
+
+<script>
+function sortTable(n) {{
+  const table = document.getElementById("signalsTable");
+  let switching = true;
+  let dir = table.getAttribute("data-sort-dir") || "desc";
+  let switchcount = 0;
+
+  document.querySelectorAll("th").forEach(th => th.classList.remove("sorted"));
+  if (table.rows[0] && table.rows[0].cells[n]) {{
+    table.rows[0].cells[n].classList.add("sorted");
+  }}
+
+  while (switching) {{
+    switching = false;
+    const rows = table.rows;
+    for (let i = 1; i < rows.length - 1; i++) {{
+      let shouldSwitch = false;
+      const x = rows[i].getElementsByTagName("TD")[n];
+      const y = rows[i + 1].getElementsByTagName("TD")[n];
+      if (!x || !y) continue;
+      let xVal = parseFloat(x.textContent.replace('%','')) || x.textContent.toLowerCase();
+      let yVal = parseFloat(y.textContent.replace('%','')) || y.textContent.toLowerCase();
+      if (dir === "desc" ? xVal < yVal : xVal > yVal) {{
+        shouldSwitch = true;
+        break;
+      }}
+    }}
+    if (shouldSwitch) {{
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      switchcount++;
+    }} else {{
+      if (switchcount === 0) {{
+        dir = (dir === "desc") ? "asc" : "desc";
+        table.setAttribute("data-sort-dir", dir);
+        switching = true;
+      }}
+    }}
+  }}
+}}
+
+function filterType(type) {{
+  const table = document.getElementById("signalsTable");
+  const rows = table.getElementsByTagName("tr");
+  document.querySelectorAll(".card").forEach(btn => btn.classList.remove("active"));
+  const activeBtn = Array.from(document.querySelectorAll(".card")).find(btn => btn.textContent.includes(type));
+  if (activeBtn) activeBtn.classList.add("active");
+  for (let i = 1; i < rows.length; i++) {{
+    const cell = rows[i].getElementsByTagName("td")[8];
+    if (!cell) continue;
+    const val = cell.textContent.trim();
+    if (val === type || type === "all") {{
+      rows[i].style.display = "";
+    }} else if (rows[i].classList.contains("section")) {{
+      rows[i].style.display = "";
+    }} else {{
+      rows[i].style.display = "none";
+    }}
+  }}
+}}
+function showAll() {{ filterType("all"); }}
+window.addEventListener("load", function() {{ sortTable(11); }});
+</script>
+
+</body>
+</html>

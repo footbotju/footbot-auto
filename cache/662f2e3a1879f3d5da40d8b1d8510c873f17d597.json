@@ -1,0 +1,17 @@
+[
+  {
+    "fixture_id": "fd_535059",
+    "league_name": "Campeonato Brasileiro Série A",
+    "country": null,
+    "home_team": "Mirassol FC",
+    "away_team": "Fluminense FC",
+    "home_id": 4364,
+    "away_id": 1765,
+    "date_match": "2025-10-09T00:00:00Z",
+    "cote_home": 1.8,
+    "cote_draw": 3.4,
+    "cote_away": 4.2,
+    "xg_home": 1.25,
+    "xg_away": 1.05
+  }
+]

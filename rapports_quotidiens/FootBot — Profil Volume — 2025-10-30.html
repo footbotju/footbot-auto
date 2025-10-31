@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>FootBot — Profil Volume — 2025-10-30</title>
+<style>
+:root {
+  --bg:#f4f7fa; --text:#2c3e50; --card:#fff; --muted:#6b7c93;
+  --ok:#2ecc71; --ko:#e74c3c; --blue:#3498db;
+}
+body {
+  font-family:Segoe UI,Arial,sans-serif;
+  background:url('ai-stade.jpg') center/cover fixed no-repeat;
+  color:var(--text);
+  padding:24px;
+  margin:0;
+}
+.main-title {
+  text-align:center;
+  font-size:1.9rem;
+  font-weight:600;
+  margin:10px 0 18px 0;
+  color:#0e3b2c;
+  text-shadow:0 1px 3px rgba(0,0,0,0.25);
+}
+.panel {
+  background:rgba(255,255,255,0.92);
+  border-radius:16px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.1);
+  padding:18px 20px;
+  margin:25px auto;
+  max-width:1200px;
+}
+.summary { text-align:center; margin-bottom:16px; }
+.summary p {
+  font-size:1rem; color:#1f2d27; background:rgba(255,255,255,0.95);
+  display:inline-block; padding:8px 16px; border-radius:12px;
+  box-shadow:0 2px 6px rgba(0,0,0,.05);
+}
+.ratios {
+  display:flex; justify-content:center; flex-wrap:wrap; gap:10px; margin:10px 0 16px 0;
+}
+.card {
+  flex:1; min-width:140px; max-width:190px; border-radius:12px; color:#fff; padding:10px 12px;
+  font-size:0.9rem; text-align:center; border:none; cursor:pointer;
+  transition:transform 0.15s ease, box-shadow 0.15s ease;
+}
+.card:hover { transform:scale(1.05); box-shadow:0 4px 12px rgba(0,0,0,.15); }
+.card .val { font-weight:700; background:rgba(255,255,255,.15); padding:4px 6px; border-radius:8px; display:block; margin-top:6px; font-size:0.85rem; }
+.card.res { background:linear-gradient(135deg,#2980b9,#3498db); }
+.card.o15 { background:linear-gradient(135deg,#27ae60,#2ecc71); }
+.card.btts { background:linear-gradient(135deg,#8e44ad,#9b59b6); }
+.card.team { background:linear-gradient(135deg,#f39c12,#f1c40f); }
+table.signals {
+  width:100%;
+  border-collapse:collapse;
+  margin-top:20px;
+  font-size:0.9rem;
+  background:rgba(255,255,255,0.97);
+  border-radius:10px;
+  overflow:hidden;
+  box-shadow:0 4px 12px rgba(0,0,0,0.05);
+}
+table.signals thead th {
+  position:sticky;
+  top:0;
+  background:linear-gradient(135deg,#2980b9,#3498db);
+  color:#fff;
+  font-weight:600;
+  z-index:10;
+  cursor:pointer;
+  text-align:center;
+  padding:10px 6px;
+  box-shadow:0 2px 4px rgba(0,0,0,0.1);
+  user-select:none;
+}
+th.sorted {
+  background:#1d6fa5 !important;
+  box-shadow:inset 0 -3px 0 #fff;
+}
+table.signals tbody td {
+  text-align:center;
+  padding:8px 6px;
+  border-bottom:1px solid #e0e0e0;
+  background:rgba(255,255,255,0.97);
+}
+.section td {
+  background:#eef5ff;
+  font-weight:600;
+  color:#1f3b5c;
+  text-align:left;
+  border-bottom:2px solid #c8daf5;
+}
+</style>
+</head>
+<body>
+<h1 class="main-title">⚽ Résumé FootBot : carte du 2025-10-30 ⚽</h1>
+<div class="panel">
+  <div class="summary">
+    <p>
+      📊 <b>Matchs analysés :</b> 4 |
+      💡 <b>Signaux :</b> 9 |
+      ✅ <b>9</b> — ❌ <b>0</b> |
+      🎯 <b>Taux global :</b> 100.0%
+    </p>
+  </div>
+  <div class="ratios">
+    <button class="card res" onclick="filterType('Résultat')">
+      ⚽ Résultat
+      <div class="val">— (0/0)</div>
+    </button>
+    <button class="card o15" onclick="filterType('Over 1.5')">
+      🔥 Over 1.5
+      <div class="val">100.0% (4/4)</div>
+    </button>
+    <button class="card btts" onclick="filterType('BTTS')">
+      🤝 BTTS
+      <div class="val">100.0% (1/1)</div>
+    </button>
+    <button class="card team" onclick="filterType('Équipe marque')">
+      🎯 Équipe marque
+      <div class="val">100.0% (4/4)</div>
+    </button>
+    <button class="card" style="background:linear-gradient(135deg,#7f8c8d,#95a5a6);" onclick="showAll()">
+      🔄 Tout afficher
+    </button>
+  </div>
+  
+<div class='note' style='margin-top:10px; text-align:center;'>
+  <b>📊 Seuils optimaux (issus de l’analyse globale)</b><br>
+  • <b>Résultat</b> → 86% &nbsp;|&nbsp;
+  <b>Over 1.5</b> → 95% &nbsp;|&nbsp;
+  <b>BTTS</b> → 79% &nbsp;|&nbsp;
+  <b>Équipe marque</b> → 95%
+</div>
+
+  
+<div class='note' style='margin-top:10px; text-align:center;'>
+  <b>⚙️ Calibration active :</b> BTTS +9.8% · OVER 1.5 -14.2% · RÉSULTAT -0.1% · ÉQUIPE MARQUE -1.5%
+</div>
+
+  <table class="signals" id="signalsTable">
+    <thead>
+      <tr>
+        <th onclick="sortTable(0)">Date</th>
+        <th onclick="sortTable(1)">Heure</th>
+        <th onclick="sortTable(2)">Ligue</th>
+        <th onclick="sortTable(3)">Match</th>
+        <th onclick="sortTable(4)">xG Home</th>
+        <th onclick="sortTable(5)">BE Home</th>
+        <th onclick="sortTable(6)">xG Away</th>
+        <th onclick="sortTable(7)">BE Away</th>
+        <th onclick="sortTable(8)">Type</th>
+        <th onclick="sortTable(9)">Suggestion</th>
+        <th onclick="sortTable(10)">IC</th>
+        <th onclick="sortTable(11)">Probabilité</th>
+        <th onclick="sortTable(12)">Source</th>
+        <th onclick="sortTable(13)">Résultat</th>
+      </tr>
+    </thead>
+    <tbody><tr class='section'><td colspan='13'>Italy – Serie A</td></tr><tr style='background-color:#ffffff;'><td>2025-10-30</td><td></td><td>Serie A</td><td>Cagliari – Sassuolo</td><td>1.05</td><td>1.40</td><td>1.18</td><td>1.20</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>66.9%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-30</td><td></td><td>Serie A</td><td>Cagliari – Sassuolo</td><td>1.05</td><td>1.40</td><td>1.18</td><td>1.20</td><td>Équipe marque</td><td>Sassuolo marque</td><td>IC</td><td>82.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–2</td></tr><tr class='section'><td colspan='13'>Switzerland – Super League</td></tr><tr style='background-color:#ffffff;'><td>2025-10-30</td><td></td><td>Super League</td><td>Grasshoppers – BSC Young Boys</td><td>1.46</td><td>1.40</td><td>1.32</td><td>2.67</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>84.1%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>3–3</td></tr><tr style='background-color:#ffffff;'><td>2025-10-30</td><td></td><td>Super League</td><td>Grasshoppers – BSC Young Boys</td><td>1.46</td><td>1.40</td><td>1.32</td><td>2.67</td><td>BTTS</td><td>Les deux équipes marquent (cote None)</td><td>IC</td><td>74.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>3–3</td></tr><tr style='background-color:#ffffff;'><td>2025-10-30</td><td></td><td>Super League</td><td>Grasshoppers – BSC Young Boys</td><td>1.46</td><td>1.40</td><td>1.32</td><td>2.67</td><td>Équipe marque</td><td>Grasshoppers marque</td><td>IC</td><td>93.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>3–3</td></tr><tr style='background-color:#ffffff;'><td>2025-10-30</td><td></td><td>Super League</td><td>Grasshoppers – BSC Young Boys</td><td>1.46</td><td>1.40</td><td>1.32</td><td>2.67</td><td>Équipe marque</td><td>BSC Young Boys marque</td><td>IC</td><td>91.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>3–3</td></tr><tr style='background-color:#ffffff;'><td>2025-10-30</td><td></td><td>Super League</td><td>FC Lugano – FC Luzern</td><td>1.44</td><td>0.60</td><td>1.35</td><td>1.40</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>78.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-30</td><td></td><td>Super League</td><td>FC Lugano – FC Luzern</td><td>1.44</td><td>0.60</td><td>1.35</td><td>1.40</td><td>Équipe marque</td><td>FC Lugano marque</td><td>IC</td><td>93.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–0</td></tr><tr class='section'><td colspan='13'>Colombia – Primera A</td></tr><tr style='background-color:#ffffff;'><td>2025-10-30</td><td></td><td>Primera A</td><td>Union Magdalena – Deportes Tolima</td><td>1.23</td><td>1.50</td><td>1.29</td><td>0.75</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>78.7%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>0–2</td></tr></tbody>
+  </table>
+</div>
+
+<script>
+function sortTable(n) {{
+  const table = document.getElementById("signalsTable");
+  let switching = true;
+  let dir = table.getAttribute("data-sort-dir") || "desc";
+  let switchcount = 0;
+
+  document.querySelectorAll("th").forEach(th => th.classList.remove("sorted"));
+  if (table.rows[0] && table.rows[0].cells[n]) {{
+    table.rows[0].cells[n].classList.add("sorted");
+  }}
+
+  while (switching) {{
+    switching = false;
+    const rows = table.rows;
+    for (let i = 1; i < rows.length - 1; i++) {{
+      let shouldSwitch = false;
+      const x = rows[i].getElementsByTagName("TD")[n];
+      const y = rows[i + 1].getElementsByTagName("TD")[n];
+      if (!x || !y) continue;
+      let xVal = parseFloat(x.textContent.replace('%','')) || x.textContent.toLowerCase();
+      let yVal = parseFloat(y.textContent.replace('%','')) || y.textContent.toLowerCase();
+      if (dir === "desc" ? xVal < yVal : xVal > yVal) {{
+        shouldSwitch = true;
+        break;
+      }}
+    }}
+    if (shouldSwitch) {{
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      switchcount++;
+    }} else {{
+      if (switchcount === 0) {{
+        dir = (dir === "desc") ? "asc" : "desc";
+        table.setAttribute("data-sort-dir", dir);
+        switching = true;
+      }}
+    }}
+  }}
+}}
+
+function filterType(type) {{
+  const table = document.getElementById("signalsTable");
+  const rows = table.getElementsByTagName("tr");
+  document.querySelectorAll(".card").forEach(btn => btn.classList.remove("active"));
+  const activeBtn = Array.from(document.querySelectorAll(".card")).find(btn => btn.textContent.includes(type));
+  if (activeBtn) activeBtn.classList.add("active");
+  for (let i = 1; i < rows.length; i++) {{
+    const cell = rows[i].getElementsByTagName("td")[8];
+    if (!cell) continue;
+    const val = cell.textContent.trim();
+    if (val === type || type === "all") {{
+      rows[i].style.display = "";
+    }} else if (rows[i].classList.contains("section")) {{
+      rows[i].style.display = "";
+    }} else {{
+      rows[i].style.display = "none";
+    }}
+  }}
+}}
+function showAll() {{ filterType("all"); }}
+window.addEventListener("load", function() {{ sortTable(11); }});
+</script>
+
+</body>
+</html>
