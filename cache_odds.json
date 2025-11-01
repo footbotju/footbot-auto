@@ -1,6 +1,6 @@
 {
   "1392524": {
-    "date": "2025-10-31",
+    "date": "2025-11-01",
     "odds": {
       "odds_over_1_5": null,
       "odds_over_2_5": null,
@@ -11,7 +11,7 @@
     }
   },
   "1388707": {
-    "date": "2025-10-31",
+    "date": "2025-11-01",
     "odds": {
       "odds_over_1_5": null,
       "odds_over_2_5": null,
@@ -22,7 +22,7 @@
     }
   },
   "1388712": {
-    "date": "2025-10-31",
+    "date": "2025-11-01",
     "odds": {
       "odds_over_1_5": null,
       "odds_over_2_5": null,
@@ -33,18 +33,18 @@
     }
   },
   "1380957": {
-    "date": "2025-10-31",
+    "date": "2025-11-01",
     "odds": {
       "odds_over_1_5": null,
       "odds_over_2_5": null,
       "odds_btts_yes": null,
-      "odds_home": 1.14,
-      "odds_draw": 8.5,
+      "odds_home": 1.12,
+      "odds_draw": 9.0,
       "odds_away": 15.0
     }
   },
   "1382045": {
-    "date": "2025-10-31",
+    "date": "2025-11-01",
     "odds": {
       "odds_over_1_5": null,
       "odds_over_2_5": null,
@@ -55,7 +55,7 @@
     }
   },
   "1382048": {
-    "date": "2025-10-31",
+    "date": "2025-11-01",
     "odds": {
       "odds_over_1_5": null,
       "odds_over_2_5": null,
@@ -66,7 +66,7 @@
     }
   },
   "1382049": {
-    "date": "2025-10-31",
+    "date": "2025-11-01",
     "odds": {
       "odds_over_1_5": null,
       "odds_over_2_5": null,
@@ -77,7 +77,7 @@
     }
   },
   "1381880": {
-    "date": "2025-10-31",
+    "date": "2025-11-01",
     "odds": {
       "odds_over_1_5": null,
       "odds_over_2_5": null,
@@ -88,7 +88,7 @@
     }
   },
   "1381883": {
-    "date": "2025-10-31",
+    "date": "2025-11-01",
     "odds": {
       "odds_over_1_5": null,
       "odds_over_2_5": null,
@@ -99,7 +99,7 @@
     }
   },
   "1388380": {
-    "date": "2025-10-31",
+    "date": "2025-11-01",
     "odds": {
       "odds_over_1_5": null,
       "odds_over_2_5": null,
@@ -110,7 +110,7 @@
     }
   },
   "1391887": {
-    "date": "2025-10-31",
+    "date": "2025-11-01",
     "odds": {
       "odds_over_1_5": null,
       "odds_over_2_5": null,
@@ -121,7 +121,7 @@
     }
   },
   "1390923": {
-    "date": "2025-10-31",
+    "date": "2025-11-01",
     "odds": {
       "odds_over_1_5": null,
       "odds_over_2_5": null,
@@ -132,14 +132,14 @@
     }
   },
   "1396325": {
-    "date": "2025-10-31",
+    "date": "2025-11-01",
     "odds": {
       "odds_over_1_5": null,
       "odds_over_2_5": null,
       "odds_btts_yes": null,
-      "odds_home": 1.11,
-      "odds_draw": 9.0,
-      "odds_away": 17.0
+      "odds_home": 1.12,
+      "odds_draw": 8.5,
+      "odds_away": 15.0
     }
   }
 }

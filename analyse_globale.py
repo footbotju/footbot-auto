@@ -125,9 +125,25 @@ if df.empty:
 # ----------------------------------------------------------
 # Period (best effort from file names)
 import re as _re
-date_min = _re.search(r"(\\d{4}-\\d{2}-\\d{2})", html_files[0])
-date_max = _re.search(r"(\\d{4}-\\d{2}-\\d{2})", html_files[-1])
-periode = f"Analyse globale depuis le {date_min.group(1)} au {date_max.group(1)}" if (date_min and date_max) else "Période inconnue"
+from datetime import datetime
+
+# Extraire toutes les dates trouvées dans les noms de fichiers
+dates_trouvees = []
+for f in html_files:
+    m = _re.search(r"(\d{4}-\d{2}-\d{2})", f)
+    if m:
+        try:
+            d = datetime.strptime(m.group(1), "%Y-%m-%d")
+            dates_trouvees.append(d)
+        except Exception:
+            pass
+
+if dates_trouvees:
+    d_min = min(dates_trouvees)
+    d_max = max(dates_trouvees)
+    periode = f"Du {d_min.strftime('%Y-%m-%d')} au {d_max.strftime('%Y-%m-%d')}"
+else:
+    periode = f"Jusqu’au {datetime.now().strftime('%Y-%m-%d')} (période inconnue)"
 
 # Summary by type: use IC as the success proxy (mean of numeric ICs)
 # --- Résumé par type : taux de réussite réel et IC moyen gagnant ---

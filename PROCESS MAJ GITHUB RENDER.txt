@@ -1,0 +1,18 @@
+Pour modifier un fichier py de footbot> Met à jour GitHub puis ensuite render se met à jour automatiquement:
+copier/coller su PS:
+
+Procédure rapide pour “renvoyer” tes modifications sur GitHub
+
+1️⃣ Ouvre PowerShell dans ton dossier FootBot :
+
+cd C:\footbot
+
+
+2️⃣ Vérifie les fichiers modifiés :
+
+git status
+
+puis:
+
+3/
+git add . && git commit -m "maj auto" && git push

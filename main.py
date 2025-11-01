@@ -941,7 +941,7 @@ window.addEventListener("load", function() {{ sortTable(11); }});
 </div>
 """
 
-    # === HTML final (style du 23/10)
+        # === HTML final (avec tri + filtres actifs)
     html = f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -1074,29 +1074,81 @@ table.signals tbody td {{
   <table class="signals" id="signalsTable">
     <thead>
       <tr>
-        <th onclick="sortTable(0)">Date</th>
-        <th onclick="sortTable(1)">Heure</th>
-        <th onclick="sortTable(2)">Ligue</th>
-        <th onclick="sortTable(3)">Match</th>
-        <th onclick="sortTable(4)">xG Home</th>
-        <th onclick="sortTable(5)">BE Home</th>
-        <th onclick="sortTable(6)">xG Away</th>
-        <th onclick="sortTable(7)">BE Away</th>
-        <th onclick="sortTable(8)">Type</th>
-        <th onclick="sortTable(9)">Suggestion</th>
-        <th onclick="sortTable(10)">IC</th>
-        <th onclick="sortTable(11)">Probabilité</th>
-        <th onclick="sortTable(12)">Source</th>
-        <th onclick="sortTable(13)">Résultat</th>
+        <th>Date</th>
+        <th>Heure</th>
+        <th>Ligue</th>
+        <th>Match</th>
+        <th>xG Home</th>
+        <th>BE Home</th>
+        <th>xG Away</th>
+        <th>BE Away</th>
+        <th>Type</th>
+        <th>Suggestion</th>
+        <th>IC</th>
+        <th>Probabilité</th>
+        <th>Source</th>
+        <th>Résultat</th>
       </tr>
     </thead>
     <tbody>{rows_html}</tbody>
   </table>
 </div>
-{js_script}
+
+<script>
+// === Filtres par type (boutons) ===
+function filterType(type) {{
+  const table = document.getElementById("signalsTable");
+  const rows = table.getElementsByTagName("tr");
+  document.querySelectorAll(".card").forEach(btn => btn.classList.remove("active"));
+  const activeBtn = Array.from(document.querySelectorAll(".card")).find(btn => btn.textContent.includes(type));
+  if (activeBtn) activeBtn.classList.add("active");
+  for (let i = 1; i < rows.length; i++) {{
+    const cell = rows[i].getElementsByTagName("td")[8];
+    if (!cell) continue;
+    const val = cell.textContent.trim();
+    if (val === type || type === "all") {{
+      rows[i].style.display = "";
+    }} else if (rows[i].classList.contains("section")) {{
+      rows[i].style.display = "";
+    }} else {{
+      rows[i].style.display = "none";
+    }}
+  }}
+}}
+function showAll() {{ filterType("all"); }}
+
+// === Tri manuel sur clic d'entête ===
+document.addEventListener('DOMContentLoaded', function() {{
+  document.querySelectorAll('table').forEach(function(table) {{
+    table.querySelectorAll('th').forEach(function(header, index) {{
+      header.classList.add('sortable');
+      header.addEventListener('click', function() {{
+        const tbody = table.tBodies[0];
+        const rows = Array.from(tbody.querySelectorAll('tr')).filter(r => !r.classList.contains('section'));
+        const asc = !header.classList.contains('asc');
+        table.querySelectorAll('th').forEach(th => th.classList.remove('asc','desc'));
+        header.classList.toggle('asc', asc);
+        header.classList.toggle('desc', !asc);
+        rows.sort((a, b) => {{
+          const A = a.cells[index]?.innerText.replace('%','').trim() || '';
+          const B = b.cells[index]?.innerText.replace('%','').trim() || '';
+          const numA = parseFloat(A); const numB = parseFloat(B);
+          if (!isNaN(numA) && !isNaN(numB))
+            return asc ? numA - numB : numB - numA;
+          return asc ? A.localeCompare(B) : B.localeCompare(A);
+        }});
+        rows.forEach(row => tbody.appendChild(row));
+      }});
+    }});
+  }});
+}});
+</script>
+
 </body>
 </html>
 """
+
+
 
     with open(path_out, "w", encoding="utf-8") as f:
         f.write(html)
