@@ -16,11 +16,31 @@ today = datetime.now().strftime("%Y-%m-%d")
 from concurrent.futures import ThreadPoolExecutor
 from dotenv import load_dotenv
 
+import requests
+
 # --- Initialisation du chemin de base et des variables .env
 BASE_DIR = os.path.dirname(__file__)
 load_dotenv(dotenv_path=os.path.join(BASE_DIR, ".env"))
 
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+CHAT_IDS = [int(x.strip()) for x in os.getenv("CHAT_IDS", "").split(",") if x.strip()]
+
 print(f"🧩 .env chargé depuis: {os.path.join(BASE_DIR, '.env')}")
+
+def send_telegram_report(file_path: str):
+    try:
+        url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendDocument"
+        for chat_id in CHAT_IDS:
+            with open(file_path, "rb") as f:
+                files = {"document": f}
+                data = {"chat_id": chat_id, "caption": "📊 Nouveau rapport FootBot disponible !"}
+                requests.post(url, data=data, files=files)
+        print("✅ Rapport envoyé sur Telegram")
+    except Exception as e:
+        print(f"⚠️ Erreur Telegram : {e}")
+
+
+
 
 
 # --- Modules internes
@@ -1275,6 +1295,8 @@ function resetFilters() {{
         f.write(html)
 
     print(f"✅ Rapport HTML généré → {path_out}")
+    send_telegram_report(path_out)
+    
 
 def main():
     global START_TIME
