@@ -1085,6 +1085,60 @@ table.signals tbody td {{
   </div>
   {seuils_html}
   {calibration_html}
+
+<!-- 🔍 Barre de recherche équipe -->
+<div style="margin: 15px 0; text-align: center;">
+  <input
+    type="text"
+    id="searchTeam"
+    placeholder="🔍 Rechercher une équipe..."
+    style="
+      width: 320px;
+      padding: 8px 12px;
+      border-radius: 10px;
+      border: 1px solid #555;
+      background-color: #222;
+      color: #fff;
+      font-size: 15px;
+      text-align: center;
+    ">
+</div>
+
+<script>
+document.getElementById("searchTeam").addEventListener("keyup", function() {{
+  const filter = this.value.trim().toLowerCase();
+  const tables = document.querySelectorAll("table");
+
+  if (!filter) {{
+    tables.forEach(t => {{
+      t.style.display = "";
+      const rows = t.querySelectorAll("tbody tr");
+      rows.forEach(r => r.style.display = "");
+    }});
+    return;
+  }}
+
+  tables.forEach(table => {{
+    let anyVisible = false;
+    const rows = table.querySelectorAll("tbody tr");
+    rows.forEach(row => {{
+      const text = row.textContent.toLowerCase();
+      if (text.includes(filter)) {{
+        row.style.display = "";
+        anyVisible = true;
+      }} else {{
+        row.style.display = "none";
+      }}
+    }});
+    table.style.display = anyVisible ? "" : "none";
+  }});
+}});
+</script>
+
+
+
+
+
   <table class="signals" id="signalsTable">
     <thead>
       <tr>
@@ -1157,32 +1211,49 @@ document.addEventListener('DOMContentLoaded', function() {{
   }});
 }});
 
+
 // === Filtrage dynamique par seuil optimal ===
 function filterByThreshold(type, seuil) {{
   const table = document.getElementById("signalsTable");
-  const rows = table.getElementsByTagName("tr");
+  const rows = Array.from(table.getElementsByTagName("tr"));
   document.querySelectorAll(".card").forEach(btn => btn.classList.remove("active"));
 
+  let visibleLeague = false;
+  let lastSection = null;
+
   for (let i = 1; i < rows.length; i++) {{
-    const cells = rows[i].getElementsByTagName("td");
+    const r = rows[i];
+    if (r.classList.contains("section")) {{
+      // on cache la section précédente si elle n'avait aucun match visible
+      if (lastSection && !visibleLeague) lastSection.style.display = "none";
+      lastSection = r;
+      visibleLeague = false;
+      r.style.display = "none"; // masquée par défaut
+      continue;
+    }}
+
+    const cells = r.getElementsByTagName("td");
     if (!cells.length) continue;
 
-    const typeCell = cells[8]?.textContent.trim();      // Colonne Type
-    const probaCell = cells[11]?.textContent.replace('%','').trim();  // Colonne Probabilité
+    const typeCell = cells[8]?.textContent.trim();
+    const probaCell = cells[11]?.textContent.replace('%','').trim();
     const proba = parseFloat(probaCell) || 0;
 
-    // Affiche uniquement si type correspond et probabilité ≥ seuil
     if (typeCell === type && proba >= seuil) {{
-      rows[i].style.display = "";
-    }} else if (rows[i].classList.contains("section")) {{
-      rows[i].style.display = "";
+      r.style.display = "";
+      visibleLeague = true;
+      if (lastSection) lastSection.style.display = ""; // affiche la ligue
     }} else {{
-      rows[i].style.display = "none";
+      r.style.display = "none";
     }}
   }}
 
+  // dernière section à vérifier
+  if (lastSection && !visibleLeague) lastSection.style.display = "none";
+
   alert("Affichage des " + type + " avec une probabilité ≥ " + seuil + "%");
 }}
+
 
 
 // === Réinitialiser les filtres (affiche tout à nouveau) ===
