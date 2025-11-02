@@ -14,7 +14,7 @@ RAPPORTS_DIR = os.path.join(BASE_DIR, "rapports_quotidiens")
 
 # === Configuration Telegram ===
 TELEGRAM_TOKEN = "8367632752:AAHz_AV4d7oFDJYqqbnBKIctNv3l26TMQq8"
-CHAT_ID = "810505075"  # Ton chat ID personnel
+CHAT_IDS = [810505075, 7513911769]
 
 # === Fonction d'envoi Telegram ===
 def send_telegram_message(text, file_path=None):

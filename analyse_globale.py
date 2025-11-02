@@ -294,6 +294,61 @@ thr_df = df.groupby("Type", group_keys=False).apply(best_threshold).reset_index(
 summary = pd.merge(summary, thr_df, on="Type", how="left")
 
 # ----------------------------------------------------------
+# 🧩 Analyse complémentaire : zone avec le plus grand volume de défaites
+# ----------------------------------------------------------
+def worst_zone(subdf):
+    """
+    Détermine la fourchette d'IC où le nombre absolu de défaites est le plus élevé.
+    Renvoie la zone (ex: '60–70'), le volume de défaites et sa part sur l'ensemble des défaites.
+    """
+    subdf = subdf[subdf["won"].notna()]
+    if subdf.empty:
+        return pd.Series({"Zone_defaites": None, "Defaites_zone": None, "Part_defaites_zone": None})
+
+    def ic_bucket(v):
+        try:
+            v = float(v)
+            if v < 60: return "<60"
+            elif v < 70: return "60–70"
+            elif v < 80: return "70–80"
+            elif v < 90: return "80–90"
+            elif v <= 100: return "90–100"
+        except:
+            return None
+
+    subdf["IC_bucket"] = subdf["IC_val"].apply(ic_bucket)
+
+    # Comptage des défaites par fourchette
+    defeats = subdf[subdf["won"] == False]
+    counts = defeats.groupby("IC_bucket")["won"].count().sort_values(ascending=False)
+
+    if counts.empty:
+        return pd.Series({"Zone_defaites": None, "Defaites_zone": None, "Part_defaites_zone": None})
+
+    # Sélectionne la zone avec le plus grand nombre absolu de défaites
+    worst_bucket = counts.index[0]
+    worst_count = counts.iloc[0]
+    total_defeats = len(defeats)
+    part = round(worst_count / total_defeats * 100, 1) if total_defeats > 0 else None
+
+    return pd.Series({
+        "Zone_defaites": worst_bucket,
+        "Defaites_zone": int(worst_count),
+        "Part_defaites_zone": part
+    })
+
+
+# ✅ Application et fusion dans summary
+records = []
+for t, sub in df.groupby("Type", group_keys=False):
+    row = worst_zone(sub)
+    row["Type"] = t
+    records.append(row)
+
+worst_df = pd.DataFrame(records)
+summary = pd.merge(summary, worst_df, on="Type", how="left")
+
+# ----------------------------------------------------------
 # Sauvegarde automatique des seuils optimaux pour réutilisation
 # ----------------------------------------------------------
 SEUILS_PATH = os.path.join(BASE_DIR, "seuils_optimaux.csv")
@@ -569,10 +624,15 @@ tab_summary = df_to_html_table(
         "IC_moy": "IC moyen (%)",
         "Seuil_optimal": "Seuil optimal (%)",
         "Taux_au_seuil": "Taux au-dessus du seuil (%)",
-        "Volume_seuil": "Volume au-dessus du seuil"
+        "Volume_seuil": "Volume au-dessus du seuil",
+        "Zone_defaites": "Zone principale de défaites",
+        "Defaites_zone": "Défaites dans la zone",
+        "Part_defaites_zone": "Part des défaites (%)"
     },
     "tbl_summary"
 )
+
+
 
 if not by_league.empty:
     tab_league = df_to_html_table(

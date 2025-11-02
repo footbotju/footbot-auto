@@ -3,6 +3,12 @@
 # ================================
 # FootBot PRO v2025.10 — main.py
 # ================================
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--refresh", action="store_true", help="Met à jour les scores sans refaire l'analyse complète")
+args = parser.parse_args()
+
 import os, sys, json, math, time
 from datetime import datetime
 today = datetime.now().strftime("%Y-%m-%d")
@@ -443,7 +449,7 @@ def compute_signals_for_profile(fx, P):
         elif away_win_pct >= 0.6: p_res = min(0.97, p_res + 0.02)
 
     # ---------- Application du facteur IC EuropeMix AVANT fusion des probabilités ----------
-    p_res = _apply_calib(p_res, "Résultat")
+    # p_res = _apply_calib(p_res, "Résultat")
 
     if ic_adj != 1.0:
         p_res *= ic_adj
@@ -525,7 +531,7 @@ def compute_signals_for_profile(fx, P):
     p_over15 = max(0.05, min(0.98, p_over15))
 
     # 🔸 Application du filtre de sélectivité avant ajout du signal
-    p_over15 = _apply_calib(p_over15, "Over 1.5")
+    # p_over15 = _apply_calib(p_over15, "Over 1.5")
 
     if p_over15 >= P["O15_C"] and (xg_home + xg_away) > 2:
         _add_signal("Over 1.5", f"Over 1.5 buts (cote {fx.get('odds_over_1_5')})", p_over15, fx.get("odds_over_1_5"))
@@ -594,7 +600,7 @@ def compute_signals_for_profile(fx, P):
     if (ga_home < 0.9 and ga_away < 0.9):
       return sigs  # trop solides défensivement, on ne propose pas BTTS
 
-    p_btts = _apply_calib(p_btts, "BTTS")
+    #p_btts = _apply_calib(p_btts, "BTTS")
 
     if p_btts >= P["BTTS_C"] and ok_def and ok_att and ok_xg:
      _add_signal(
@@ -617,7 +623,7 @@ def compute_signals_for_profile(fx, P):
                 0.15*(btts_h2h or 0.0) +
                 0.10*(1 - (1/(1+ga_away)))
             ))
-            p_team_home = _apply_calib(p_team_home, "Équipe marque")
+            # p_team_home = _apply_calib(p_team_home, "Équipe marque")
             if p_team_home >= P["TEAM_C"]:
                 _add_signal("Équipe marque", f"{fx['home_team']} marque", p_team_home, fx.get("cote_home"))
 
@@ -628,7 +634,7 @@ def compute_signals_for_profile(fx, P):
                 0.15*(btts_h2h or 0.0) +
                 0.10*(1 - (1/(1+ga_home)))
             ))
-            p_team_away = _apply_calib(p_team_away, "Équipe marque")
+            # p_team_away = _apply_calib(p_team_away, "Équipe marque")
             if p_team_away >= P["TEAM_C"]:
                 _add_signal("Équipe marque", f"{fx['away_team']} marque", p_team_away, fx.get("cote_away"))
     except Exception as e:
@@ -757,6 +763,8 @@ def build_html(path_out, P, fixtures, today):
 
     for fx in fixtures:
         sigs = fx.get("_sigs", [])
+        # 🚫 Ignorer les matchs sans aucun signal/prono exploitable
+        sigs = [s for s in sigs if s and s[1] not in (None, "", "—")]
         if not sigs:
             continue
 
@@ -924,20 +932,26 @@ window.addEventListener("load", function() {{ sortTable(11); }});
 """
 
     def _fmt_opt(typ):
+        """Retourne le seuil optimal formaté, ou '—' si non disponible."""
         if not SEUILS_OPT:
             return "—"
-        for k, v in SEUILS_OPT.items():
-            if k.lower() == typ.lower():
-                return f"{v:.0f}%"
-        return "—"
+        try:
+            for k, v in SEUILS_OPT.items():
+                if k.strip().lower() == typ.strip().lower():
+                    return f"{float(v):.0f}%"
+            return "—"
+        except Exception:
+            return "—"
 
+    # === Bloc cliquable des seuils optimaux ===
     seuils_html = f"""
 <div class='note' style='margin-top:10px; text-align:center;'>
   <b>📊 Seuils optimaux (issus de l’analyse globale)</b><br>
-  • <b>Résultat</b> → {_fmt_opt('Résultat')} &nbsp;|&nbsp;
-  <b>Over 1.5</b> → {_fmt_opt('Over 1.5')} &nbsp;|&nbsp;
-  <b>BTTS</b> → {_fmt_opt('BTTS')} &nbsp;|&nbsp;
-  <b>Équipe marque</b> → {_fmt_opt('Équipe marque')}
+  <a href="javascript:filterByThreshold('Résultat', {_fmt_opt('Résultat').replace('%','')})">• <b>Résultat</b> → {_fmt_opt('Résultat')}</a> &nbsp;|&nbsp;
+  <a href="javascript:filterByThreshold('Over 1.5', {_fmt_opt('Over 1.5').replace('%','')})"><b>Over 1.5</b> → {_fmt_opt('Over 1.5')}</a> &nbsp;|&nbsp;
+  <a href="javascript:filterByThreshold('BTTS', {_fmt_opt('BTTS').replace('%','')})"><b>BTTS</b> → {_fmt_opt('BTTS')}</a> &nbsp;|&nbsp;
+  <a href="javascript:filterByThreshold('Équipe marque', {_fmt_opt('Équipe marque').replace('%','')})"><b>Équipe marque</b> → {_fmt_opt('Équipe marque')}</a>
+  <br><a href="javascript:resetFilters()" style="font-size:0.9em;color:#555;">🧹 Réinitialiser les filtres</a>
 </div>
 """
 
@@ -1142,7 +1156,43 @@ document.addEventListener('DOMContentLoaded', function() {{
     }});
   }});
 }});
+
+// === Filtrage dynamique par seuil optimal ===
+function filterByThreshold(type, seuil) {{
+  const table = document.getElementById("signalsTable");
+  const rows = table.getElementsByTagName("tr");
+  document.querySelectorAll(".card").forEach(btn => btn.classList.remove("active"));
+
+  for (let i = 1; i < rows.length; i++) {{
+    const cells = rows[i].getElementsByTagName("td");
+    if (!cells.length) continue;
+
+    const typeCell = cells[8]?.textContent.trim();      // Colonne Type
+    const probaCell = cells[11]?.textContent.replace('%','').trim();  // Colonne Probabilité
+    const proba = parseFloat(probaCell) || 0;
+
+    // Affiche uniquement si type correspond et probabilité ≥ seuil
+    if (typeCell === type && proba >= seuil) {{
+      rows[i].style.display = "";
+    }} else if (rows[i].classList.contains("section")) {{
+      rows[i].style.display = "";
+    }} else {{
+      rows[i].style.display = "none";
+    }}
+  }}
+
+  alert("Affichage des " + type + " avec une probabilité ≥ " + seuil + "%");
+}}
+
+
+// === Réinitialiser les filtres (affiche tout à nouveau) ===
+function resetFilters() {{
+  const rows = document.querySelectorAll("#signalsTable tr");
+  rows.forEach(r => r.style.display = "");
+  alert("Filtres réinitialisés — tous les matchs affichés.");
+}}
 </script>
+
 
 </body>
 </html>
@@ -1161,181 +1211,206 @@ def main():
 
     print(f"📅 Date: {TODAY}")
 
-    # 1️⃣ Chargement des matchs du jour
-    print(f"\n🔎 Chargement des matchs du {TODAY} ...")
-    fixtures = get_fixtures_by_date(TODAY)
-    print(f"📦 {len(fixtures)} matchs récupérés pour la date {TODAY}")
+    if args.refresh:
+        print("♻️ Mode rafraîchissement activé — lecture fixtures sauvegardés")
+        path = os.path.join(BASE_DIR, f"fixtures_raw_{TODAY}.json")
+        if not os.path.exists(path):
+            print("⚠️ Aucun fichier fixtures sauvegardé trouvé.")
+            return
+        with open(path, "r", encoding="utf-8") as f:
+            fixtures = json.load(f)
 
-    # 2️⃣ Filtrage des ligues pertinentes
-    fixtures = [fx for fx in fixtures if is_relevant_league(fx.get("country"), fx.get("league_name"))]
-    STATS["n_matches"] = len(fixtures)
-    print(f"🏆 Ligues pertinentes : {STATS['n_matches']}")
-    if not fixtures:
-        print("⚠️ Aucun match pertinent trouvé.")
-        return
-
-    # 3️⃣ Mode test rapide
-    FAST_MODE = False  # ⬅️ Passe à True pour tester rapidement
-    if FAST_MODE:
-        fixtures = fixtures[:15]
-        print("⚡ Mode test rapide activé : 15 matchs seulement")
-
-
-    # 3️⃣ Enrichissement des données
-        # --- Normalisation ultra-robuste avant enrichissement ---
-    def deep_flatten(obj):
-        """Retourne une liste aplatie de tous les dictionnaires trouvés."""
-        out = []
-        if isinstance(obj, dict):
-            out.append(obj)
-        elif isinstance(obj, (list, tuple, set)):
-            for el in obj:
-                out.extend(deep_flatten(el))
-        else:
-            # Ignore tout ce qui n'est pas exploitable
-            pass
-        return out
-
-    fixtures = deep_flatten(fixtures)
-    fixtures = [fx for fx in fixtures if isinstance(fx, dict) and fx.get("home_team")]
-
-    print(f"🧩 Fixtures aplaties (finales) : {len(fixtures)} objets de type dict")
-    print(f"✅ Exemple type premier élément : {type(fixtures[0]) if fixtures else 'Aucun'}")
-
-
-    # Vérifie la présence d’objets anormaux
-    bad_items = [fx for fx in fixtures if not isinstance(fx, dict)]
-    if bad_items:
-        print(f"🚨 Attention : {len(bad_items)} objets non conformes détectés avant enrichissement")
-
-    # Enrichissement des cotes & marchés (version liste → évite boucle et doublons)
-    for fx in fixtures:
-        enrich_with_odds_and_markets(fx)
-
-
-
-        # 4️⃣ Fusion des xG Understat + API-Football
-    for fx in fixtures:
-        add_injuries_influents(fx)
-
-        fx["home_form"] = get_recent_form(fx["home_id"], fx["league_id"], fx["season"], "home")
-        fx["away_form"] = get_recent_form(fx["away_id"], fx["league_id"], fx["season"], "away")
-
-
-
-        # Compétitions européennes
-        if is_european_competition(fx.get("league_name", "")):
-            fx = enrich_with_european_context(fx)
-
-        # --- Fusion xG API-Football + Understat (parallélisé pour accélérer)
-        with ThreadPoolExecutor(max_workers=2) as pool:
-            results = list(pool.map(
-                lambda args: get_team_expected(*args),
-                [
-                    (fx["home_id"], fx["league_id"], fx["season"]),
-                    (fx["away_id"], fx["league_id"], fx["season"])
-                ]
-            ))
-        api_home, api_away = results
-
-        try:
-            us_home = get_team_splits(fx["home_team"], fx["season"])
-            us_away = get_team_splits(fx["away_team"], fx["season"])
-        except Exception as e:
-            print(f"[⚠️] Understat indisponible pour {fx['home_team']} ou {fx['away_team']}: {e}")
-            us_home = us_away = {}
-
-        def merge_xg(us_val, api_val):
-            if us_val and api_val:
-                return round(0.7 * us_val + 0.3 * api_val, 2)
-            return round(us_val or api_val or 1.2, 2)
-
-        fx["xg_home"] = merge_xg(us_home.get("xg_overall", 0), api_home.get("xg_for", 0))
-        fx["xga_home"] = merge_xg(us_home.get("xga_overall", 0), api_home.get("xga", 0))
-        fx["xg_away"] = merge_xg(us_away.get("xg_overall", 0), api_away.get("xg_for", 0))
-        fx["xga_away"] = merge_xg(us_away.get("xga_overall", 0), api_away.get("xga", 0))
-
-        print(f"[⚙️ Fusion xG] {fx['home_team']} {fx['xg_home']}/{fx['xga_home']}  vs  {fx['away_team']} {fx['xg_away']}/{fx['xga_away']}")
-
-        # --- Comptage propre selon source principale
-        if (
-            (us_home and us_home.get("xg_overall", 0) > 0)
-            or (us_away and us_away.get("xg_overall", 0) > 0)
-        ):
-            STATS["n_understat"] += 1
-        else:
-            STATS["n_api"] += 1
-
-
-
-    # 5️⃣ Seuils IC
-    P = {
-    "RES_C": 0.70, "RES_TC": 0.85,
-    "O15_C": 0.60, "O15_TC": 0.70,
-    "BTTS_C": 0.70, "BTTS_TC": 0.85,
-    "TEAM_C": 0.65, "TEAM_TC": 0.70
-}
-
-
-        # 6️⃣ Calcul des signaux (une seule fois, en parallèle) + stockage dans fx["_sigs"]
-    def safe_compute(f):
-        try:
-            sigs = compute_signals_for_profile(f, P)
-            f["_sigs"] = sigs
-            return sigs
-        except Exception as e:
-            print(f"[❌ Signal] {f.get('home_team')} vs {f.get('away_team')} : {e}")
-            f["_sigs"] = []
-            return []
-
-    print("⚙️ Calcul des signaux...")
-    with ThreadPoolExecutor(max_workers=20) as ex:
-        list(ex.map(safe_compute, fixtures))
-
-
-
-
-
-            # 7️⃣ Génération du rapport HTML
-    out_name = f"FootBot — Profil Volume — {TODAY}.html"
-    out_path = os.path.join(BASE_DIR, out_name)
-
-    # 6️⃣½ Rafraîchissement des scores finaux avant génération du HTML
-    print("🔄 Mise à jour des scores finaux...")
-    try:
-        updated = 0
+        # Mise à jour uniquement des scores
         live_data = get_fixtures_by_date(TODAY)
         live_map = {fx2["fixture_id"]: fx2 for fx2 in live_data if fx2.get("score_home") is not None}
-
+        updated = 0
         for fx in fixtures:
-            fid = fx.get("fixture_id")
+            fid = fx.get("fixture_id") or fx.get("id") or fx.get("fixture", {}).get("id")
             if not fid:
                 continue
-            ref = live_map.get(fid)
-            if ref and ref.get("score_home") is not None:
-                fx["score_home"] = ref.get("score_home")
-                fx["score_away"] = ref.get("score_away")
+
+            if fid in live_map:
+                fx["score_home"] = live_map[fid].get("score_home")
+                fx["score_away"] = live_map[fid].get("score_away")
                 updated += 1
+        print(f"✅ Scores mis à jour pour {updated} matchs existants.")
 
-        print(f"✅ Scores mis à jour pour {updated} matchs terminés.")
-    except Exception as e:
-        print(f"[⚠️] Erreur lors du rafraîchissement des scores : {e}")
+        # ⚙️ Seuils IC pour le recalcul
+        P = {
+            "RES_C": 0.70, "RES_TC": 0.85,
+            "O15_C": 0.60, "O15_TC": 0.70,
+            "BTTS_C": 0.70, "BTTS_TC": 0.85,
+            "TEAM_C": 0.65, "TEAM_TC": 0.70
+        }
 
-    # ✅ Recalcule les signaux maintenant que les scores sont connus
-    print("♻️ Recalcul des signaux avec scores finaux...")
-    for fx in fixtures:
-        fx["_sigs"] = compute_signals_for_profile(fx, P)
+        # ♻️ Recalcule signaux et génère HTML post-match
+        for fx in fixtures:
+            fx["_sigs"] = compute_signals_for_profile(fx, P)
 
-    # ✅ Génération du rapport HTML avec les taux corrects
-    build_html(out_path, P, fixtures, TODAY)
+        out_name = f"FootBot — Profil Volume — {TODAY} (post-match).html"
+        build_html(os.path.join(BASE_DIR, out_name), P, fixtures, TODAY)
+        print(f"📁 Rapport post-match généré → {out_name}")
+        return
 
+    else:
+        # 1️⃣ Chargement des matchs du jour
+        print(f"\n🔎 Chargement des matchs du {TODAY} ...")
+        fixtures = get_fixtures_by_date(TODAY)
+        import json
+        with open(f"fixtures_raw_{TODAY}.json", "w", encoding="utf-8") as f:
+            json.dump(fixtures, f, ensure_ascii=False, indent=2)
+        print(f"💾 Fixtures sauvegardés → fixtures_raw_{TODAY}.json")
 
-    # 8️⃣ Résumé console
-    print(f"✅ {len(fixtures)} matchs analysés | "
-          f"{STATS['n_understat']} Understat | "
-          f"{STATS['n_api']} API-Football | "
-          f"{round(time.time() - START_TIME, 2)}s")
-    print(f"📁 Rapport généré : {out_path}")
+        print(f"📦 {len(fixtures)} matchs récupérés pour la date {TODAY}")
+
+        # 2️⃣ Filtrage des ligues pertinentes
+        fixtures = [fx for fx in fixtures if is_relevant_league(fx.get("country"), fx.get("league_name"))]
+        STATS["n_matches"] = len(fixtures)
+        print(f"🏆 Ligues pertinentes : {STATS['n_matches']}")
+        if not fixtures:
+            print("⚠️ Aucun match pertinent trouvé.")
+            return
+
+        # 3️⃣ Mode test rapide
+        FAST_MODE = False  # ⬅️ Passe à True pour tester rapidement
+        if FAST_MODE:
+            fixtures = fixtures[:15]
+            print("⚡ Mode test rapide activé : 15 matchs seulement")
+
+        # 3️⃣ Enrichissement des données
+        def deep_flatten(obj):
+            """Retourne une liste aplatie de tous les dictionnaires trouvés."""
+            out = []
+            if isinstance(obj, dict):
+                out.append(obj)
+            elif isinstance(obj, (list, tuple, set)):
+                for el in obj:
+                    out.extend(deep_flatten(el))
+            return out
+
+        fixtures = deep_flatten(fixtures)
+        fixtures = [fx for fx in fixtures if isinstance(fx, dict) and fx.get("home_team")]
+
+        print(f"🧩 Fixtures aplaties (finales) : {len(fixtures)} objets de type dict")
+        print(f"✅ Exemple type premier élément : {type(fixtures[0]) if fixtures else 'Aucun'}")
+
+        bad_items = [fx for fx in fixtures if not isinstance(fx, dict)]
+        if bad_items:
+            print(f"🚨 Attention : {len(bad_items)} objets non conformes détectés avant enrichissement")
+
+        for fx in fixtures:
+            enrich_with_odds_and_markets(fx)
+
+        for fx in fixtures:
+            add_injuries_influents(fx)
+            fx["home_form"] = get_recent_form(fx["home_id"], fx["league_id"], fx["season"], "home")
+            fx["away_form"] = get_recent_form(fx["away_id"], fx["league_id"], fx["season"], "away")
+
+            if is_european_competition(fx.get("league_name", "")):
+                fx = enrich_with_european_context(fx)
+
+            with ThreadPoolExecutor(max_workers=2) as pool:
+                results = list(pool.map(
+                    lambda args: get_team_expected(*args),
+                    [
+                        (fx["home_id"], fx["league_id"], fx["season"]),
+                        (fx["away_id"], fx["league_id"], fx["season"])
+                    ]
+                ))
+            api_home, api_away = results
+
+            try:
+                us_home = get_team_splits(fx["home_team"], fx["season"])
+                us_away = get_team_splits(fx["away_team"], fx["season"])
+            except Exception as e:
+                print(f"[⚠️] Understat indisponible pour {fx['home_team']} ou {fx['away_team']}: {e}")
+                us_home = us_away = {}
+
+            def merge_xg(us_val, api_val):
+                if us_val and api_val:
+                    return round(0.7 * us_val + 0.3 * api_val, 2)
+                return round(us_val or api_val or 1.2, 2)
+
+            fx["xg_home"] = merge_xg(us_home.get("xg_overall", 0), api_home.get("xg_for", 0))
+            fx["xga_home"] = merge_xg(us_home.get("xga_overall", 0), api_home.get("xga", 0))
+            fx["xg_away"] = merge_xg(us_away.get("xg_overall", 0), api_away.get("xg_for", 0))
+            fx["xga_away"] = merge_xg(us_away.get("xga_overall", 0), api_away.get("xga", 0))
+
+            print(f"[⚙️ Fusion xG] {fx['home_team']} {fx['xg_home']}/{fx['xga_home']}  vs  {fx['away_team']} {fx['xg_away']}/{fx['xga_away']}")
+
+            if (
+                (us_home and us_home.get("xg_overall", 0) > 0)
+                or (us_away and us_away.get("xg_overall", 0) > 0)
+            ):
+                STATS["n_understat"] += 1
+            else:
+                STATS["n_api"] += 1
+
+        # 5️⃣ Seuils IC
+        P = {
+            "RES_C": 0.70, "RES_TC": 0.85,
+            "O15_C": 0.60, "O15_TC": 0.70,
+            "BTTS_C": 0.70, "BTTS_TC": 0.85,
+            "TEAM_C": 0.65, "TEAM_TC": 0.70
+        }
+
+        # 6️⃣ Calcul des signaux
+        def safe_compute(f):
+            try:
+                sigs = compute_signals_for_profile(f, P)
+                f["_sigs"] = sigs
+                return sigs
+            except Exception as e:
+                print(f"[❌ Signal] {f.get('home_team')} vs {f.get('away_team')} : {e}")
+                f["_sigs"] = []
+                return []
+
+        print("⚙️ Calcul des signaux...")
+        with ThreadPoolExecutor(max_workers=20) as ex:
+            list(ex.map(safe_compute, fixtures))
+
+        # 7️⃣ Génération du rapport HTML
+        out_name = f"FootBot — Profil Volume — {TODAY}.html"
+        out_path = os.path.join(BASE_DIR, out_name)
+
+        # Rafraîchissement des scores
+        print("🔄 Mise à jour des scores finaux...")
+        try:
+            updated = 0
+            live_data = get_fixtures_by_date(TODAY)
+
+            live_map = {}
+            for fx2 in live_data:
+                fid2 = fx2.get("fixture_id") or fx2.get("id") or fx2.get("fixture", {}).get("id")
+                if fid2 and fx2.get("score_home") is not None:
+                    live_map[fid2] = fx2
+
+            for fx in fixtures:
+                fid = fx.get("fixture_id") or fx.get("id") or fx.get("fixture", {}).get("id")
+                if not fid:
+                    continue
+                ref = live_map.get(fid)
+                if ref and ref.get("score_home") is not None:
+                    fx["score_home"] = ref.get("score_home")
+                    fx["score_away"] = ref.get("score_away")
+                    updated += 1
+
+            print(f"✅ Scores mis à jour pour {updated} matchs terminés.")
+        except Exception as e:
+            print(f"[⚠️] Erreur lors du rafraîchissement des scores : {e}")
+
+        print("♻️ Recalcul des signaux avec scores finaux...")
+        for fx in fixtures:
+            fx["_sigs"] = compute_signals_for_profile(fx, P)
+
+        build_html(out_path, P, fixtures, TODAY)
+
+        print(f"✅ {len(fixtures)} matchs analysés | "
+              f"{STATS['n_understat']} Understat | "
+              f"{STATS['n_api']} API-Football | "
+              f"{round(time.time() - START_TIME, 2)}s")
+        print(f"📁 Rapport généré : {out_path}")
+
 
 
 # ===================== TEST DE COHÉRENCE AVANT EXECUTION =====================

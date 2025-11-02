@@ -99,9 +99,9 @@ table.signals tbody td {
   <div class="summary">
     <p>
       📊 <b>Matchs analysés :</b> 12 |
-      💡 <b>Signaux :</b> 35 |
-      ✅ <b>31</b> — ❌ <b>4</b> |
-      🎯 <b>Taux global :</b> 88.6%
+      💡 <b>Signaux :</b> 37 |
+      ✅ <b>31</b> — ❌ <b>6</b> |
+      🎯 <b>Taux global :</b> 83.8%
     </p>
   </div>
   <div class="ratios">
@@ -115,11 +115,11 @@ table.signals tbody td {
     </button>
     <button class="card btts" onclick="filterType('BTTS')">
       🤝 BTTS
-      <div class="val">75.0% (3/4)</div>
+      <div class="val">60.0% (3/5)</div>
     </button>
     <button class="card team" onclick="filterType('Équipe marque')">
       🎯 Équipe marque
-      <div class="val">92.9% (13/14)</div>
+      <div class="val">86.7% (13/15)</div>
     </button>
     <button class="card" style="background:linear-gradient(135deg,#7f8c8d,#95a5a6);" onclick="showAll()">
       🔄 Tout afficher
@@ -136,94 +136,80 @@ table.signals tbody td {
 
   
 <div class='note' style='margin-top:10px; text-align:center;'>
-  <b>⚙️ Calibration active :</b> BTTS +9.8% · OVER 1.5 -14.0% · RÉSULTAT -0.1% · ÉQUIPE MARQUE -1.5%
+  <b>⚙️ Calibration active :</b> BTTS +9.4% · OVER 1.5 -13.9% · RÉSULTAT +0.4% · ÉQUIPE MARQUE -1.5%
 </div>
 
   <table class="signals" id="signalsTable">
     <thead>
       <tr>
-        <th onclick="sortTable(0)">Date</th>
-        <th onclick="sortTable(1)">Heure</th>
-        <th onclick="sortTable(2)">Ligue</th>
-        <th onclick="sortTable(3)">Match</th>
-        <th onclick="sortTable(4)">xG Home</th>
-        <th onclick="sortTable(5)">BE Home</th>
-        <th onclick="sortTable(6)">xG Away</th>
-        <th onclick="sortTable(7)">BE Away</th>
-        <th onclick="sortTable(8)">Type</th>
-        <th onclick="sortTable(9)">Suggestion</th>
-        <th onclick="sortTable(10)">IC</th>
-        <th onclick="sortTable(11)">Probabilité</th>
-        <th onclick="sortTable(12)">Source</th>
-        <th onclick="sortTable(13)">Résultat</th>
+        <th>Date</th>
+        <th>Heure</th>
+        <th>Ligue</th>
+        <th>Match</th>
+        <th>xG Home</th>
+        <th>BE Home</th>
+        <th>xG Away</th>
+        <th>BE Away</th>
+        <th>Type</th>
+        <th>Suggestion</th>
+        <th>IC</th>
+        <th>Probabilité</th>
+        <th>Source</th>
+        <th>Résultat</th>
       </tr>
     </thead>
-    <tbody><tr class='section'><td colspan='13'>Colombia – Primera A</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Primera A</td><td>Llaneros – Atletico Nacional</td><td>1.13</td><td>0.80</td><td>1.60</td><td>1.40</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>76.3%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>0–3</td></tr><tr class='section'><td colspan='13'>Germany – 2. Bundesliga</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>2. Bundesliga</td><td>SV Elversberg – Hannover 96</td><td>1.49</td><td>1.00</td><td>1.44</td><td>1.17</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>84.3%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>2. Bundesliga</td><td>SV Elversberg – Hannover 96</td><td>1.49</td><td>1.00</td><td>1.44</td><td>1.17</td><td>BTTS</td><td>Les deux équipes marquent (cote None)</td><td>IC</td><td>93.8%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>2. Bundesliga</td><td>SV Elversberg – Hannover 96</td><td>1.49</td><td>1.00</td><td>1.44</td><td>1.17</td><td>Équipe marque</td><td>SV Elversberg marque</td><td>IC</td><td>93.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>2. Bundesliga</td><td>SV Elversberg – Hannover 96</td><td>1.49</td><td>1.00</td><td>1.44</td><td>1.17</td><td>Équipe marque</td><td>Hannover 96 marque</td><td>IC</td><td>93.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>2. Bundesliga</td><td>Preußen Münster – Holstein Kiel</td><td>1.33</td><td>1.33</td><td>1.39</td><td>0.80</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>75.9%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>2. Bundesliga</td><td>Preußen Münster – Holstein Kiel</td><td>1.33</td><td>1.33</td><td>1.39</td><td>0.80</td><td>Équipe marque</td><td>Holstein Kiel marque</td><td>IC</td><td>82.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–1</td></tr><tr class='section'><td colspan='13'>Netherlands – Eredivisie</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eredivisie</td><td>PSV Eindhoven – Fortuna Sittard</td><td>1.69</td><td>1.80</td><td>1.29</td><td>2.33</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>84.3%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>5–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eredivisie</td><td>PSV Eindhoven – Fortuna Sittard</td><td>1.69</td><td>1.80</td><td>1.29</td><td>2.33</td><td>BTTS</td><td>Les deux équipes marquent (cote None)</td><td>IC</td><td>90.7%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>5–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eredivisie</td><td>PSV Eindhoven – Fortuna Sittard</td><td>1.69</td><td>1.80</td><td>1.29</td><td>2.33</td><td>Équipe marque</td><td>PSV Eindhoven marque</td><td>IC</td><td>93.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>5–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eredivisie</td><td>PSV Eindhoven – Fortuna Sittard</td><td>1.69</td><td>1.80</td><td>1.29</td><td>2.33</td><td>Équipe marque</td><td>Fortuna Sittard marque</td><td>IC</td><td>93.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>5–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eredivisie</td><td>PSV Eindhoven – Fortuna Sittard</td><td>1.69</td><td>1.80</td><td>1.29</td><td>2.33</td><td>Résultat</td><td>Victoire Domicile (cote None)</td><td>IC</td><td>83.9%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>5–2</td></tr><tr class='section'><td colspan='13'>Netherlands – Eerste Divisie</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eerste Divisie</td><td>Den Bosch – De Graafschap</td><td>1.35</td><td>1.75</td><td>1.69</td><td>1.40</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>84.3%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eerste Divisie</td><td>Den Bosch – De Graafschap</td><td>1.35</td><td>1.75</td><td>1.69</td><td>1.40</td><td>BTTS</td><td>Les deux équipes marquent (cote None)</td><td>IC</td><td>80.5%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eerste Divisie</td><td>Den Bosch – De Graafschap</td><td>1.35</td><td>1.75</td><td>1.69</td><td>1.40</td><td>Équipe marque</td><td>Den Bosch marque</td><td>IC</td><td>93.1%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eerste Divisie</td><td>Den Bosch – De Graafschap</td><td>1.35</td><td>1.75</td><td>1.69</td><td>1.40</td><td>Équipe marque</td><td>De Graafschap marque</td><td>IC</td><td>93.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eerste Divisie</td><td>FC OSS – Helmond Sport</td><td>1.14</td><td>1.60</td><td>1.29</td><td>1.40</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>74.3%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>0–3</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eerste Divisie</td><td>FC OSS – Helmond Sport</td><td>1.14</td><td>1.60</td><td>1.29</td><td>1.40</td><td>Équipe marque</td><td>Helmond Sport marque</td><td>IC</td><td>69.4%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>0–3</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eerste Divisie</td><td>VVV Venlo – Vitesse</td><td>1.37</td><td>0.83</td><td>1.49</td><td>1.60</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>84.3%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eerste Divisie</td><td>VVV Venlo – Vitesse</td><td>1.37</td><td>0.83</td><td>1.49</td><td>1.60</td><td>Équipe marque</td><td>VVV Venlo marque</td><td>IC</td><td>93.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–2</td></tr><tr class='section'><td colspan='13'>Switzerland – Challenge League</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Challenge League</td><td>Étoile Carouge – Bellinzona</td><td>0.86</td><td>1.40</td><td>0.84</td><td>2.33</td><td>Résultat</td><td>Victoire Domicile (cote None)</td><td>IC</td><td>83.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–0</td></tr><tr class='section'><td colspan='13'>Germany – Bundesliga</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Bundesliga</td><td>FC Augsburg – Borussia Dortmund</td><td>1.16</td><td>3.00</td><td>1.25</td><td>1.00</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>84.3%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>0–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Bundesliga</td><td>FC Augsburg – Borussia Dortmund</td><td>1.16</td><td>3.00</td><td>1.25</td><td>1.00</td><td>BTTS</td><td>Les deux équipes marquent (cote None)</td><td>IC</td><td>82.7%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>0–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Bundesliga</td><td>FC Augsburg – Borussia Dortmund</td><td>1.16</td><td>3.00</td><td>1.25</td><td>1.00</td><td>Équipe marque</td><td>FC Augsburg marque</td><td>IC</td><td>83.5%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>0–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Bundesliga</td><td>FC Augsburg – Borussia Dortmund</td><td>1.16</td><td>3.00</td><td>1.25</td><td>1.00</td><td>Équipe marque</td><td>Borussia Dortmund marque</td><td>IC</td><td>93.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>0–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Bundesliga</td><td>FC Augsburg – Borussia Dortmund</td><td>1.16</td><td>3.00</td><td>1.25</td><td>1.00</td><td>Résultat</td><td>Victoire Extérieure (cote None)</td><td>IC</td><td>75.7%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>0–1</td></tr><tr class='section'><td colspan='13'>Spain – Segunda División</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Segunda División</td><td>Racing Santander – Real Sociedad II</td><td>1.43</td><td>1.33</td><td>1.35</td><td>2.00</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>84.3%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>1–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Segunda División</td><td>Racing Santander – Real Sociedad II</td><td>1.43</td><td>1.33</td><td>1.35</td><td>2.00</td><td>Équipe marque</td><td>Racing Santander marque</td><td>IC</td><td>93.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Segunda División</td><td>Racing Santander – Real Sociedad II</td><td>1.43</td><td>1.33</td><td>1.35</td><td>2.00</td><td>Résultat</td><td>Victoire Domicile (cote None)</td><td>IC</td><td>92.9%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–0</td></tr><tr class='section'><td colspan='13'>Spain – La Liga</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>La Liga</td><td>Getafe – Girona</td><td>1.15</td><td>0.80</td><td>1.30</td><td>2.20</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>74.4%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>La Liga</td><td>Getafe – Girona</td><td>1.15</td><td>0.80</td><td>1.30</td><td>2.20</td><td>Équipe marque</td><td>Getafe marque</td><td>IC</td><td>82.4%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>La Liga</td><td>Getafe – Girona</td><td>1.15</td><td>0.80</td><td>1.30</td><td>2.20</td><td>Résultat</td><td>Victoire Domicile (cote None)</td><td>IC</td><td>83.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–1</td></tr><tr class='section'><td colspan='13'>Portugal – Primeira Liga</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Primeira Liga</td><td>Sporting CP – Alverca</td><td>1.77</td><td>0.60</td><td>1.18</td><td>1.80</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>84.3%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Primeira Liga</td><td>Sporting CP – Alverca</td><td>1.77</td><td>0.60</td><td>1.18</td><td>1.80</td><td>Équipe marque</td><td>Sporting CP marque</td><td>IC</td><td>93.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Primeira Liga</td><td>Sporting CP – Alverca</td><td>1.77</td><td>0.60</td><td>1.18</td><td>1.80</td><td>Résultat</td><td>Victoire Domicile (cote None)</td><td>IC</td><td>81.7%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–0</td></tr></tbody>
+    <tbody><tr class='section'><td colspan='13'>Colombia – Primera A</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Primera A</td><td>Llaneros – Atletico Nacional</td><td>1.13</td><td>0.80</td><td>1.60</td><td>1.40</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>76.4%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>0–3</td></tr><tr class='section'><td colspan='13'>Germany – 2. Bundesliga</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>2. Bundesliga</td><td>SV Elversberg – Hannover 96</td><td>1.49</td><td>1.00</td><td>1.44</td><td>1.17</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>84.4%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>2. Bundesliga</td><td>SV Elversberg – Hannover 96</td><td>1.49</td><td>1.00</td><td>1.44</td><td>1.17</td><td>BTTS</td><td>Les deux équipes marquent (cote None)</td><td>IC</td><td>93.5%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>2. Bundesliga</td><td>SV Elversberg – Hannover 96</td><td>1.49</td><td>1.00</td><td>1.44</td><td>1.17</td><td>Équipe marque</td><td>SV Elversberg marque</td><td>IC</td><td>93.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>2. Bundesliga</td><td>SV Elversberg – Hannover 96</td><td>1.49</td><td>1.00</td><td>1.44</td><td>1.17</td><td>Équipe marque</td><td>Hannover 96 marque</td><td>IC</td><td>93.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>2. Bundesliga</td><td>Preußen Münster – Holstein Kiel</td><td>1.33</td><td>1.33</td><td>1.39</td><td>0.80</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>76.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>2. Bundesliga</td><td>Preußen Münster – Holstein Kiel</td><td>1.33</td><td>1.33</td><td>1.39</td><td>0.80</td><td>Équipe marque</td><td>Holstein Kiel marque</td><td>IC</td><td>82.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–1</td></tr><tr class='section'><td colspan='13'>Netherlands – Eredivisie</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eredivisie</td><td>PSV Eindhoven – Fortuna Sittard</td><td>1.69</td><td>1.80</td><td>1.29</td><td>2.33</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>84.4%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>5–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eredivisie</td><td>PSV Eindhoven – Fortuna Sittard</td><td>1.69</td><td>1.80</td><td>1.29</td><td>2.33</td><td>BTTS</td><td>Les deux équipes marquent (cote None)</td><td>IC</td><td>90.4%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>5–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eredivisie</td><td>PSV Eindhoven – Fortuna Sittard</td><td>1.69</td><td>1.80</td><td>1.29</td><td>2.33</td><td>Équipe marque</td><td>PSV Eindhoven marque</td><td>IC</td><td>93.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>5–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eredivisie</td><td>PSV Eindhoven – Fortuna Sittard</td><td>1.69</td><td>1.80</td><td>1.29</td><td>2.33</td><td>Équipe marque</td><td>Fortuna Sittard marque</td><td>IC</td><td>93.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>5–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eredivisie</td><td>PSV Eindhoven – Fortuna Sittard</td><td>1.69</td><td>1.80</td><td>1.29</td><td>2.33</td><td>Résultat</td><td>Victoire Domicile (cote None)</td><td>IC</td><td>84.3%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>5–2</td></tr><tr class='section'><td colspan='13'>Netherlands – Eerste Divisie</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eerste Divisie</td><td>Den Bosch – De Graafschap</td><td>1.35</td><td>1.75</td><td>1.69</td><td>1.40</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>84.4%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eerste Divisie</td><td>Den Bosch – De Graafschap</td><td>1.35</td><td>1.75</td><td>1.69</td><td>1.40</td><td>BTTS</td><td>Les deux équipes marquent (cote None)</td><td>IC</td><td>80.2%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eerste Divisie</td><td>Den Bosch – De Graafschap</td><td>1.35</td><td>1.75</td><td>1.69</td><td>1.40</td><td>Équipe marque</td><td>Den Bosch marque</td><td>IC</td><td>93.1%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eerste Divisie</td><td>Den Bosch – De Graafschap</td><td>1.35</td><td>1.75</td><td>1.69</td><td>1.40</td><td>Équipe marque</td><td>De Graafschap marque</td><td>IC</td><td>93.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eerste Divisie</td><td>FC OSS – Helmond Sport</td><td>1.14</td><td>1.60</td><td>1.29</td><td>1.40</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>74.4%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>0–3</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eerste Divisie</td><td>FC OSS – Helmond Sport</td><td>1.14</td><td>1.60</td><td>1.29</td><td>1.40</td><td>BTTS</td><td>Les deux équipes marquent (cote None)</td><td>IC</td><td>76.8%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>0–3</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eerste Divisie</td><td>FC OSS – Helmond Sport</td><td>1.14</td><td>1.60</td><td>1.29</td><td>1.40</td><td>Équipe marque</td><td>FC OSS marque</td><td>IC</td><td>75.9%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>0–3</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eerste Divisie</td><td>FC OSS – Helmond Sport</td><td>1.14</td><td>1.60</td><td>1.29</td><td>1.40</td><td>Équipe marque</td><td>Helmond Sport marque</td><td>IC</td><td>81.3%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>0–3</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eerste Divisie</td><td>VVV Venlo – Vitesse</td><td>1.37</td><td>0.83</td><td>1.49</td><td>1.60</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>84.4%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–2</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Eerste Divisie</td><td>VVV Venlo – Vitesse</td><td>1.37</td><td>0.83</td><td>1.49</td><td>1.60</td><td>Équipe marque</td><td>VVV Venlo marque</td><td>IC</td><td>93.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–2</td></tr><tr class='section'><td colspan='13'>Switzerland – Challenge League</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Challenge League</td><td>Étoile Carouge – Bellinzona</td><td>0.86</td><td>1.40</td><td>0.84</td><td>2.33</td><td>Résultat</td><td>Victoire Domicile (cote None)</td><td>IC</td><td>83.4%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–0</td></tr><tr class='section'><td colspan='13'>Germany – Bundesliga</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Bundesliga</td><td>FC Augsburg – Borussia Dortmund</td><td>1.16</td><td>3.00</td><td>1.25</td><td>1.00</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>84.4%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>0–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Bundesliga</td><td>FC Augsburg – Borussia Dortmund</td><td>1.16</td><td>3.00</td><td>1.25</td><td>1.00</td><td>BTTS</td><td>Les deux équipes marquent (cote None)</td><td>IC</td><td>82.4%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>0–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Bundesliga</td><td>FC Augsburg – Borussia Dortmund</td><td>1.16</td><td>3.00</td><td>1.25</td><td>1.00</td><td>Équipe marque</td><td>FC Augsburg marque</td><td>IC</td><td>83.5%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>0–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Bundesliga</td><td>FC Augsburg – Borussia Dortmund</td><td>1.16</td><td>3.00</td><td>1.25</td><td>1.00</td><td>Équipe marque</td><td>Borussia Dortmund marque</td><td>IC</td><td>93.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>0–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Bundesliga</td><td>FC Augsburg – Borussia Dortmund</td><td>1.16</td><td>3.00</td><td>1.25</td><td>1.00</td><td>Résultat</td><td>Victoire Extérieure (cote None)</td><td>IC</td><td>76.1%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>0–1</td></tr><tr class='section'><td colspan='13'>Spain – Segunda División</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Segunda División</td><td>Racing Santander – Real Sociedad II</td><td>1.43</td><td>1.33</td><td>1.35</td><td>2.00</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>84.4%</td><td>Fusion</td><td style='color:#e00000; font-weight:700;'>1–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Segunda División</td><td>Racing Santander – Real Sociedad II</td><td>1.43</td><td>1.33</td><td>1.35</td><td>2.00</td><td>Équipe marque</td><td>Racing Santander marque</td><td>IC</td><td>93.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Segunda División</td><td>Racing Santander – Real Sociedad II</td><td>1.43</td><td>1.33</td><td>1.35</td><td>2.00</td><td>Résultat</td><td>Victoire Domicile (cote None)</td><td>IC</td><td>93.3%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>1–0</td></tr><tr class='section'><td colspan='13'>Spain – La Liga</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>La Liga</td><td>Getafe – Girona</td><td>1.15</td><td>0.80</td><td>1.30</td><td>2.20</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>74.5%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>La Liga</td><td>Getafe – Girona</td><td>1.15</td><td>0.80</td><td>1.30</td><td>2.20</td><td>Équipe marque</td><td>Getafe marque</td><td>IC</td><td>82.4%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–1</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>La Liga</td><td>Getafe – Girona</td><td>1.15</td><td>0.80</td><td>1.30</td><td>2.20</td><td>Résultat</td><td>Victoire Domicile (cote None)</td><td>IC</td><td>84.0%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–1</td></tr><tr class='section'><td colspan='13'>Portugal – Primeira Liga</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Primeira Liga</td><td>Sporting CP – Alverca</td><td>1.77</td><td>0.60</td><td>1.18</td><td>1.80</td><td>Over 1.5</td><td>Over 1.5 buts (cote None)</td><td>IC</td><td>84.4%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Primeira Liga</td><td>Sporting CP – Alverca</td><td>1.77</td><td>0.60</td><td>1.18</td><td>1.80</td><td>Équipe marque</td><td>Sporting CP marque</td><td>IC</td><td>93.6%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–0</td></tr><tr style='background-color:#ffffff;'><td>2025-10-31</td><td></td><td>Primeira Liga</td><td>Sporting CP – Alverca</td><td>1.77</td><td>0.60</td><td>1.18</td><td>1.80</td><td>Résultat</td><td>Victoire Domicile (cote None)</td><td>IC</td><td>82.1%</td><td>Fusion</td><td style='color:#0da60d; font-weight:700;'>2–0</td></tr></tbody>
   </table>
 </div>
 
 <script>
-function sortTable(n) {{
-  const table = document.getElementById("signalsTable");
-  let switching = true;
-  let dir = table.getAttribute("data-sort-dir") || "desc";
-  let switchcount = 0;
-
-  document.querySelectorAll("th").forEach(th => th.classList.remove("sorted"));
-  if (table.rows[0] && table.rows[0].cells[n]) {{
-    table.rows[0].cells[n].classList.add("sorted");
-  }}
-
-  while (switching) {{
-    switching = false;
-    const rows = table.rows;
-    for (let i = 1; i < rows.length - 1; i++) {{
-      let shouldSwitch = false;
-      const x = rows[i].getElementsByTagName("TD")[n];
-      const y = rows[i + 1].getElementsByTagName("TD")[n];
-      if (!x || !y) continue;
-      let xVal = parseFloat(x.textContent.replace('%','')) || x.textContent.toLowerCase();
-      let yVal = parseFloat(y.textContent.replace('%','')) || y.textContent.toLowerCase();
-      if (dir === "desc" ? xVal < yVal : xVal > yVal) {{
-        shouldSwitch = true;
-        break;
-      }}
-    }}
-    if (shouldSwitch) {{
-      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-      switching = true;
-      switchcount++;
-    }} else {{
-      if (switchcount === 0) {{
-        dir = (dir === "desc") ? "asc" : "desc";
-        table.setAttribute("data-sort-dir", dir);
-        switching = true;
-      }}
-    }}
-  }}
-}}
-
-function filterType(type) {{
+// === Filtres par type (boutons) ===
+function filterType(type) {
   const table = document.getElementById("signalsTable");
   const rows = table.getElementsByTagName("tr");
   document.querySelectorAll(".card").forEach(btn => btn.classList.remove("active"));
   const activeBtn = Array.from(document.querySelectorAll(".card")).find(btn => btn.textContent.includes(type));
   if (activeBtn) activeBtn.classList.add("active");
-  for (let i = 1; i < rows.length; i++) {{
+  for (let i = 1; i < rows.length; i++) {
     const cell = rows[i].getElementsByTagName("td")[8];
     if (!cell) continue;
     const val = cell.textContent.trim();
-    if (val === type || type === "all") {{
+    if (val === type || type === "all") {
       rows[i].style.display = "";
-    }} else if (rows[i].classList.contains("section")) {{
+    } else if (rows[i].classList.contains("section")) {
       rows[i].style.display = "";
-    }} else {{
+    } else {
       rows[i].style.display = "none";
-    }}
-  }}
-}}
-function showAll() {{ filterType("all"); }}
-window.addEventListener("load", function() {{ sortTable(11); }});
+    }
+  }
+}
+function showAll() { filterType("all"); }
+
+// === Tri manuel sur clic d'entête ===
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('table').forEach(function(table) {
+    table.querySelectorAll('th').forEach(function(header, index) {
+      header.classList.add('sortable');
+      header.addEventListener('click', function() {
+        const tbody = table.tBodies[0];
+        const rows = Array.from(tbody.querySelectorAll('tr')).filter(r => !r.classList.contains('section'));
+        const asc = !header.classList.contains('asc');
+        table.querySelectorAll('th').forEach(th => th.classList.remove('asc','desc'));
+        header.classList.toggle('asc', asc);
+        header.classList.toggle('desc', !asc);
+        rows.sort((a, b) => {
+          const A = a.cells[index]?.innerText.replace('%','').trim() || '';
+          const B = b.cells[index]?.innerText.replace('%','').trim() || '';
+          const numA = parseFloat(A); const numB = parseFloat(B);
+          if (!isNaN(numA) && !isNaN(numB))
+            return asc ? numA - numB : numB - numA;
+          return asc ? A.localeCompare(B) : B.localeCompare(A);
+        });
+        rows.forEach(row => tbody.appendChild(row));
+      });
+    });
+  });
+});
 </script>
 
 </body>
