@@ -30,7 +30,7 @@
     "referee": null,
     "venue": {
       "id": 405,
-      "name": "Estadio Municipal de Puntarenas Miguel Ángel Lito",
+      "name": "Estadio Municipal de Puntarenas Miguel Angel Lito Perez Treacy",
       "city": "Puntarenas"
     },
     "home_id": 2045,
@@ -261,7 +261,7 @@
     "referee": null,
     "venue": {
       "id": 18624,
-      "name": "Estadio Los Andes",
+      "name": "Estadio Javier Cruz",
       "city": "Panama City"
     },
     "home_id": 2881,
@@ -303,7 +303,7 @@
     "referee": null,
     "venue": {
       "id": 1207,
-      "name": "Estadio Rommel Fernández Gutiérrez",
+      "name": "Estadio Rommel Fernandez",
       "city": "Panama City"
     },
     "home_id": 2885,
@@ -451,7 +451,7 @@
     "venue": {
       "id": null,
       "name": "Toyota Stadium",
-      "city": "Frisco"
+      "city": null
     },
     "home_id": 1597,
     "away_id": 1603,
@@ -472,7 +472,7 @@
     "venue": {
       "id": null,
       "name": "Providence Park",
-      "city": "Portland"
+      "city": null
     },
     "home_id": 1617,
     "away_id": 25484,
@@ -513,7 +513,7 @@
     "referee": null,
     "venue": {
       "id": 2675,
-      "name": "Estadio CDI José Joaquín Colleya Fonseca",
+      "name": "Estadio Coyella Fonseca",
       "city": "San José"
     },
     "home_id": 821,
@@ -723,7 +723,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Kanazawa Go Go Curry Stadium",
+      "name": "Ishikawa Athletics Stadium",
       "city": "Kanazawa"
     },
     "home_id": 300,
@@ -1080,7 +1080,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Ichigo Miyazaki Shintomi Soccer Field",
+      "name": "Unilever Stadium Shintomi",
       "city": "Miyazaki"
     },
     "home_id": 10409,
@@ -1437,7 +1437,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Futbol-arena Enisey",
+      "name": "Football Arena Yenisei",
       "city": "Krasnoyarsk"
     },
     "home_id": 14133,
@@ -1479,7 +1479,7 @@
     "referee": "Timothy Danaskos, Australia",
     "venue": {
       "id": null,
-      "name": "polytec Stadium",
+      "name": "Central Coast Stadium",
       "city": "Gosford"
     },
     "home_id": 941,
@@ -1521,7 +1521,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Sapele Township Stadium",
+      "name": "Samson Siasia Sports Stadium",
       "city": "Yenagoa"
     },
     "home_id": 17445,
@@ -2130,7 +2130,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Stadion Seifertova ulice",
+      "name": "Stadium Viktoria Zizkov",
       "city": "Prague"
     },
     "home_id": 3729,
@@ -2172,7 +2172,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Andruv stadion",
+      "name": "Stadium Holice",
       "city": "Olomouc"
     },
     "home_id": 8622,
@@ -2319,7 +2319,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Futbalový ?tadión Mal?enice",
+      "name": "Obecny futbalovy stadion Malzenice",
       "city": null
     },
     "home_id": 14058,
@@ -2718,7 +2718,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Camp de Futbol d&amp;apos;Aixovall",
+      "name": "Estadi Comunal",
       "city": "Andorra la Vella"
     },
     "home_id": 3342,
@@ -3012,7 +3012,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Stadion Geolog",
+      "name": "Geolog Stadium",
       "city": "Tyumen"
     },
     "home_id": 2000,
@@ -4145,7 +4145,7 @@
     "season": 2025,
     "referee": "Martin Velikov, Bulgaria",
     "venue": {
-      "id": 1912,
+      "id": null,
       "name": "National Stadium Vasil Levski",
       "city": "Sofia"
     },
@@ -4671,7 +4671,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Stadion Trud",
+      "name": "Avangard Stadium",
       "city": "Domodedovo"
     },
     "home_id": 6833,
@@ -5098,9 +5098,9 @@
     "away_id": 12184,
     "home_team": "Green Farmers FC",
     "away_team": "Musongati",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1441616,
@@ -6435,7 +6435,7 @@
     "referee": "Ingmar Oostrom, Netherlands",
     "venue": {
       "id": null,
-      "name": "Asito Stadion",
+      "name": "Asito Stadium",
       "city": "Almelo"
     },
     "home_id": 206,
@@ -6624,7 +6624,7 @@
     "referee": "Ali Sansalan, Türkiye",
     "venue": {
       "id": null,
-      "name": "Medas Konya Büyüksehir Stadyumu",
+      "name": "Medas Konya Büyüksehir Belediyesi Stadium",
       "city": "Konya"
     },
     "home_id": 607,
@@ -6771,7 +6771,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "BG Stadium",
+      "name": "Thammasat Stadium",
       "city": "Rangsit"
     },
     "home_id": 2770,
@@ -7317,7 +7317,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Stadion Miejski im. Józefa Pilsudskiego",
+      "name": "Stadion Mijeski im. Jozefa Pilsudskiego",
       "city": "Nowy Targ"
     },
     "home_id": 12834,
@@ -7703,7 +7703,7 @@
     "home_team": "Balatonlelle SE",
     "away_team": "PTE-PEAC",
     "score_home": 1,
-    "score_away": 0,
+    "score_away": 1,
     "status": "FT"
   },
   {
@@ -8038,8 +8038,8 @@
     "away_id": 24538,
     "home_team": "Gödöllő",
     "away_team": "Nyiregyhaza II",
-    "score_home": 0,
-    "score_away": 0,
+    "score_home": 2,
+    "score_away": 2,
     "status": "FT"
   },
   {
@@ -8178,7 +8178,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Villa Park",
+      "name": "Bescot Stadium",
       "city": "Walsall"
     },
     "home_id": 14219,
@@ -8199,7 +8199,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Broadfield Stadium",
+      "name": "The Broadfield Stadium",
       "city": "Crawley"
     },
     "home_id": 1857,
@@ -9627,7 +9627,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Mestský stadion - Vítkovice Aréna",
+      "name": "Mestsky stadion v Ostrave-Vitkovicich",
       "city": "Ostrava"
     },
     "home_id": 8621,
@@ -10656,7 +10656,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Heino Lipu staadion",
+      "name": "Heino Lipp Stadium",
       "city": "Johvi"
     },
     "home_id": 24237,
@@ -11748,7 +11748,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Hri?te Polanka nad Odrou",
+      "name": "Stadium Polanka nad Odrou",
       "city": null
     },
     "home_id": 7332,
@@ -13393,9 +13393,9 @@
     "away_id": 12406,
     "home_team": "Aris Petroupolis",
     "away_team": "Rodos",
-    "score_home": null,
-    "score_away": null,
-    "status": "PST"
+    "score_home": 3,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1466383,
@@ -13584,7 +13584,7 @@
     "away_team": "Cheminots",
     "score_home": null,
     "score_away": null,
-    "status": "NS"
+    "status": "PST"
   },
   {
     "id": 1468192,
@@ -13605,7 +13605,7 @@
     "away_team": "Red Stars",
     "score_home": null,
     "score_away": null,
-    "status": "NS"
+    "status": "PST"
   },
   {
     "id": 1468389,
@@ -13638,7 +13638,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Tel?iu centrinis stadionas",
+      "name": "Telsiai Central Stadium",
       "city": "Telsiai"
     },
     "home_id": 3860,
@@ -14170,9 +14170,9 @@
     "away_id": 20513,
     "home_team": "Racing Power W",
     "away_team": "Valadares Gaia W",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1480062,
@@ -14604,7 +14604,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Stadion GOS",
+      "name": "Stadion Chrobrego",
       "city": null
     },
     "home_id": 3483,
@@ -15045,7 +15045,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Stade du 15 Octobre",
+      "name": "Stade 15 Octobre",
       "city": "Bizerte"
     },
     "home_id": 981,
@@ -15297,7 +15297,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Mafori Mphahlele Stadium",
+      "name": "Old Peter Mokaba Stadium",
       "city": "Polokwane"
     },
     "home_id": 2688,
@@ -15430,9 +15430,9 @@
     "away_id": 5957,
     "home_team": "Aywaille",
     "away_team": "Tournai",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 4,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1450134,
@@ -15451,9 +15451,9 @@
     "away_id": 22256,
     "home_team": "Entité Manageoise",
     "away_team": "Stade Verviers",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 3,
+    "status": "FT"
   },
   {
     "id": 1450649,
@@ -17586,7 +17586,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Stadion Mitar Mico Goli?",
+      "name": "Stadion Mitar Mico Golis",
       "city": "Petrovac"
     },
     "home_id": 3741,
@@ -17859,7 +17859,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Central&amp;apos;nyj Stadion Astrakhan&amp;apos;gazprom",
+      "name": "Tsentralnyi Stadion",
       "city": "Astrakhan"
     },
     "home_id": 2004,
@@ -18435,7 +18435,7 @@
     "away_team": "Chênois",
     "score_home": null,
     "score_away": null,
-    "status": "NS"
+    "status": "PST"
   },
   {
     "id": 1430278,
@@ -18951,7 +18951,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Stadio Katokopia-Epistrofi-Glafkos Kliridis",
+      "name": "Katokopia Stadium",
       "city": "Peristerona"
     },
     "home_id": 14126,
@@ -18981,7 +18981,7 @@
     "away_team": "Kondzo",
     "score_home": null,
     "score_away": null,
-    "status": "NS"
+    "status": "PST"
   },
   {
     "id": 1471632,
@@ -19042,9 +19042,9 @@
     "away_id": 16307,
     "home_team": "Šobec Lesce",
     "away_team": "Izola",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1474624,
@@ -19126,9 +19126,9 @@
     "away_id": 20140,
     "home_team": "Žiri",
     "away_team": "Zidgrad Idrija",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1474628,
@@ -19168,9 +19168,9 @@
     "away_id": 20139,
     "home_team": "Svoboda",
     "away_team": "IB 1975 Ljubljana",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1475043,
@@ -19336,9 +19336,9 @@
     "away_id": 10085,
     "home_team": "Bukavu Dawa",
     "away_team": "Renaissance",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1483126,
@@ -19359,7 +19359,7 @@
     "away_team": "CS Manika",
     "score_home": null,
     "score_away": null,
-    "status": "NS"
+    "status": "PST"
   },
   {
     "id": 1483131,
@@ -19441,9 +19441,9 @@
     "away_id": 8064,
     "home_team": "Vita Club",
     "away_team": "Maniema Union",
-    "score_home": null,
-    "score_away": null,
-    "status": "PST"
+    "score_home": 0,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1484062,
@@ -19644,7 +19644,7 @@
     "referee": "Daniel Schlager, Germany",
     "venue": {
       "id": null,
-      "name": "RheinEnergieSTADION",
+      "name": "RheinEnergieStadion",
       "city": "Cologne"
     },
     "home_id": 192,
@@ -19714,9 +19714,9 @@
     "away_id": 21033,
     "home_team": "TuS BW Königsdorf",
     "away_team": "SF Düren",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1424992,
@@ -19864,27 +19864,6 @@
     "score_home": 1,
     "score_away": 1,
     "status": "FT"
-  },
-  {
-    "id": 1471634,
-    "date_utc": "2025-11-02T14:30:00+00:00",
-    "league_id": 397,
-    "league_name": "Girabola",
-    "country": "Angola",
-    "season": 2025,
-    "referee": null,
-    "venue": {
-      "id": 0,
-      "name": null,
-      "city": null
-    },
-    "home_id": 4918,
-    "away_id": 22359,
-    "home_team": "Desportivo Huíla",
-    "away_team": "São Salvador",
-    "score_home": 0,
-    "score_away": 0,
-    "status": "ABD"
   },
   {
     "id": 1483884,
@@ -21121,9 +21100,9 @@
     "away_id": 17064,
     "home_team": "Dunaújváros-Pálhalma",
     "away_team": "MTK Budapest II",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 5,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1415650,
@@ -21709,9 +21688,9 @@
     "away_id": 5890,
     "home_team": "RFC Wetteren",
     "away_team": "Oostkamp",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1455900,
@@ -21963,7 +21942,7 @@
     "away_team": "Étoile du Congo",
     "score_home": null,
     "score_away": null,
-    "status": "NS"
+    "status": "PST"
   },
   {
     "id": 1468537,
@@ -22150,9 +22129,9 @@
     "away_id": 26800,
     "home_team": "Debibi United",
     "away_team": "KAC Soccer",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1478622,
@@ -22171,7 +22150,7 @@
     "away_id": 21085,
     "home_team": "Ebusua Dwarfs",
     "away_team": "PAC Academy",
-    "score_home": 0,
+    "score_home": 2,
     "score_away": 0,
     "status": "FT"
   },
@@ -22234,9 +22213,9 @@
     "away_id": 13885,
     "home_team": "Northern City",
     "away_team": "Real Tamale",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 3,
+    "status": "FT"
   },
   {
     "id": 1478631,
@@ -22339,8 +22318,8 @@
     "away_id": 22774,
     "home_team": "True Democracy",
     "away_team": "Nania",
-    "score_home": 0,
-    "score_away": 0,
+    "score_home": 1,
+    "score_away": 1,
     "status": "FT"
   },
   {
@@ -22360,8 +22339,8 @@
     "away_id": 21074,
     "home_team": "WAFA",
     "away_team": "Golden Kicks",
-    "score_home": 0,
-    "score_away": 0,
+    "score_home": 1,
+    "score_away": 2,
     "status": "FT"
   },
   {
@@ -22381,9 +22360,9 @@
     "away_id": 26794,
     "home_team": "Wa Power",
     "away_team": "Bolga AllStars",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1480312,
@@ -22692,9 +22671,9 @@
       "name": null,
       "city": null
     },
-    "home_id": 216,
+    "home_id": 26823,
     "away_id": 17985,
-    "home_team": "Portimonense",
+    "home_team": "Portimonense B",
     "away_team": "Comércio Indústria",
     "score_home": 2,
     "score_away": 0,
@@ -22731,7 +22710,7 @@
     "referee": "Sergui Claudiu Muresan, Spain",
     "venue": {
       "id": null,
-      "name": "Estadio Municipal El Molinón-Enrique Castro Quini",
+      "name": "El Molinón",
       "city": "Gijon"
     },
     "home_id": 731,
@@ -22843,9 +22822,9 @@
     "away_id": 26833,
     "home_team": "Pachuca U21",
     "away_team": "Guadalajara Chivas U21",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1437344,
@@ -23433,7 +23412,7 @@
     "away_team": "Inter Club",
     "score_home": null,
     "score_away": null,
-    "status": "NS"
+    "status": "PST"
   },
   {
     "id": 1468540,
@@ -23466,7 +23445,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Centre Technique National",
+      "name": "Stade de la SONABEL",
       "city": "Ouagadougou"
     },
     "home_id": 8111,
@@ -23508,7 +23487,7 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Stade Dr Issoufou Joseph Conombo",
+      "name": "Stade Demba Diop",
       "city": "Dakar"
     },
     "home_id": 13978,
@@ -23559,7 +23538,7 @@
     "away_team": "Netherlands U17 W",
     "score_home": 2,
     "score_away": 2,
-    "status": "P"
+    "status": "PEN"
   },
   {
     "id": 1380965,
@@ -23633,7 +23612,7 @@
     "season": 2025,
     "referee": "Ventsislav Mitrev, Bulgaria",
     "venue": {
-      "id": 286,
+      "id": null,
       "name": "Ticha",
       "city": "Varna"
     },
@@ -23748,7 +23727,7 @@
     "away_team": "NAC Breda W",
     "score_home": 4,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1341291,
@@ -23767,9 +23746,9 @@
     "away_id": 3505,
     "home_team": "Samgurali",
     "away_team": "Gagra",
-    "score_home": 0,
+    "score_home": 1,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1342394,
@@ -23790,7 +23769,7 @@
     "away_team": "Brann",
     "score_home": 2,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1342395,
@@ -23811,7 +23790,7 @@
     "away_team": "Kristiansund BK",
     "score_home": 3,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1342396,
@@ -23832,7 +23811,7 @@
     "away_team": "Sandefjord",
     "score_home": 3,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1342397,
@@ -23853,7 +23832,7 @@
     "away_team": "Haugesund",
     "score_home": 1,
     "score_away": 4,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1342654,
@@ -23873,8 +23852,8 @@
     "home_team": "Raufoss",
     "away_team": "Mjondalen",
     "score_home": 0,
-    "score_away": 0,
-    "status": "2H"
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1342655,
@@ -23895,7 +23874,7 @@
     "away_team": "Lyn",
     "score_home": 1,
     "score_away": 5,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1380025,
@@ -23915,8 +23894,8 @@
     "home_team": "Esbjerg",
     "away_team": "B 93",
     "score_home": 3,
-    "score_away": 1,
-    "status": "2H"
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1381648,
@@ -23928,16 +23907,16 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Stadion Polonii Bytom",
+      "name": "Stadion im. Edwarda Szymkowiaka",
       "city": null
     },
     "home_id": 12835,
     "away_id": 6964,
     "home_team": "Polonia Bytom",
     "away_team": "Znicz Pruszków",
-    "score_home": 1,
+    "score_home": 2,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1384995,
@@ -23958,7 +23937,7 @@
     "away_team": "Radnik Surdulica",
     "score_home": 1,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1385002,
@@ -23978,8 +23957,8 @@
     "home_team": "Vojvodina",
     "away_team": "IMT Novi Beograd",
     "score_home": 1,
-    "score_away": 2,
-    "status": "2H"
+    "score_away": 3,
+    "status": "FT"
   },
   {
     "id": 1388167,
@@ -24000,7 +23979,7 @@
     "away_team": "Bistrica",
     "score_home": 2,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1388171,
@@ -24021,7 +24000,7 @@
     "away_team": "Tabor Sežana",
     "score_home": 0,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1390095,
@@ -24042,7 +24021,7 @@
     "away_team": "Sturm Graz",
     "score_home": 2,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1391499,
@@ -24061,9 +24040,9 @@
     "away_id": 572,
     "home_team": "Shakhtar Donetsk",
     "away_team": "Dynamo Kyiv",
-    "score_home": 2,
+    "score_home": 3,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1393904,
@@ -24084,7 +24063,7 @@
     "away_team": "Mezokovesd-zsory",
     "score_home": 1,
     "score_away": 2,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1393905,
@@ -24104,8 +24083,8 @@
     "home_team": "Soroksar",
     "away_team": "Budapest Honved",
     "score_home": 0,
-    "score_away": 0,
-    "status": "2H"
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1393907,
@@ -24126,7 +24105,7 @@
     "away_team": "Kecskeméti TE",
     "score_home": 2,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1398434,
@@ -24145,9 +24124,9 @@
     "away_id": 3602,
     "home_team": "Van BB",
     "away_team": "Sakaryaspor",
-    "score_home": 2,
+    "score_home": 3,
     "score_away": 2,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1407286,
@@ -24166,9 +24145,9 @@
     "away_id": 12761,
     "home_team": "Kassel",
     "away_team": "Eintracht Stadtallendorf",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 3,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1422754,
@@ -24188,8 +24167,8 @@
     "home_team": "Mostaganem",
     "away_team": "CR Belouizdad",
     "score_home": 0,
-    "score_away": 1,
-    "status": "2H"
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1429560,
@@ -24208,9 +24187,9 @@
     "away_id": 2682,
     "home_team": "Golden Arrows",
     "away_team": "Marumo Gallants",
-    "score_home": 3,
+    "score_home": 4,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1431961,
@@ -24231,7 +24210,7 @@
     "away_team": "Langreo",
     "score_home": 0,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1431962,
@@ -24252,7 +24231,7 @@
     "away_team": "Burgos Promesas",
     "score_home": 0,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1431965,
@@ -24271,9 +24250,9 @@
     "away_id": 9385,
     "home_team": "Salamanca UDS",
     "away_team": "Coruxo",
-    "score_home": 1,
+    "score_home": 2,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1431966,
@@ -24294,7 +24273,7 @@
     "away_team": "Real Ávila",
     "score_home": 2,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1431968,
@@ -24315,7 +24294,7 @@
     "away_team": "Marino de Luanco",
     "score_home": 1,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1431969,
@@ -24336,7 +24315,7 @@
     "away_team": "Real Valladolid II",
     "score_home": 3,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1432272,
@@ -24357,7 +24336,7 @@
     "away_team": "Real Zaragoza II",
     "score_home": 3,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1432273,
@@ -24378,7 +24357,7 @@
     "away_team": "Gernika",
     "score_home": 1,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1432275,
@@ -24399,7 +24378,7 @@
     "away_team": "Utebo",
     "score_home": 3,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1432884,
@@ -24420,7 +24399,7 @@
     "away_team": "Águilas",
     "score_home": 1,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1432886,
@@ -24441,7 +24420,7 @@
     "away_team": "Antoniano",
     "score_home": 2,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1433191,
@@ -24461,8 +24440,8 @@
     "home_team": "Quintanar del Rey",
     "away_team": "Rayo Majadahonda",
     "score_home": 0,
-    "score_away": 0,
-    "status": "2H"
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1452582,
@@ -24483,7 +24462,7 @@
     "away_team": "Castellón II",
     "score_home": 2,
     "score_away": 4,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1458002,
@@ -24504,7 +24483,7 @@
     "away_team": "Polvorín",
     "score_home": 1,
     "score_away": 2,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1458004,
@@ -24525,7 +24504,7 @@
     "away_team": "Silva",
     "score_home": 2,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1458007,
@@ -24544,9 +24523,9 @@
     "away_id": 9603,
     "home_team": "Barco",
     "away_team": "Alondras",
-    "score_home": 0,
+    "score_home": 1,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1458309,
@@ -24567,7 +24546,7 @@
     "away_team": "Avilés Stadium",
     "score_home": 2,
     "score_away": 2,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1458310,
@@ -24588,7 +24567,7 @@
     "away_team": "Covadonga",
     "score_home": 2,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1458908,
@@ -24609,7 +24588,7 @@
     "away_team": "Santurtzi",
     "score_home": 4,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1458909,
@@ -24628,9 +24607,9 @@
     "away_id": 9661,
     "home_team": "Lagun Onak",
     "away_team": "Pasaia KE",
-    "score_home": 0,
+    "score_home": 2,
     "score_away": 0,
-    "status": "HT"
+    "status": "FT"
   },
   {
     "id": 1459575,
@@ -24651,7 +24630,7 @@
     "away_team": "Soneja",
     "score_home": 1,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1459876,
@@ -24672,7 +24651,7 @@
     "away_team": "Alcobendas Sport",
     "score_home": 2,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1460486,
@@ -24693,7 +24672,7 @@
     "away_team": "Alhaurino",
     "score_home": 2,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1460488,
@@ -24714,7 +24693,7 @@
     "away_team": "Huétor Tájar",
     "score_home": 1,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1460788,
@@ -24735,7 +24714,7 @@
     "away_team": "Pozoblanco",
     "score_home": 3,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1460794,
@@ -24754,9 +24733,9 @@
     "away_id": 21905,
     "home_team": "Conil",
     "away_team": "Chiclana",
-    "score_home": 0,
+    "score_home": 2,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1461095,
@@ -24775,9 +24754,9 @@
     "away_id": 9786,
     "home_team": "Inter Ibiza",
     "away_team": "Portmany",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1461097,
@@ -24796,9 +24775,9 @@
     "away_id": 9774,
     "home_team": "Manacor",
     "away_team": "Binissalem",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1461101,
@@ -24818,8 +24797,8 @@
     "home_team": "Cardassar",
     "away_team": "Felanitx",
     "score_home": 1,
-    "score_away": 0,
-    "status": "2H"
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1461703,
@@ -24840,7 +24819,7 @@
     "away_team": "Águilas II",
     "score_home": 3,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1461705,
@@ -24861,7 +24840,7 @@
     "away_team": "Atlético Pulpileño",
     "score_home": 0,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1461706,
@@ -24881,8 +24860,8 @@
     "home_team": "Muleño",
     "away_team": "Real Murcia II",
     "score_home": 2,
-    "score_away": 3,
-    "status": "2H"
+    "score_away": 4,
+    "status": "FT"
   },
   {
     "id": 1461708,
@@ -24903,7 +24882,7 @@
     "away_team": "Balsicas Atlético",
     "score_home": 3,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1461709,
@@ -24924,7 +24903,7 @@
     "away_team": "SFC Minerva",
     "score_home": 1,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1462625,
@@ -24943,9 +24922,9 @@
     "away_id": 9873,
     "home_team": "Vianés",
     "away_team": "Varea",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 5,
+    "status": "FT"
   },
   {
     "id": 1462626,
@@ -24964,9 +24943,9 @@
     "away_id": 9867,
     "home_team": "Arnedo",
     "away_team": "La Calzada",
-    "score_home": 0,
+    "score_home": 1,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1462627,
@@ -24986,8 +24965,8 @@
     "home_team": "Haro Deportivo",
     "away_team": "Oyonesa",
     "score_home": 2,
-    "score_away": 1,
-    "status": "2H"
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1463229,
@@ -25008,7 +24987,7 @@
     "away_team": "Villarrobledo",
     "score_home": 2,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1463232,
@@ -25029,7 +25008,7 @@
     "away_team": "La Solana",
     "score_home": 1,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1485034,
@@ -25048,9 +25027,9 @@
     "away_id": 3875,
     "home_team": "Ciudad Nueva Santa Cruz",
     "away_team": "Club Universitario",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 3,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1485080,
@@ -25069,9 +25048,9 @@
     "away_id": 8062,
     "home_team": "Fassell",
     "away_team": "LISCR",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1485081,
@@ -25090,9 +25069,9 @@
     "away_id": 26907,
     "home_team": "Watanga",
     "away_team": "Wologizi",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1485082,
@@ -25111,9 +25090,9 @@
     "away_id": 18110,
     "home_team": "LPRC Oilers",
     "away_team": "Heaven Eleven",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1485085,
@@ -25132,9 +25111,9 @@
     "away_id": 26910,
     "home_team": "BEA Mountain",
     "away_team": "Gardnersville",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1485086,
@@ -25153,9 +25132,9 @@
     "away_id": 26908,
     "home_team": "Freeport",
     "away_team": "Borough",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 3,
+    "score_away": 3,
+    "status": "FT"
   },
   {
     "id": 1387790,
@@ -25174,9 +25153,9 @@
     "away_id": 97,
     "home_team": "Lens",
     "away_team": "Lorient",
-    "score_home": 1,
+    "score_home": 3,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1387791,
@@ -25188,7 +25167,7 @@
     "referee": "Jérôme Brisard, France",
     "venue": {
       "id": null,
-      "name": "Decathlon Arena - Stade Pierre-Mauroy",
+      "name": "Decathlon Arena - Stade Pierre Mauroy",
       "city": "Lille"
     },
     "home_id": 79,
@@ -25197,7 +25176,7 @@
     "away_team": "Angers",
     "score_home": 1,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1387793,
@@ -25217,8 +25196,8 @@
     "home_team": "Nantes",
     "away_team": "Metz",
     "score_home": 0,
-    "score_away": 0,
-    "status": "2H"
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1387796,
@@ -25239,7 +25218,7 @@
     "away_team": "Le Havre",
     "score_home": 0,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1419700,
@@ -25260,7 +25239,7 @@
     "away_team": "Spezia",
     "score_home": 1,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1459568,
@@ -25280,8 +25259,8 @@
     "home_team": "Saguntino",
     "away_team": "La Nucía",
     "score_home": 1,
-    "score_away": 0,
-    "status": "2H"
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1484344,
@@ -25300,9 +25279,9 @@
     "away_id": 24798,
     "home_team": "Pompiers",
     "away_team": "N'Zidane",
-    "score_home": 2,
+    "score_home": 3,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1469004,
@@ -25321,9 +25300,9 @@
     "away_id": 3870,
     "home_team": "Suduva Marijampole",
     "away_team": "Šiauliai",
-    "score_home": 1,
+    "score_home": 2,
     "score_away": 2,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1477889,
@@ -25342,9 +25321,9 @@
     "away_id": 3861,
     "home_team": "FK Zalgiris Vilnius",
     "away_team": "Hegelmann Litauen",
-    "score_home": 2,
+    "score_home": 3,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1379064,
@@ -25363,9 +25342,9 @@
     "away_id": 35,
     "home_team": "Manchester City",
     "away_team": "Bournemouth",
-    "score_home": 2,
+    "score_home": 3,
     "score_away": 1,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1380503,
@@ -25384,9 +25363,9 @@
     "away_id": 3491,
     "home_team": "Jagiellonia",
     "away_team": "Raków Częstochowa",
-    "score_home": 0,
+    "score_home": 1,
     "score_away": 2,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1384300,
@@ -25405,9 +25384,9 @@
     "away_id": 4378,
     "home_team": "Primorje",
     "away_team": "Radomlje",
-    "score_home": 0,
-    "score_away": 1,
-    "status": "2H"
+    "score_home": 1,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1388388,
@@ -25427,8 +25406,8 @@
     "home_team": "VfL Wolfsburg",
     "away_team": "1899 Hoffenheim",
     "score_home": 2,
-    "score_away": 2,
-    "status": "2H"
+    "score_away": 3,
+    "status": "FT"
   },
   {
     "id": 1388999,
@@ -25447,9 +25426,9 @@
     "away_id": 3381,
     "home_team": "Zeljeznicar Sarajevo",
     "away_team": "Velež",
-    "score_home": 0,
-    "score_away": 1,
-    "status": "2H"
+    "score_home": 1,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1400139,
@@ -25468,9 +25447,9 @@
     "away_id": 558,
     "home_team": "FC Krasnodar",
     "away_team": "Spartak Moscow",
-    "score_home": 1,
-    "score_away": 0,
-    "status": "2H"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1439468,
@@ -25490,8 +25469,8 @@
     "home_team": "Sambenedettese",
     "away_team": "Guidonia Montecelio 1937",
     "score_home": 0,
-    "score_away": 0,
-    "status": "2H"
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1439469,
@@ -25511,8 +25490,8 @@
     "home_team": "Pontedera",
     "away_team": "Perugia",
     "score_home": 2,
-    "score_away": 1,
-    "status": "2H"
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1439470,
@@ -25531,9 +25510,9 @@
     "away_id": 507,
     "home_team": "Ravenna",
     "away_team": "Ascoli",
-    "score_home": 0,
+    "score_home": 1,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1439848,
@@ -25554,7 +25533,7 @@
     "away_team": "Salernitana",
     "score_home": 0,
     "score_away": 0,
-    "status": "2H"
+    "status": "FT"
   },
   {
     "id": 1439856,
@@ -25573,9 +25552,9 @@
     "away_id": 894,
     "home_team": "Giugliano",
     "away_team": "Siracusa",
-    "score_home": 1,
-    "score_away": 0,
-    "status": "2H"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1460791,
@@ -25594,9 +25573,9 @@
     "away_id": 9767,
     "home_team": "Ciudad de Lucena",
     "away_team": "San Roque Lepe",
-    "score_home": 0,
-    "score_away": 0,
-    "status": "2H"
+    "score_home": 1,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1462319,
@@ -25616,8 +25595,8 @@
     "home_team": "Valle Egüés",
     "away_team": "Peña Sport",
     "score_home": 0,
-    "score_away": 0,
-    "status": "2H"
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1468390,
@@ -25637,8 +25616,8 @@
     "home_team": "AS Kigali",
     "away_team": "Kiyovu Sports",
     "score_home": 0,
-    "score_away": 1,
-    "status": "2H"
+    "score_away": 3,
+    "status": "FT"
   },
   {
     "id": 1485094,
@@ -25657,9 +25636,9 @@
     "away_id": 27005,
     "home_team": "Casa Sport",
     "away_team": "AS Camberene",
-    "score_home": 2,
+    "score_home": 4,
     "score_away": 0,
-    "status": "HT"
+    "status": "FT"
   },
   {
     "id": 1437345,
@@ -25678,9 +25657,9 @@
     "away_id": 2947,
     "home_team": "Al Diriyah",
     "away_team": "Jeddah Club",
-    "score_home": 0,
+    "score_home": 1,
     "score_away": 0,
-    "status": "HT"
+    "status": "FT"
   },
   {
     "id": 1357018,
@@ -25700,8 +25679,8 @@
     "home_team": "Torpedo Zhodino",
     "away_team": "FC Minsk",
     "score_home": 0,
-    "score_away": 0,
-    "status": "1H"
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1377959,
@@ -25721,8 +25700,8 @@
     "home_team": "Parma",
     "away_team": "Bologna",
     "score_home": 1,
-    "score_away": 1,
-    "status": "1H"
+    "score_away": 3,
+    "status": "FT"
   },
   {
     "id": 1379429,
@@ -25741,9 +25720,9 @@
     "away_id": 405,
     "home_team": "FC Nordsjaelland",
     "away_team": "Odense",
-    "score_home": 1,
-    "score_away": 0,
-    "status": "1H"
+    "score_home": 2,
+    "score_away": 4,
+    "status": "FT"
   },
   {
     "id": 1380240,
@@ -25763,8 +25742,8 @@
     "home_team": "Debreceni VSC",
     "away_team": "Zalaegerszegi TE",
     "score_home": 2,
-    "score_away": 0,
-    "status": "1H"
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1384176,
@@ -25783,9 +25762,9 @@
     "away_id": 655,
     "home_team": "Spartak Trnava",
     "away_team": "AS Trencin",
-    "score_home": 2,
+    "score_home": 4,
     "score_away": 0,
-    "status": "1H"
+    "status": "FT"
   },
   {
     "id": 1390741,
@@ -25804,9 +25783,9 @@
     "away_id": 10154,
     "home_team": "Cobán Imperial",
     "away_team": "Aurora",
-    "score_home": 1,
+    "score_home": 2,
     "score_away": 0,
-    "status": "1H"
+    "status": "FT"
   },
   {
     "id": 1392917,
@@ -25825,9 +25804,9 @@
     "away_id": 823,
     "home_team": "CS Cartagines",
     "away_team": "San Carlos",
-    "score_home": 0,
+    "score_home": 2,
     "score_away": 1,
-    "status": "1H"
+    "status": "FT"
   },
   {
     "id": 1394525,
@@ -25847,8 +25826,8 @@
     "home_team": "Besiktas",
     "away_team": "Fenerbahce",
     "score_home": 2,
-    "score_away": 1,
-    "status": "1H"
+    "score_away": 3,
+    "status": "FT"
   },
   {
     "id": 1409824,
@@ -25867,9 +25846,9 @@
     "away_id": 1637,
     "home_team": "Paderborn II",
     "away_team": "Bonner SC",
-    "score_home": 0,
-    "score_away": 1,
-    "status": "1H"
+    "score_home": 1,
+    "score_away": 3,
+    "status": "FT"
   },
   {
     "id": 1410598,
@@ -25889,8 +25868,8 @@
     "home_team": "Pogoń Szczecin II",
     "away_team": "Flota Świnoujście",
     "score_home": 3,
-    "score_away": 1,
-    "status": "1H"
+    "score_away": 3,
+    "status": "FT"
   },
   {
     "id": 1415646,
@@ -25909,9 +25888,9 @@
     "away_id": 614,
     "home_team": "Apollon Limassol",
     "away_team": "AEK Larnaca",
-    "score_home": 0,
-    "score_away": 0,
-    "status": "1H"
+    "score_home": 1,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1415649,
@@ -25932,7 +25911,7 @@
     "away_team": "AEL",
     "score_home": 1,
     "score_away": 0,
-    "status": "1H"
+    "status": "FT"
   },
   {
     "id": 1436702,
@@ -25951,9 +25930,9 @@
     "away_id": 24390,
     "home_team": "Santa Cruz FC",
     "away_team": "Deportivo Upala",
-    "score_home": 0,
+    "score_home": 1,
     "score_away": 0,
-    "status": "1H"
+    "status": "FT"
   },
   {
     "id": 1458001,
@@ -25973,8 +25952,8 @@
     "home_team": "Compostela",
     "away_team": "Barbadás",
     "score_home": 1,
-    "score_away": 0,
-    "status": "1H"
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1459262,
@@ -25993,9 +25972,9 @@
     "away_id": 17528,
     "home_team": "Badalona",
     "away_team": "L'Escala",
-    "score_home": 0,
+    "score_home": 1,
     "score_away": 0,
-    "status": "1H"
+    "status": "FT"
   },
   {
     "id": 1461098,
@@ -26014,9 +25993,9 @@
     "away_id": 9775,
     "home_team": "Platges Calvià",
     "away_team": "Collerense",
-    "score_home": 2,
+    "score_home": 3,
     "score_away": 0,
-    "status": "1H"
+    "status": "FT"
   },
   {
     "id": 1478263,
@@ -26035,9 +26014,9 @@
     "away_id": 20510,
     "home_team": "SL Benfica",
     "away_team": "Marítimo W",
-    "score_home": 1,
+    "score_home": 5,
     "score_away": 0,
-    "status": "1H"
+    "status": "FT"
   },
   {
     "id": 1479674,
@@ -26057,8 +26036,8 @@
     "home_team": "Sassuolo W",
     "away_team": "Fiorentina W",
     "score_home": 0,
-    "score_away": 0,
-    "status": "1H"
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1482701,
@@ -26079,7 +26058,7 @@
     "away_team": "Chabab Mohammédia",
     "score_home": 1,
     "score_away": 0,
-    "status": "1H"
+    "status": "FT"
   },
   {
     "id": 1484339,
@@ -26099,8 +26078,8 @@
     "home_team": "Difaa EL Jadida",
     "away_team": "FAR Rabat",
     "score_home": 0,
-    "score_away": 1,
-    "status": "1H"
+    "score_away": 4,
+    "status": "FT"
   },
   {
     "id": 1485095,
@@ -26121,7 +26100,7 @@
     "away_team": "HLM",
     "score_home": 1,
     "score_away": 1,
-    "status": "1H"
+    "status": "FT"
   },
   {
     "id": 1485096,
@@ -26142,7 +26121,7 @@
     "away_team": "Ouakam",
     "score_home": 0,
     "score_away": 0,
-    "status": "1H"
+    "status": "FT"
   },
   {
     "id": 1485097,
@@ -26161,9 +26140,9 @@
     "away_id": 5553,
     "home_team": "DSC",
     "away_team": "Guédiawaye",
-    "score_home": 1,
+    "score_home": 3,
     "score_away": 1,
-    "status": "1H"
+    "status": "FT"
   },
   {
     "id": 1485098,
@@ -26182,9 +26161,9 @@
     "away_id": 25067,
     "home_team": "Sonacos",
     "away_team": "AJEL",
-    "score_home": 0,
-    "score_away": 0,
-    "status": "1H"
+    "score_home": 1,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1485099,
@@ -26203,9 +26182,9 @@
     "away_id": 5290,
     "home_team": "Stade de Mbour",
     "away_team": "La Linguère",
-    "score_home": 0,
-    "score_away": 0,
-    "status": "1H"
+    "score_home": 2,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1383977,
@@ -26226,7 +26205,7 @@
     "away_team": "NK Varazdin",
     "score_home": 0,
     "score_away": 0,
-    "status": "1H"
+    "status": "FT"
   },
   {
     "id": 1393487,
@@ -26246,8 +26225,8 @@
     "home_team": "Tarxien Rainbows",
     "away_team": "Mosta",
     "score_home": 0,
-    "score_away": 0,
-    "status": "1H"
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1431604,
@@ -26266,9 +26245,9 @@
     "away_id": 9384,
     "home_team": "Ponferradina",
     "away_team": "Cacereño",
-    "score_home": 0,
+    "score_home": 2,
     "score_away": 0,
-    "status": "1H"
+    "status": "FT"
   },
   {
     "id": 1431607,
@@ -26287,9 +26266,9 @@
     "away_id": 9604,
     "home_team": "Real Avilés",
     "away_team": "Arenteiro",
-    "score_home": 0,
+    "score_home": 1,
     "score_away": 0,
-    "status": "1H"
+    "status": "FT"
   },
   {
     "id": 1431608,
@@ -26308,9 +26287,9 @@
     "away_id": 5253,
     "home_team": "Real Madrid II",
     "away_team": "CF Talavera",
-    "score_home": 0,
+    "score_home": 1,
     "score_away": 0,
-    "status": "1H"
+    "status": "FT"
   },
   {
     "id": 1458304,
@@ -26329,9 +26308,9 @@
     "away_id": 15334,
     "home_team": "Mosconia",
     "away_team": "Real Titánico",
-    "score_home": 2,
+    "score_home": 5,
     "score_away": 0,
-    "status": "1H"
+    "status": "FT"
   },
   {
     "id": 1481796,
@@ -26350,9 +26329,9 @@
     "away_id": 1360,
     "home_team": "Gainsborough Trinity",
     "away_team": "Accrington ST",
-    "score_home": 0,
-    "score_away": 1,
-    "status": "1H"
+    "score_home": 1,
+    "score_away": 2,
+    "status": "AET"
   },
   {
     "id": 1382525,
@@ -26371,9 +26350,9 @@
     "away_id": 740,
     "home_team": "St. Truiden",
     "away_team": "Antwerp",
-    "score_home": 0,
+    "score_home": 1,
     "score_away": 0,
-    "status": "1H"
+    "status": "FT"
   },
   {
     "id": 1384762,
@@ -26392,9 +26371,9 @@
     "away_id": 567,
     "home_team": "Teplice",
     "away_team": "Plzen",
-    "score_home": 0,
-    "score_away": 0,
-    "status": "1H"
+    "score_home": 1,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1390921,
@@ -26406,16 +26385,16 @@
     "referee": "Miguel Sesma Espinosa, Spain",
     "venue": {
       "id": null,
-      "name": "Spotify Camp Nou",
+      "name": "Olímpic Lluís Companys",
       "city": "Barcelona"
     },
     "home_id": 529,
     "away_id": 797,
     "home_team": "Barcelona",
     "away_team": "Elche",
-    "score_home": 2,
-    "score_away": 0,
-    "status": "1H"
+    "score_home": 3,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1391893,
@@ -26427,16 +26406,16 @@
     "referee": "Damaso Arcediano Monescillo, Spain",
     "venue": {
       "id": null,
-      "name": "Estadio SkyFi Castalia",
+      "name": "Estadio Municipal Castalia",
       "city": "Castellon"
     },
     "home_id": 5254,
     "away_id": 535,
     "home_team": "Castellón",
     "away_team": "Malaga",
-    "score_home": 0,
-    "score_away": 0,
-    "status": "1H"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1400799,
@@ -26456,8 +26435,8 @@
     "home_team": "Panserraikos",
     "away_team": "PAOK",
     "score_home": 0,
-    "score_away": 1,
-    "status": "1H"
+    "score_away": 5,
+    "status": "FT"
   },
   {
     "id": 1432880,
@@ -26476,9 +26455,9 @@
     "away_id": 9400,
     "home_team": "Estepona",
     "away_team": "Lorca Deportiva",
-    "score_home": 0,
-    "score_away": 0,
-    "status": "1H"
+    "score_home": 1,
+    "score_away": 3,
+    "status": "FT"
   },
   {
     "id": 1458914,
@@ -26497,9 +26476,9 @@
     "away_id": 22133,
     "home_team": "Deportivo Alavés III",
     "away_team": "Añorga",
-    "score_home": 0,
+    "score_home": 2,
     "score_away": 0,
-    "status": "1H"
+    "status": "FT"
   },
   {
     "id": 1348466,
@@ -26518,9 +26497,9 @@
     "away_id": 2346,
     "home_team": "Antofagasta",
     "away_team": "Deportes Santa Cruz",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1348469,
@@ -26539,9 +26518,9 @@
     "away_id": 2322,
     "home_team": "Santiago Morning",
     "away_team": "San Luis",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 3,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1348470,
@@ -26560,9 +26539,9 @@
     "away_id": 2332,
     "home_team": "Curico Unido",
     "away_team": "Cobreloa",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1379622,
@@ -26581,9 +26560,9 @@
     "away_id": 2280,
     "home_team": "U.N.A.M. - Pumas",
     "away_team": "Club Tijuana",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 4,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1396319,
@@ -26602,9 +26581,9 @@
     "away_id": 215,
     "home_team": "Arouca",
     "away_team": "Moreirense",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1396663,
@@ -26616,16 +26595,16 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Centre d&amp;apos;Entrenament de la FAF 1",
+      "name": "Estadi Comunal",
       "city": "Andorra la Vella"
     },
     "home_id": 591,
     "away_id": 19195,
     "home_team": "FC Santa Coloma",
     "away_team": "Esperança d'Andorra",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1416525,
@@ -26644,9 +26623,9 @@
     "away_id": 2311,
     "home_team": "Leones Negros UDG",
     "away_team": "Venados FC",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1418880,
@@ -26658,16 +26637,16 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Borg El Arab Stadium",
+      "name": "Al Salam Stadium",
       "city": "Cairo"
     },
     "home_id": 1577,
     "away_id": 1031,
     "home_team": "Al Ahly",
     "away_team": "AL Masry",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1422755,
@@ -26686,9 +26665,9 @@
     "away_id": 931,
     "home_team": "USM Alger",
     "away_team": "ASO Chlef",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1445949,
@@ -26707,9 +26686,9 @@
     "away_id": 1041,
     "home_team": "Ceramica Cleopatra",
     "away_team": "Petrojet",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1455903,
@@ -26728,9 +26707,9 @@
     "away_id": 22313,
     "home_team": "Paganese",
     "away_team": "Manfredonia",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1467351,
@@ -26749,9 +26728,9 @@
     "away_id": 13120,
     "home_team": "Desportiva Aracaju",
     "away_team": "América de Pedrinhas",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 4,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1467362,
@@ -26770,9 +26749,9 @@
     "away_id": 15604,
     "home_team": "Atletico Central",
     "away_team": "Atlético Gloriense",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 4,
+    "status": "FT"
   },
   {
     "id": 1471177,
@@ -26791,9 +26770,9 @@
     "away_id": 22354,
     "home_team": "Macaé",
     "away_team": "SE Belford Roxo",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1471178,
@@ -26812,9 +26791,9 @@
     "away_id": 17736,
     "home_team": "Goytacaz",
     "away_team": "7 de Abril",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1471179,
@@ -26833,9 +26812,9 @@
     "away_id": 13116,
     "home_team": "Rio de Janeiro",
     "away_team": "Serra Macaense",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1471180,
@@ -26875,9 +26854,9 @@
     "away_id": 26748,
     "home_team": "Guarani RS",
     "away_team": "Nova Prata",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1477865,
@@ -26917,9 +26896,9 @@
     "away_id": 1980,
     "home_team": "Cuniburo",
     "away_team": "Manta FC",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1481009,
@@ -26938,9 +26917,9 @@
     "away_id": 10013,
     "home_team": "Alianza Universidad",
     "away_team": "Cusco",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1481693,
@@ -26959,9 +26938,9 @@
     "away_id": 25757,
     "home_team": "San Martin Formosa",
     "away_team": "Costa Brava",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1483685,
@@ -26980,9 +26959,9 @@
     "away_id": 1195,
     "home_team": "Quixada",
     "away_team": "Ferroviario",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1483703,
@@ -27001,9 +26980,9 @@
     "away_id": 22489,
     "home_team": "FC Cajamarca",
     "away_team": "UCV Moquegua",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1484349,
@@ -27022,9 +27001,9 @@
     "away_id": 10677,
     "home_team": "Figueirense",
     "away_team": "Marcílio Dias",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 3,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1484795,
@@ -27043,9 +27022,9 @@
     "away_id": 4512,
     "home_team": "Stella",
     "away_team": "ASEC Mimosas",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1485102,
@@ -27064,9 +27043,9 @@
     "away_id": 26872,
     "home_team": "Minas",
     "away_team": "Tahuishco",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 4,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1342400,
@@ -27075,7 +27054,7 @@
     "league_name": "Eliteserien",
     "country": "Norway",
     "season": 2025,
-    "referee": null,
+    "referee": "Stian Rovig Sletner, Norway",
     "venue": {
       "id": 19681,
       "name": "Romssa Arena",
@@ -27085,9 +27064,9 @@
     "away_id": 333,
     "home_team": "Tromso",
     "away_team": "Sarpsborg 08 FF",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 4,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1382522,
@@ -27096,7 +27075,7 @@
     "league_name": "Jupiler Pro League",
     "country": "Belgium",
     "season": 2025,
-    "referee": null,
+    "referee": "Bert Put, Belgium",
     "venue": {
       "id": 0,
       "name": "Easi Arena",
@@ -27106,9 +27085,9 @@
     "away_id": 741,
     "home_team": "RAAL La Louvière",
     "away_team": "Cercle Brugge",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1389650,
@@ -27127,9 +27106,9 @@
     "away_id": 4505,
     "home_team": "Ironi Kiryat Shmona",
     "away_team": "Maccabi Netanya",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1385705,
@@ -27148,9 +27127,9 @@
     "away_id": 468,
     "home_team": "Villa Dalmine",
     "away_team": "Brown DE Adrogue",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1385711,
@@ -27162,16 +27141,16 @@
     "referee": null,
     "venue": {
       "id": null,
-      "name": "Estadio Club San Miguel de las Heras",
+      "name": "Estadio Tres de Febrero",
       "city": "Jose Ingenieros"
     },
     "home_id": 8374,
     "away_id": 8385,
     "home_team": "Fénix",
     "away_team": "Excursionistas",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 5,
+    "status": "FT"
   },
   {
     "id": 1385712,
@@ -27190,9 +27169,9 @@
     "away_id": 8388,
     "home_team": "Liniers",
     "away_team": "Sportivo Italiano",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 3,
+    "status": "FT"
   },
   {
     "id": 1385875,
@@ -27201,7 +27180,7 @@
     "league_name": "Liga I",
     "country": "Romania",
     "season": 2025,
-    "referee": null,
+    "referee": "Marcel Birsan, Romania",
     "venue": {
       "id": 12282,
       "name": "Stadionul Ion Oblemenco",
@@ -27211,9 +27190,9 @@
     "away_id": 6231,
     "home_team": "Universitatea Craiova",
     "away_team": "Rapid",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1394173,
@@ -27222,7 +27201,7 @@
     "league_name": "3. Liga",
     "country": "Germany",
     "season": 2025,
-    "referee": null,
+    "referee": "Timon Oliver Schulz, Germany",
     "venue": {
       "id": null,
       "name": "Tivoli",
@@ -27232,9 +27211,9 @@
     "away_id": 1639,
     "home_team": "Alemannia Aachen",
     "away_team": "FC Saarbrücken",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1395939,
@@ -27253,9 +27232,9 @@
     "away_id": 3492,
     "home_team": "Olimpia Grudziądz",
     "away_team": "Sandecja Nowy Sącz",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1419694,
@@ -27264,7 +27243,7 @@
     "league_name": "Serie B",
     "country": "Italy",
     "season": 2025,
-    "referee": null,
+    "referee": "Giuseppe Mucera, Italy",
     "venue": {
       "id": 905,
       "name": "Stadio Luigi Ferraris",
@@ -27274,9 +27253,9 @@
     "away_id": 1693,
     "home_team": "Sampdoria",
     "away_team": "Mantova",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1434648,
@@ -27295,9 +27274,9 @@
     "away_id": 16131,
     "home_team": "Magpies",
     "away_team": "Europa Point",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1453681,
@@ -27316,9 +27295,9 @@
     "away_id": 26499,
     "home_team": "Itumbiara",
     "away_team": "Bom Jesus EC",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 8,
+    "status": "FT"
   },
   {
     "id": 1453682,
@@ -27337,9 +27316,9 @@
     "away_id": 26502,
     "home_team": "ASEEV",
     "away_team": "ABD FC",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 7,
+    "status": "FT"
   },
   {
     "id": 1484802,
@@ -27358,9 +27337,9 @@
     "away_id": 7850,
     "home_team": "Araucária",
     "away_team": "Prudentópolis",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1485100,
@@ -27379,9 +27358,9 @@
     "away_id": 5288,
     "home_team": "Wally Daan",
     "away_team": "Génération Foot",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1351345,
@@ -27390,19 +27369,19 @@
     "league_name": "Serie A",
     "country": "Brazil",
     "season": 2025,
-    "referee": null,
+    "referee": "Davi de Oliveira Lacerda, Brazil",
     "venue": {
       "id": null,
-      "name": "Neo Quimica Arena",
-      "city": "Sao Paulo"
+      "name": "Neo Química Arena",
+      "city": "São Paulo"
     },
     "home_id": 131,
     "away_id": 130,
     "home_team": "Corinthians",
     "away_team": "Gremio",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1351350,
@@ -27411,7 +27390,7 @@
     "league_name": "Serie A",
     "country": "Brazil",
     "season": 2025,
-    "referee": null,
+    "referee": "Marcelo de Lima Henrique, Brazil",
     "venue": {
       "id": null,
       "name": "Arena Fonte Nova",
@@ -27421,9 +27400,9 @@
     "away_id": 794,
     "home_team": "Bahia",
     "away_team": "RB Bragantino",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1351351,
@@ -27432,7 +27411,7 @@
     "league_name": "Serie A",
     "country": "Brazil",
     "season": 2025,
-    "referee": null,
+    "referee": "Lucas Paulo Torezin, Brazil",
     "venue": {
       "id": 225,
       "name": "Estádio Governador Plácido Aderaldo Castelo",
@@ -27442,9 +27421,9 @@
     "away_id": 124,
     "home_team": "Ceara",
     "away_team": "Fluminense",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1353606,
@@ -27453,7 +27432,7 @@
     "league_name": "Serie B",
     "country": "Brazil",
     "season": 2025,
-    "referee": null,
+    "referee": "Gustavo Ervino Bauermann, Brazil",
     "venue": {
       "id": 20767,
       "name": "Estádio Municipal Carlos Zamith",
@@ -27463,9 +27442,9 @@
     "away_id": 1193,
     "home_team": "Amazonas",
     "away_team": "Cuiaba",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1374264,
@@ -27474,19 +27453,19 @@
     "league_name": "Liga Profesional Argentina",
     "country": "Argentina",
     "season": 2025,
-    "referee": null,
+    "referee": "Leandro Rey Hilfer, Argentina",
     "venue": {
       "id": null,
-      "name": "Estadio Jorge Luis Hirschi",
+      "name": "Estadio Ciudad de La Plata",
       "city": "La Plata"
     },
     "home_id": 450,
     "away_id": 451,
     "home_team": "Estudiantes L.P.",
     "away_team": "Boca Juniors",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1379430,
@@ -27495,7 +27474,7 @@
     "league_name": "Superliga",
     "country": "Denmark",
     "season": 2025,
-    "referee": null,
+    "referee": "Jens Maae, Denmark",
     "venue": {
       "id": 459,
       "name": "Jysk Park",
@@ -27505,9 +27484,9 @@
     "away_id": 407,
     "home_team": "Silkeborg",
     "away_team": "Brondby",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1388995,
@@ -27526,9 +27505,9 @@
     "away_id": 8504,
     "home_team": "Borac Banja Luka",
     "away_team": "Sloga Doboj",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1400800,
@@ -27537,7 +27516,7 @@
     "league_name": "Super League 1",
     "country": "Greece",
     "season": 2025,
-    "referee": null,
+    "referee": "Ioannis Papadopoulos, Greece",
     "venue": {
       "id": 19785,
       "name": "OPAP Arena",
@@ -27547,9 +27526,9 @@
     "away_id": 949,
     "home_team": "AEK Athens FC",
     "away_team": "Panetolikos",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1436700,
@@ -27570,7 +27549,7 @@
     "away_team": "Quepos Cambute",
     "score_home": 0,
     "score_away": 0,
-    "status": "1H"
+    "status": "FT"
   },
   {
     "id": 1436704,
@@ -27589,9 +27568,9 @@
     "away_id": 2054,
     "home_team": "Escorpiones Belén",
     "away_team": "Futbol Consultants Moravia",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1457861,
@@ -27610,9 +27589,9 @@
     "away_id": 18785,
     "home_team": "Olympic",
     "away_team": "Aral",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1470143,
@@ -27631,9 +27610,9 @@
     "away_id": 10043,
     "home_team": "Brasil DE Pelotas",
     "away_team": "Pelotas",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1481543,
@@ -27652,9 +27631,9 @@
     "away_id": 479,
     "home_team": "Deportivo Madryn",
     "away_team": "Gimnasia Jujuy",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1481692,
@@ -27673,9 +27652,9 @@
     "away_id": 3975,
     "home_team": "Olimpo Bahia Blanca",
     "away_team": "Kimberley Mar del Plata",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 3,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1482499,
@@ -27694,9 +27673,9 @@
     "away_id": 3711,
     "home_team": "ABB",
     "away_team": "The Strongest",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1482598,
@@ -27715,9 +27694,9 @@
     "away_id": 2858,
     "home_team": "Trujillanos FC",
     "away_team": "Dinamo de Puerto La Cruz",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 3,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1483870,
@@ -27736,9 +27715,9 @@
     "away_id": 25383,
     "home_team": "Itapipoca",
     "away_team": "Fortaleza B",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1484058,
@@ -27757,9 +27736,9 @@
     "away_id": 22855,
     "home_team": "Charleston Battery",
     "away_team": "Rhode Island",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 0,
+    "status": "PEN"
   },
   {
     "id": 1484337,
@@ -27778,9 +27757,9 @@
     "away_id": 974,
     "home_team": "Wydad AC",
     "away_team": "Ittihad Tanger",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1484340,
@@ -27799,9 +27778,9 @@
     "away_id": 973,
     "home_team": "FUS Rabat",
     "away_team": "Hassania Agadir",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1484350,
@@ -27820,9 +27799,9 @@
     "away_id": 19635,
     "home_team": "Joinville",
     "away_team": "Blumenau",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1484800,
@@ -27841,9 +27820,9 @@
     "away_id": 25906,
     "home_team": "Mexico U17 W",
     "away_team": "Italy U17 W",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 0,
+    "status": "PEN"
   },
   {
     "id": 1380508,
@@ -27852,7 +27831,7 @@
     "league_name": "Ekstraklasa",
     "country": "Poland",
     "season": 2025,
-    "referee": null,
+    "referee": "Patryk Gryckiewicz, Poland",
     "venue": {
       "id": 0,
       "name": "Stadion Widzewa Lodz",
@@ -27862,9 +27841,9 @@
     "away_id": 339,
     "home_team": "Widzew Łódź",
     "away_team": "Legia Warszawa",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1381646,
@@ -27883,9 +27862,9 @@
     "away_id": 17115,
     "home_team": "Miedz Legnica",
     "away_team": "Wieczysta Kraków",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 3,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1431225,
@@ -27904,9 +27883,9 @@
     "away_id": 9570,
     "home_team": "Gimnastic",
     "away_team": "Atlético Madrid II",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 3,
+    "status": "FT"
   },
   {
     "id": 1439095,
@@ -27925,9 +27904,9 @@
     "away_id": 6378,
     "home_team": "Lecco",
     "away_team": "Arzignano Valchiampo",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 5,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1439097,
@@ -27946,9 +27925,9 @@
     "away_id": 875,
     "home_team": "Lumezzane",
     "away_team": "Renate",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1439849,
@@ -27967,9 +27946,9 @@
     "away_id": 9537,
     "home_team": "Benevento",
     "away_team": "Sorrento",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1482529,
@@ -27978,7 +27957,7 @@
     "league_name": "Primera División - Clausura",
     "country": "Uruguay",
     "season": 2025,
-    "referee": null,
+    "referee": "Esteban Ostojich, Uruguay",
     "venue": {
       "id": null,
       "name": "Estadio Osvaldo Roberto",
@@ -27988,9 +27967,9 @@
     "away_id": 2352,
     "home_team": "Racing Montevideo",
     "away_team": "Danubio",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1485106,
@@ -28009,9 +27988,9 @@
     "away_id": 24597,
     "home_team": "Real Potosí",
     "away_team": "Río San Juan Humi",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1377957,
@@ -28020,7 +27999,7 @@
     "league_name": "Serie A",
     "country": "Italy",
     "season": 2025,
-    "referee": null,
+    "referee": "Marco Guida, Italy",
     "venue": {
       "id": 907,
       "name": "Stadio Giuseppe Meazza",
@@ -28030,9 +28009,9 @@
     "away_id": 497,
     "home_team": "AC Milan",
     "away_team": "AS Roma",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1387789,
@@ -28041,7 +28020,7 @@
     "league_name": "Ligue 1",
     "country": "France",
     "season": 2025,
-    "referee": null,
+    "referee": "Clement Turpin, France",
     "venue": {
       "id": 641,
       "name": "Stade Francis-Le Blé",
@@ -28051,9 +28030,9 @@
     "away_id": 80,
     "home_team": "Stade Brestois 29",
     "away_team": "Lyon",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1339421,
@@ -28066,15 +28045,15 @@
     "venue": {
       "id": null,
       "name": "CPKC Stadium",
-      "city": "Kansas City, Missouri"
+      "city": null
     },
     "home_id": 16487,
     "away_id": 18451,
     "home_team": "Kansas City W",
     "away_team": "San Diego Wave W",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1390922,
@@ -28083,19 +28062,19 @@
     "league_name": "La Liga",
     "country": "Spain",
     "season": 2025,
-    "referee": null,
+    "referee": "Jesus Gil Manzano, Spain",
     "venue": {
       "id": null,
-      "name": "Estadio La Cartuja de Sevilla",
-      "city": "Sevilla"
+      "name": "Benito Villamarin",
+      "city": "Seville"
     },
     "home_id": 543,
     "away_id": 798,
     "home_team": "Real Betis",
     "away_team": "Mallorca",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 3,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1391889,
@@ -28104,19 +28083,19 @@
     "league_name": "Segunda División",
     "country": "Spain",
     "season": 2025,
-    "referee": null,
+    "referee": "Saul Ais Reig, Spain",
     "venue": {
       "id": null,
-      "name": "Ibercaja Estadio",
+      "name": "La Romareda",
       "city": "Zaragoza"
     },
     "home_id": 732,
     "away_id": 544,
     "home_team": "Zaragoza",
     "away_team": "Deportivo La Coruna",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1430762,
@@ -28135,9 +28114,9 @@
     "away_id": 16141,
     "home_team": "Salcedo",
     "away_team": "Universidad O&M",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1436706,
@@ -28156,9 +28135,9 @@
     "away_id": 2058,
     "home_team": "Cariari Pococi",
     "away_team": "CS Uruguay",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 6,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1481690,
@@ -28177,9 +28156,9 @@
     "away_id": 1961,
     "home_team": "Gimnasia Chivilcoy",
     "away_team": "Juventud Antoniana",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1484808,
@@ -28198,9 +28177,9 @@
     "away_id": 25288,
     "home_team": "Attacking Saints",
     "away_team": "Potters Tigers",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 3,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1485103,
@@ -28219,9 +28198,9 @@
     "away_id": 26863,
     "home_team": "Amigos Siempre Amigos FC",
     "away_team": "Cachorro",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 3,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1485104,
@@ -28240,9 +28219,9 @@
     "away_id": 26868,
     "home_team": "Juventud Huracan",
     "away_team": "Patibamba",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1485105,
@@ -28261,9 +28240,9 @@
     "away_id": 26861,
     "home_team": "Huancarama",
     "away_team": "ANBA Peru",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1483704,
@@ -28274,17 +28253,17 @@
     "season": 2025,
     "referee": null,
     "venue": {
-      "id": 0,
-      "name": null,
-      "city": null
+      "id": 2810,
+      "name": "Estadio Municipal Carlos Vidaurre Garcia",
+      "city": "Tarapoto"
     },
     "home_id": 2552,
     "away_id": 2541,
     "home_team": "Union Comercio",
     "away_team": "Cesar Vallejo",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1339207,
@@ -28293,19 +28272,19 @@
     "league_name": "Primera División",
     "country": "Chile",
     "season": 2025,
-    "referee": null,
+    "referee": "Hector Jona, Chile",
     "venue": {
       "id": null,
-      "name": "Estadio San Carlos de Apoquindo",
-      "city": "Santiago de Chile"
+      "name": "Claro Arena",
+      "city": "Santiago"
     },
     "home_id": 2994,
     "away_id": 2320,
     "home_team": "U. Catolica",
     "away_team": "O'Higgins",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1339209,
@@ -28314,7 +28293,7 @@
     "league_name": "Primera División",
     "country": "Chile",
     "season": 2025,
-    "referee": null,
+    "referee": "Franco Esteban Jimenez Lazo, Chile",
     "venue": {
       "id": 324,
       "name": "Estadio Bicentenario Francisco Sánchez Rumoroso",
@@ -28324,9 +28303,9 @@
     "away_id": 2326,
     "home_team": "Coquimbo Unido",
     "away_team": "Union La Calera",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1396321,
@@ -28335,7 +28314,7 @@
     "league_name": "Primeira Liga",
     "country": "Portugal",
     "season": 2025,
-    "referee": null,
+    "referee": "Fabio Jose Costa Verissimo, Portugal",
     "venue": {
       "id": 1286,
       "name": "Estádio Do Dragão",
@@ -28345,9 +28324,9 @@
     "away_id": 217,
     "home_team": "FC Porto",
     "away_team": "SC Braga",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1396921,
@@ -28356,7 +28335,7 @@
     "league_name": "Division Profesional - Clausura",
     "country": "Paraguay",
     "season": 2025,
-    "referee": null,
+    "referee": "Mario Diaz De Vivar, Paraguay",
     "venue": {
       "id": 1226,
       "name": "Estadio Feliciano Cáceres",
@@ -28366,9 +28345,9 @@
     "away_id": 10487,
     "home_team": "Sportivo Luqueno",
     "away_team": "Sportivo Ameliano",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1467598,
@@ -28524,7 +28503,7 @@
     "league_name": "Liga Pro",
     "country": "Ecuador",
     "season": 2025,
-    "referee": null,
+    "referee": "Gorky Stalin Araujo Zambrano, Ecuador",
     "venue": {
       "id": null,
       "name": "Estadio Bellavista",
@@ -28534,9 +28513,9 @@
     "away_id": 1148,
     "home_team": "Macara",
     "away_team": "Emelec",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 3,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1481010,
@@ -28545,7 +28524,7 @@
     "league_name": "Primera División",
     "country": "Peru",
     "season": 2025,
-    "referee": null,
+    "referee": "Jordi Espinoza, Peru",
     "venue": {
       "id": 1920,
       "name": "Estadio Campeones del 36",
@@ -28555,9 +28534,9 @@
     "away_id": 2560,
     "home_team": "Atletico Grau",
     "away_team": "Alianza Atletico",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1484856,
@@ -28576,9 +28555,9 @@
     "away_id": 12215,
     "home_team": "Robin Hood",
     "away_team": "Leo Victor",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 6,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1390745,
@@ -28597,9 +28576,9 @@
     "away_id": 3662,
     "home_team": "Mictlán",
     "away_team": "Guastatoya",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 3,
+    "status": "FT"
   },
   {
     "id": 1436701,
@@ -28660,9 +28639,9 @@
     "away_id": 21043,
     "home_team": "Sarmiento de La Banda",
     "away_team": "Atenas",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1482014,
@@ -28681,9 +28660,9 @@
     "away_id": 11685,
     "home_team": "Génesis",
     "away_team": "Atlético Choloma",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1483538,
@@ -28702,9 +28681,9 @@
     "away_id": 20974,
     "home_team": "Phoenix",
     "away_team": "Prison Service",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 4,
+    "status": "FT"
   },
   {
     "id": 1484066,
@@ -28723,9 +28702,9 @@
     "away_id": 3991,
     "home_team": "One Knoxville",
     "away_team": "Charlotte Independence",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1484353,
@@ -28744,9 +28723,9 @@
     "away_id": 2619,
     "home_team": "Forge",
     "away_team": "Cavalry FC",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1481542,
@@ -28765,9 +28744,9 @@
     "away_id": 1965,
     "home_team": "CA Estudiantes",
     "away_team": "Tristan Suarez",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1482500,
@@ -28786,9 +28765,9 @@
     "away_id": 3705,
     "home_team": "Real Tomayapo",
     "away_team": "Jorge Wilstermann",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 6,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1351349,
@@ -28797,7 +28776,7 @@
     "league_name": "Serie A",
     "country": "Brazil",
     "season": 2025,
-    "referee": null,
+    "referee": "Alex Gomes Stefano, Brazil",
     "venue": {
       "id": 244,
       "name": "Estádio José Pinheiro Borda",
@@ -28807,9 +28786,9 @@
     "away_id": 1062,
     "home_team": "Internacional",
     "away_team": "Atletico-MG",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1351352,
@@ -28818,19 +28797,19 @@
     "league_name": "Serie A",
     "country": "Brazil",
     "season": 2025,
-    "referee": null,
+    "referee": "Savio Pereira Sampaio, Brazil",
     "venue": {
       "id": null,
-      "name": "Estadio Alfredo Jaconi",
+      "name": "Estádio Alfredo Jaconi",
       "city": "Caxias do Sul"
     },
     "home_id": 152,
     "away_id": 121,
     "home_team": "Juventude",
     "away_team": "Palmeiras",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1353603,
@@ -28839,19 +28818,19 @@
     "league_name": "Serie B",
     "country": "Brazil",
     "season": 2025,
-    "referee": null,
+    "referee": "Bruno Arleu de Araujo, Brazil",
     "venue": {
       "id": null,
-      "name": "Estadio Evandro Almeida",
-      "city": "Belem"
+      "name": "Estádio Banpará Baenão",
+      "city": "Belém"
     },
     "home_id": 1198,
     "away_id": 132,
     "home_team": "remo",
     "away_team": "Chapecoense-sc",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1374265,
@@ -28860,19 +28839,19 @@
     "league_name": "Liga Profesional Argentina",
     "country": "Argentina",
     "season": 2025,
-    "referee": null,
+    "referee": "Andres Gariano, Argentina",
     "venue": {
       "id": null,
-      "name": "Estadio Feliciano Gambarte",
+      "name": "Estadio Malvinas Argentinas",
       "city": "Mendoza"
     },
     "home_id": 439,
     "away_id": 461,
     "home_team": "Godoy Cruz",
     "away_team": "San Martin S.J.",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1436705,
@@ -28891,9 +28870,9 @@
     "away_id": 2056,
     "home_team": "AD Carmelita",
     "away_team": "Aserri FC",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1430761,
@@ -28912,9 +28891,9 @@
     "away_id": 16618,
     "home_team": "Cibao",
     "away_team": "San Cristóbal",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 6,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1446152,
@@ -28933,9 +28912,9 @@
     "away_id": 24659,
     "home_team": "Dallas Trinity W",
     "away_team": "DC Power W",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 3,
+    "status": "FT"
   },
   {
     "id": 1475241,
@@ -28954,9 +28933,9 @@
     "away_id": 5470,
     "home_team": "Port Layola",
     "away_team": "Bandits",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 3,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1482530,
@@ -28965,19 +28944,19 @@
     "league_name": "Primera División - Clausura",
     "country": "Uruguay",
     "season": 2025,
-    "referee": null,
+    "referee": "Gustavo Tejera, Uruguay",
     "venue": {
-      "id": null,
-      "name": null,
+      "id": 1640,
+      "name": "Estadio Campeón del Siglo",
       "city": "Montevideo"
     },
     "home_id": 2348,
     "away_id": 2350,
     "home_team": "Penarol",
     "away_team": "Defensor Sporting",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1482599,
@@ -28996,9 +28975,9 @@
     "away_id": 2837,
     "home_team": "Petare FC",
     "away_team": "Titanes FC",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1482956,
@@ -29017,9 +28996,9 @@
     "away_id": 26895,
     "home_team": "Estrella",
     "away_team": "Sporting",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 3,
+    "status": "FT"
   },
   {
     "id": 1484809,
@@ -29038,9 +29017,9 @@
     "away_id": 22798,
     "home_team": "All Saints United",
     "away_team": "Ottos Rangers",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 4,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1339422,
@@ -29051,17 +29030,17 @@
     "season": 2025,
     "referee": null,
     "venue": {
-      "id": 19491,
+      "id": null,
       "name": "SeatGeek Stadium",
-      "city": "Bridgeview, Illinois"
+      "city": null
     },
     "home_id": 2997,
     "away_id": 18450,
     "home_team": "Chicago Red Stars W",
     "away_team": "Angel City W",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1339423,
@@ -29072,17 +29051,17 @@
     "season": 2025,
     "referee": null,
     "venue": {
-      "id": 3051,
+      "id": null,
       "name": "Lynn Family Stadium",
-      "city": "Louisville, Kentucky"
+      "city": null
     },
     "home_id": 16488,
     "away_id": 22943,
     "home_team": "Racing Louisville W",
     "away_team": "Bay FC",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1339424,
@@ -29093,17 +29072,17 @@
     "season": 2025,
     "referee": null,
     "venue": {
-      "id": 21741,
+      "id": null,
       "name": "WakeMed Soccer Park",
-      "city": "Cary, North Carolina"
+      "city": null
     },
     "home_id": 2999,
     "away_id": 3003,
     "home_team": "North Carolina Courage W",
     "away_team": "NJ/NY Gotham FC W",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 3,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1339425,
@@ -29122,9 +29101,9 @@
     "away_id": 3002,
     "home_team": "Orlando Pride W",
     "away_team": "Seattle Reign FC",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1339426,
@@ -29135,17 +29114,17 @@
     "season": 2025,
     "referee": null,
     "venue": {
-      "id": 1748,
+      "id": null,
       "name": "Providence Park",
-      "city": "Portland, Oregon"
+      "city": null
     },
     "home_id": 3001,
     "away_id": 2998,
     "home_team": "Portland Thorns W",
     "away_team": "Houston Dash W",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1339427,
@@ -29156,17 +29135,17 @@
     "season": 2025,
     "referee": null,
     "venue": {
-      "id": 19223,
+      "id": null,
       "name": "America First Field",
-      "city": "Sandy, Utah"
+      "city": null
     },
     "home_id": 3004,
     "away_id": 3005,
     "home_team": "Utah Royals W",
     "away_team": "Washington Spirit W",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1379623,
@@ -29175,7 +29154,7 @@
     "league_name": "Liga MX",
     "country": "Mexico",
     "season": 2025,
-    "referee": null,
+    "referee": "Yonatan Peinado Aguirre, Mexico",
     "venue": {
       "id": 20476,
       "name": "Estadio Corregidora",
@@ -29185,9 +29164,9 @@
     "away_id": 14002,
     "home_team": "Club Queretaro",
     "away_team": "Mazatlán",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1396922,
@@ -29196,19 +29175,19 @@
     "league_name": "Division Profesional - Clausura",
     "country": "Paraguay",
     "season": 2025,
-    "referee": null,
+    "referee": "Juan Gabriel Benitez, Paraguay",
     "venue": {
-      "id": null,
+      "id": 22161,
       "name": "Estadio ueno La Nueva Olla",
-      "city": null
+      "city": "Asuncion"
     },
     "home_id": 1176,
     "away_id": 1174,
     "home_team": "Cerro Porteno",
     "away_team": "Club Guarani",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1416526,
@@ -29227,9 +29206,9 @@
     "away_id": 14276,
     "home_team": "Atlante FC",
     "away_team": "Cancún",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1452850,
@@ -29250,7 +29229,7 @@
     "away_team": "Paradise",
     "score_home": null,
     "score_away": null,
-    "status": "NS"
+    "status": "PST"
   },
   {
     "id": 1452851,
@@ -29271,7 +29250,7 @@
     "away_team": "St. John's",
     "score_home": null,
     "score_away": null,
-    "status": "NS"
+    "status": "PST"
   },
   {
     "id": 1479576,
@@ -29280,19 +29259,19 @@
     "league_name": "Liga Pro",
     "country": "Ecuador",
     "season": 2025,
-    "referee": null,
+    "referee": "Augusto Bergelio Aragon Bautista, Ecuador",
     "venue": {
       "id": null,
-      "name": null,
+      "name": "Olimpico Atahualpa",
       "city": "Quito"
     },
     "home_id": 1157,
     "away_id": 1152,
     "home_team": "Universidad Catolica",
     "away_team": "Barcelona SC",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 1,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1481011,
@@ -29301,7 +29280,7 @@
     "league_name": "Primera División",
     "country": "Peru",
     "season": 2025,
-    "referee": null,
+    "referee": "Joel Alarcon, Peru",
     "venue": {
       "id": 1233,
       "name": "Estadio Inca Garcilaso de la Vega",
@@ -29311,9 +29290,9 @@
     "away_id": 22479,
     "home_team": "Cienciano",
     "away_team": "Juan Pablo II College",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1481012,
@@ -29322,7 +29301,7 @@
     "league_name": "Primera División",
     "country": "Peru",
     "season": 2025,
-    "referee": null,
+    "referee": "Diego Haro, Peru",
     "venue": {
       "id": null,
       "name": "Estadio Miguel Grau",
@@ -29332,9 +29311,9 @@
     "away_id": 2539,
     "home_team": "Sport Boys",
     "away_team": "UTC",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1482064,
@@ -29353,9 +29332,9 @@
     "away_id": 4645,
     "home_team": "Walter Ferretti",
     "away_team": "Real Estelí",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1483539,
@@ -29374,9 +29353,9 @@
     "away_id": 12564,
     "home_team": "Point Fortin",
     "away_team": "La Horquetta Rangers",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1484857,
@@ -29395,9 +29374,9 @@
     "away_id": 12216,
     "home_team": "Voorwaarts",
     "away_team": "Notch",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1481611,
@@ -29416,9 +29395,9 @@
     "away_id": 1051,
     "home_team": "Platense FC",
     "away_team": "CD Olimpia",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1339210,
@@ -29427,7 +29406,7 @@
     "league_name": "Primera División",
     "country": "Chile",
     "season": 2025,
-    "referee": null,
+    "referee": "Jose Cabero, Chile",
     "venue": {
       "id": 334,
       "name": "Estadio Sausalito",
@@ -29437,9 +29416,9 @@
     "away_id": 2321,
     "home_team": "Everton de Vina",
     "away_team": "Union Espanola",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1351344,
@@ -29448,7 +29427,7 @@
     "league_name": "Serie A",
     "country": "Brazil",
     "season": 2025,
-    "referee": null,
+    "referee": "Wilton Pereira Sampaio, Brazil",
     "venue": {
       "id": 19377,
       "name": "Estádio São Januário",
@@ -29458,9 +29437,9 @@
     "away_id": 126,
     "home_team": "Vasco DA Gama",
     "away_team": "Sao Paulo",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1353605,
@@ -29469,7 +29448,7 @@
     "league_name": "Serie B",
     "country": "Brazil",
     "season": 2025,
-    "referee": null,
+    "referee": "Afro Rocha De Carvalho Filho, Brazil",
     "venue": {
       "id": 256,
       "name": "Estádio Germano Krüger",
@@ -29479,9 +29458,9 @@
     "away_id": 142,
     "home_team": "Operario-PR",
     "away_team": "Vila Nova",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 2,
+    "score_away": 2,
+    "status": "FT"
   },
   {
     "id": 1374271,
@@ -29490,7 +29469,7 @@
     "league_name": "Liga Profesional Argentina",
     "country": "Argentina",
     "season": 2025,
-    "referee": null,
+    "referee": "Nazareno Arasa, Argentina",
     "venue": {
       "id": null,
       "name": "Estadio Mâs Monumental",
@@ -29500,9 +29479,9 @@
     "away_id": 434,
     "home_team": "River Plate",
     "away_team": "Gimnasia L.P.",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 0,
+    "score_away": 1,
+    "status": "FT"
   },
   {
     "id": 1482410,
@@ -29511,19 +29490,19 @@
     "league_name": "Major League Soccer",
     "country": "USA",
     "season": 2025,
-    "referee": null,
+    "referee": "Guido Gonzales Jr, USA",
     "venue": {
       "id": null,
       "name": "Lower.com Field",
-      "city": null
+      "city": "Columbus"
     },
     "home_id": 1613,
     "away_id": 2242,
     "home_team": "Columbus Crew",
     "away_team": "FC Cincinnati",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 4,
+    "score_away": 0,
+    "status": "FT"
   },
   {
     "id": 1483845,
@@ -29542,8 +29521,8 @@
     "away_id": 1138,
     "home_team": "Atletico Nacional",
     "away_team": "America de Cali",
-    "score_home": null,
-    "score_away": null,
-    "status": "NS"
+    "score_home": 4,
+    "score_away": 1,
+    "status": "FT"
   }
 ]

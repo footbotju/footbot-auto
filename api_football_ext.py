@@ -5,6 +5,7 @@
 # ================================
 import os
 import time
+import json
 import math
 import requests
 from datetime import datetime, timezone, timedelta
@@ -153,99 +154,45 @@ def get_fixtures_by_date(yyyy_mm_dd: str):
 
 
 
-# ----------------------------------------------------
-# 2) COTES — 1X2, Over 1.5, BTTS (robuste multi-matchs)
-# ----------------------------------------------------
+# ==========================================================
+#  COTES : Injection via fetch_odds_for_date (API-Football)
+# ==========================================================
+from api_football_odds import fetch_odds_for_date
+from datetime import datetime
+
 def enrich_with_odds_and_markets(fixtures):
     """
-    Ajoute aux fixture(s) :
-      - odds_home / odds_draw / odds_away (Match Winner)
-      - odds_over_1_5 / odds_over_2_5 (Over/Under)
-      - odds_btts_yes (Both Teams To Score)
-    ⚙️ Gère aussi bien une seule fixture (dict) qu'une liste complète.
-    Utilise Bet365 (id=8) + cache quotidien.
+    Ajoute les cotes dans chaque fixture depuis l'API-Football (requête globale par date)
+    Champs ajoutés :
+      - odds_home / odds_draw / odds_away
+      - odds_over_1_5
+      - odds_btts_yes
+      - odds_team_home / odds_team_away
+    ✅ 100 % pré-match
+    ✅ Priorité Bet365, fallback bookmaker suivant
     """
-
     if not fixtures:
-        return []  # rien à traiter
+        return fixtures
 
-    # Si l’entrée est un seul match (dict), on la transforme en liste temporaire
-    single_input = False
-    if isinstance(fixtures, dict):
-        fixtures = [fixtures]
-        single_input = True
+    # Force date au format YYYY-MM-DD
+    today = (fixtures[0].get("date_utc") or "").split("T")[0]
+
+
+    print(f"[ODDS] Récupération des cotes pour {today} ...")
+    odds_map = fetch_odds_for_date(today)
 
     for fx in fixtures:
-        try:
-            fid = str(fx.get("id") or fx.get("fixture_id") or "")
-            if not fid:
-                continue
-
-            # Vérifie le cache du jour
-            if fid in ODDS_CACHE and ODDS_CACHE[fid].get("date") == TODAY:
-                fx.update(ODDS_CACHE[fid]["odds"])
-                continue
-
-            params = {"fixture": fid, "bookmaker": 8}
-            data = _api_get("/odds", params)
-            _sleep()
-            if not data:
-                continue
-
-            bookmakers = data[0].get("bookmakers", [])
-            if not bookmakers:
-                continue
-            bets = bookmakers[0].get("bets", [])
-
-            for bet in bets:
-                name = bet.get("name", "")
-                vals = bet.get("values", [])
-                if not vals:
-                    continue
-
-                if name == "Match Winner":
-                    for v in vals:
-                        if v["value"] == "Home":
-                            fx["odds_home"] = _safe_float(v["odd"], 0)
-                        elif v["value"] == "Draw":
-                            fx["odds_draw"] = _safe_float(v["odd"], 0)
-                        elif v["value"] == "Away":
-                            fx["odds_away"] = _safe_float(v["odd"], 0)
-
-                elif name in ("Over/Under 1.5 goals", "Over/Under 2.5 goals"):
-                    for v in vals:
-                        if v["value"] == "Over 1.5":
-                            fx["odds_over_1_5"] = _safe_float(v["odd"], 0)
-                        elif v["value"] == "Over 2.5":
-                            fx["odds_over_2_5"] = _safe_float(v["odd"], 0)
-
-                elif name == "Both Teams To Score":
-                    for v in vals:
-                        if v["value"] == "Yes":
-                            fx["odds_btts_yes"] = _safe_float(v["odd"], 0)
-
-            # Sauvegarde dans le cache
-            ODDS_CACHE[fid] = {
-                "date": TODAY,
-                "odds": {
-                    "odds_over_1_5": fx.get("odds_over_1_5"),
-                    "odds_over_2_5": fx.get("odds_over_2_5"),
-                    "odds_btts_yes": fx.get("odds_btts_yes"),
-                    "odds_home": fx.get("odds_home"),
-                    "odds_draw": fx.get("odds_draw"),
-                    "odds_away": fx.get("odds_away"),
-                },
-            }
-
-        except Exception as e:
-            print(f"[⚠️ enrich_with_odds_and_markets] fixture {fx.get('id','?')} : {e}")
+        fid = fx.get("id") or fx.get("fixture_id")
+        if not fid:
             continue
 
-    # Sauvegarde cache complet à la fin
-    _save_cache(ODDS_CACHE)
+        if fid in odds_map:
+            fx.update(odds_map[fid])   # merge dict of odds into fixture
+            print(f"[ODDS OK] {fx.get('home_team')} vs {fx.get('away_team')}")
+        else:
+            print(f"[ODDS MISS] {fx.get('home_team')} vs {fx.get('away_team')} (id={fid})")
 
-    # Retourne le bon format
-    return fixtures[0] if single_input else fixtures
+    return fixtures
 
 
 

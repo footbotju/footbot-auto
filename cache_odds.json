@@ -1,145 +1,132 @@
 {
-  "1392524": {
-    "date": "2025-11-02",
+  "1377960": {
+    "date": "2025-11-03",
     "odds": {
+      "odds_home": 1.67,
+      "odds_draw": 7.0,
+      "odds_away": 2.62,
       "odds_over_1_5": null,
-      "odds_over_2_5": null,
-      "odds_btts_yes": null,
-      "odds_home": 4.1,
-      "odds_draw": 3.4,
-      "odds_away": 1.9
+      "odds_btts_yes": 4.0
     }
   },
-  "1388707": {
-    "date": "2025-11-02",
+  "1341932": {
+    "date": "2025-11-03",
     "odds": {
+      "odds_home": 1.73,
+      "odds_draw": 8.0,
+      "odds_away": 2.4,
       "odds_over_1_5": null,
-      "odds_over_2_5": null,
-      "odds_btts_yes": null,
-      "odds_home": 2.25,
-      "odds_draw": 3.8,
-      "odds_away": 2.8
+      "odds_btts_yes": 3.25
     }
   },
-  "1388712": {
-    "date": "2025-11-02",
+  "1342176": {
+    "date": "2025-11-03",
     "odds": {
-      "odds_over_1_5": null,
-      "odds_over_2_5": null,
-      "odds_btts_yes": null,
-      "odds_home": 3.3,
-      "odds_draw": 3.6,
-      "odds_away": 2.1
-    }
-  },
-  "1380957": {
-    "date": "2025-11-02",
-    "odds": {
-      "odds_over_1_5": null,
-      "odds_over_2_5": null,
-      "odds_btts_yes": null,
-      "odds_home": 1.12,
-      "odds_draw": 9.0,
-      "odds_away": 15.0
-    }
-  },
-  "1382045": {
-    "date": "2025-11-02",
-    "odds": {
-      "odds_over_1_5": null,
-      "odds_over_2_5": null,
-      "odds_btts_yes": null,
-      "odds_home": 2.6,
-      "odds_draw": 4.0,
-      "odds_away": 2.3
-    }
-  },
-  "1382048": {
-    "date": "2025-11-02",
-    "odds": {
-      "odds_over_1_5": null,
-      "odds_over_2_5": null,
-      "odds_btts_yes": null,
-      "odds_home": 2.35,
-      "odds_draw": 3.6,
-      "odds_away": 2.7
-    }
-  },
-  "1382049": {
-    "date": "2025-11-02",
-    "odds": {
-      "odds_over_1_5": null,
-      "odds_over_2_5": null,
-      "odds_btts_yes": null,
-      "odds_home": 2.25,
-      "odds_draw": 3.5,
-      "odds_away": 2.9
-    }
-  },
-  "1381880": {
-    "date": "2025-11-02",
-    "odds": {
-      "odds_over_1_5": null,
-      "odds_over_2_5": null,
-      "odds_btts_yes": null,
-      "odds_home": 1.95,
-      "odds_draw": 3.4,
-      "odds_away": 3.75
-    }
-  },
-  "1381883": {
-    "date": "2025-11-02",
-    "odds": {
-      "odds_over_1_5": null,
-      "odds_over_2_5": null,
-      "odds_btts_yes": null,
-      "odds_home": 2.2,
-      "odds_draw": 3.7,
-      "odds_away": 2.88
-    }
-  },
-  "1388380": {
-    "date": "2025-11-02",
-    "odds": {
-      "odds_over_1_5": null,
-      "odds_over_2_5": null,
-      "odds_btts_yes": null,
-      "odds_home": 5.25,
-      "odds_draw": 4.33,
-      "odds_away": 1.55
-    }
-  },
-  "1391887": {
-    "date": "2025-11-02",
-    "odds": {
-      "odds_over_1_5": null,
-      "odds_over_2_5": null,
-      "odds_btts_yes": null,
-      "odds_home": 1.4,
-      "odds_draw": 5.0,
-      "odds_away": 6.5
-    }
-  },
-  "1390923": {
-    "date": "2025-11-02",
-    "odds": {
-      "odds_over_1_5": null,
-      "odds_over_2_5": null,
-      "odds_btts_yes": null,
-      "odds_home": 2.05,
-      "odds_draw": 3.0,
-      "odds_away": 4.0
-    }
-  },
-  "1396325": {
-    "date": "2025-11-02",
-    "odds": {
-      "odds_over_1_5": null,
-      "odds_over_2_5": null,
-      "odds_btts_yes": null,
-      "odds_home": 1.12,
+      "odds_home": 2.3,
       "odds_draw": 8.5,
-      "odds_away": 15.0
+      "odds_away": 1.8,
+      "odds_over_1_5": null,
+      "odds_btts_yes": 3.0
+    }
+  },
+  "1342177": {
+    "date": "2025-11-03",
+    "odds": {
+      "odds_home": 3.2,
+      "odds_draw": 9.5,
+      "odds_away": 1.44,
+      "odds_over_1_5": null,
+      "odds_btts_yes": 3.0
+    }
+  },
+  "1379428": {
+    "date": "2025-11-03",
+    "odds": {
+      "odds_home": 1.73,
+      "odds_draw": 8.0,
+      "odds_away": 2.5,
+      "odds_over_1_5": null,
+      "odds_btts_yes": 2.75
+    }
+  },
+  "1382046": {
+    "date": "2025-11-03",
+    "odds": {
+      "odds_home": 2.45,
+      "odds_draw": 3.8,
+      "odds_away": 2.55,
+      "odds_over_1_5": null,
+      "odds_btts_yes": 2.62
+    }
+  },
+  "1382052": {
+    "date": "2025-11-03",
+    "odds": {
+      "odds_home": 1.62,
+      "odds_draw": 4.2,
+      "odds_away": 4.75,
+      "odds_over_1_5": null,
+      "odds_btts_yes": 2.75
+    }
+  },
+  "1382053": {
+    "date": "2025-11-03",
+    "odds": {
+      "odds_home": 2.8,
+      "odds_draw": 3.9,
+      "odds_away": 2.2,
+      "odds_over_1_5": null,
+      "odds_btts_yes": 2.25
+    }
+  },
+  "1391894": {
+    "date": "2025-11-03",
+    "odds": {
+      "odds_home": 1.4,
+      "odds_draw": 8.5,
+      "odds_away": 3.4,
+      "odds_over_1_5": null,
+      "odds_btts_yes": 4.0
+    }
+  },
+  "1377956": {
+    "date": "2025-11-03",
+    "odds": {
+      "odds_home": 1.36,
+      "odds_draw": 8.0,
+      "odds_away": 4.0,
+      "odds_over_1_5": null,
+      "odds_btts_yes": 3.75
+    }
+  },
+  "1379066": {
+    "date": "2025-11-03",
+    "odds": {
+      "odds_home": 2.1,
+      "odds_draw": 6.5,
+      "odds_away": 2.0,
+      "odds_over_1_5": null,
+      "odds_btts_yes": 3.75
+    }
+  },
+  "1390927": {
+    "date": "2025-11-03",
+    "odds": {
+      "odds_home": 2.5,
+      "odds_draw": 7.0,
+      "odds_away": 1.8,
+      "odds_over_1_5": null,
+      "odds_btts_yes": 4.0
+    }
+  },
+  "1396322": {
+    "date": "2025-11-03",
+    "odds": {
+      "odds_home": 1.8,
+      "odds_draw": 7.5,
+      "odds_away": 2.38,
+      "odds_over_1_5": null,
+      "odds_btts_yes": 4.5
     }
   }
 }

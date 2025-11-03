@@ -16,6 +16,7 @@ today = datetime.now().strftime("%Y-%m-%d")
 from concurrent.futures import ThreadPoolExecutor
 from dotenv import load_dotenv
 
+
 import requests
 
 # --- Initialisation du chemin de base et des variables .env
@@ -24,6 +25,8 @@ load_dotenv(dotenv_path=os.path.join(BASE_DIR, ".env"))
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 CHAT_IDS = [int(x.strip()) for x in os.getenv("CHAT_IDS", "").split(",") if x.strip()]
+
+from api_football_odds import fetch_odds_for_date, merge_odds
 
 print(f"🧩 .env chargé depuis: {os.path.join(BASE_DIR, '.env')}")
 
@@ -808,6 +811,35 @@ def build_html(path_out, P, fixtures, today):
             else:
                 types[typ]["pending"] += 1
 
+            # ✅ Ajoute la cote correspondante selon le type de pari (arrondie, sans parenthèses)
+            fx_odds = None
+            if typ == "Over 1.5":
+               fx_odds = fx.get("odds_over_1_5")
+            elif typ == "BTTS":
+               fx_odds = fx.get("odds_btts_yes")
+            elif typ == "Résultat":
+              if "domicile" in sug.lower():
+               fx_odds = fx.get("odds_home")
+              elif "extérieure" in sug.lower():
+               fx_odds = fx.get("odds_away")
+              elif "nul" in sug.lower() or "draw" in sug.lower():
+               fx_odds = fx.get("odds_draw")
+            elif typ == "Équipe marque":
+              if fx.get("home_team") in sug:
+               fx_odds = fx.get("odds_team_home")
+              elif fx.get("away_team") in sug:
+               fx_odds = fx.get("odds_team_away")
+
+            # 🧮 Arrondir à 2 décimales
+            if fx_odds:
+               fx_odds = round(fx_odds, 2)
+
+            # 🧹 Supprime les anciennes mentions de cote dans la suggestion
+            import re
+            sug = re.sub(r"\(cote\s*[0-9.,]+\)", "", sug, flags=re.IGNORECASE).strip()
+
+
+
             # Couleur du texte selon le résultat
             if res == "correct":
                 color = "color:#0da60d; font-weight:700;"
@@ -816,6 +848,33 @@ def build_html(path_out, P, fixtures, today):
             else:
                 color = "color:#333;"
             row_bg = "background-color:#ffffff;"
+
+
+            # ✅ Sélection correcte de la cote selon le type de pari
+            fx_odds = None
+            if typ == "Résultat":
+                if "domicile" in sug.lower():
+                    fx_odds = fx.get("odds_home")
+                elif "extérieure" in sug.lower():
+                    fx_odds = fx.get("odds_away")
+                elif "nul" in sug.lower() or "draw" in sug.lower():
+                    fx_odds = fx.get("odds_draw")
+
+            elif typ == "Over 1.5":
+                    fx_odds = fx.get("odds_over_1_5")
+
+            elif typ == "BTTS":
+                    fx_odds = fx.get("odds_btts_yes")
+
+            elif typ == "Équipe marque":
+                if fx.get("home_team") in sug:
+                    fx_odds = fx.get("odds_team_home")
+                elif fx.get("away_team") in sug:
+                     fx_odds = fx.get("odds_team_away")
+
+            # Arrondi et fallback
+            fx_odds = round(fx_odds, 2) if fx_odds else "—"
+
 
             rows_html += (
                 f"<tr style='{row_bg}'>"
@@ -829,12 +888,14 @@ def build_html(path_out, P, fixtures, today):
                 f"<td>{fx.get('away_form', {}).get('goals_against', 0):.2f}</td>"
                 f"<td>{typ}</td>"
                 f"<td>{sug}</td>"
+                f"<td>{fx_odds}</td>"
                 f"<td>{ic}</td>"
                 f"<td>{probpct}%</td>"
                 f"<td>{src}</td>"
                 f"<td style='{color}'>{result_display}</td>"
                 f"</tr>"
             )
+
 
     # --- Calcul des ratios
     def ratio(ok, ko):
@@ -902,21 +963,32 @@ function filterType(type) {{
   document.querySelectorAll(".card").forEach(btn => btn.classList.remove("active"));
   const activeBtn = Array.from(document.querySelectorAll(".card")).find(btn => btn.textContent.includes(type));
   if (activeBtn) activeBtn.classList.add("active");
+
   for (let i = 1; i < rows.length; i++) {{
-    const cell = rows[i].getElementsByTagName("td")[8];
+    const row = rows[i];
+    
+    // 🚫 Cache toujours les entêtes de ligue
+    if (row.classList.contains("section")) {{
+      row.style.display = "none";
+      continue;
+    }}
+
+    const cell = row.getElementsByTagName("td")[8];
     if (!cell) continue;
     const val = cell.textContent.trim();
+    
+    // ✅ Affiche uniquement les matchs correspondant au type sélectionné
     if (val === type || type === "all") {{
-      rows[i].style.display = "";
-    }} else if (rows[i].classList.contains("section")) {{
-      rows[i].style.display = "";
+      row.style.display = "";
     }} else {{
-      rows[i].style.display = "none";
+      row.style.display = "none";
     }}
   }}
 }}
+
 function showAll() {{ filterType("all"); }}
 window.addEventListener("load", function() {{ sortTable(11); }});
+
 </script>
 """
 
@@ -1172,6 +1244,7 @@ document.getElementById("searchTeam").addEventListener("keyup", function() {{
         <th>BE Away</th>
         <th>Type</th>
         <th>Suggestion</th>
+        <th>Cote</th>
         <th>IC</th>
         <th>Probabilité</th>
         <th>Source</th>
@@ -1391,8 +1464,23 @@ def main():
         if bad_items:
             print(f"🚨 Attention : {len(bad_items)} objets non conformes détectés avant enrichissement")
 
+        # ✅ Récupération des cotes sur tous les matchs
+        print("🔎 Récupération des cotes du jour via API-Football...")
+        odds_map = fetch_odds_for_date(TODAY)
+        print(f"✅ {len(odds_map)} matchs ont des cotes")
+
+        fixtures = merge_odds(fixtures, odds_map)
+
+
+        # 🧪 Vérification visuelle : affichage des cotes récupérées
         for fx in fixtures:
-            enrich_with_odds_and_markets(fx)
+            print(f"{fx['home_team']} vs {fx['away_team']} → "
+                  f"O1.5={fx.get('odds_over_1_5')} | "
+                  f"BTTS={fx.get('odds_btts_yes')} | "
+                  f"1={fx.get('odds_home')} | X={fx.get('odds_draw')} | 2={fx.get('odds_away')}")
+
+
+
 
         for fx in fixtures:
             add_injuries_influents(fx)

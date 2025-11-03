@@ -3843,6 +3843,27 @@
     "status": "FT"
   },
   {
+    "id": 1471791,
+    "date_utc": "2025-10-31T15:00:00+00:00",
+    "league_id": 397,
+    "league_name": "Girabola",
+    "country": "Angola",
+    "season": 2025,
+    "referee": null,
+    "venue": {
+      "id": 3724,
+      "name": "Estádio Municipal dos Coqueiros",
+      "city": "Luanda"
+    },
+    "home_id": 26665,
+    "away_id": 4929,
+    "home_team": "Guelson FC",
+    "away_team": "Kabuscorp",
+    "score_home": 2,
+    "score_away": 0,
+    "status": "FT"
+  },
+  {
     "id": 1474807,
     "date_utc": "2025-10-31T15:00:00+00:00",
     "league_id": 794,
@@ -4994,7 +5015,7 @@
     "home_team": "Spartak Myjava",
     "away_team": "Komárno II",
     "score_home": 3,
-    "score_away": 0,
+    "score_away": 1,
     "status": "FT"
   },
   {
@@ -5323,7 +5344,7 @@
     "venue": {
       "id": 22434,
       "name": "Abdullah Al Dabil Stadium",
-      "city": "Ad Dammām (Dammam)"
+      "city": "Dammam"
     },
     "home_id": 2934,
     "away_id": 2945,

@@ -290,7 +290,48 @@ def best_threshold(subdf):
     })
 
 
+# --- Option complémentaire : seuils dynamiques par probabilité réelle ---
+def find_optimal_threshold(df, col_proba, col_result):
+    """
+    Recherche le seuil de probabilité (50–99 %) qui maximise la réussite réelle.
+    Sert de recalibrage complémentaire à 'best_threshold' pour stabiliser l'analyse globale.
+    """
+    best_thr = 50
+    best_rate = 0.0
+    for t in range(50, 100):
+        subset = df[df[col_proba] >= t]
+        if len(subset) < 10:
+            continue
+        rate = subset[col_result].mean() * 100
+        if rate > best_rate:
+            best_rate = rate
+            best_thr = t
+    return best_thr
+
+
 thr_df = df.groupby("Type", group_keys=False).apply(best_threshold).reset_index(drop=True)
+
+# --- Recalibrage global dynamique (pour enregistrement et affichage dans main.py) ---
+try:
+    df_btts = df[df["Type"].str.contains("BTTS", case=False, na=False)]
+    df_o15 = df[df["Type"].str.contains("Over 1.5", case=False, na=False)]
+    df_res = df[df["Type"].str.contains("Résultat|Result", case=False, na=False)]
+    df_team = df[df["Type"].str.contains("Équipe marque|EQUIPE MARQUE", case=False, na=False)]
+
+    SEUILS_OPTIMAUX = {
+        "BTTS": find_optimal_threshold(df_btts, "IC_val", "won"),
+        "Over 1.5": find_optimal_threshold(df_o15, "IC_val", "won"),
+        "Résultat": find_optimal_threshold(df_res, "IC_val", "won"),
+        "Équipe marque": find_optimal_threshold(df_team, "IC_val", "won"),
+    }
+
+    # Sauvegarde supplémentaire pour le main.py (utilisé dans _load_optimal_thresholds_from_global)
+    seuils_path_html = os.path.join(BASE_DIR, "analyse_globale_footbot.html")
+    print(f"📈 Seuils recalculés dynamiquement : {SEUILS_OPTIMAUX}")
+except Exception as e:
+    print(f"⚠️ Erreur lors du recalcul dynamique des seuils optimaux : {e}")
+
+
 summary = pd.merge(summary, thr_df, on="Type", how="left")
 
 # ----------------------------------------------------------
