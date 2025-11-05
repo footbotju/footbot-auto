@@ -1440,7 +1440,7 @@ def main():
         # 1️⃣ Chargement des matchs du jour
         print(f"\n🔎 Chargement des matchs du {TODAY} ...")
         fixtures = get_fixtures_by_date(TODAY)
-        import json
+        
         with open(f"fixtures_raw_{TODAY}.json", "w", encoding="utf-8") as f:
             json.dump(fixtures, f, ensure_ascii=False, indent=2)
         print(f"💾 Fixtures sauvegardés → fixtures_raw_{TODAY}.json")
