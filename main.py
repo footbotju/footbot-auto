@@ -1377,6 +1377,13 @@ def main():
 
     print(f"📅 Date: {TODAY}")
 
+    # --- Auto-détection du mode refresh (si le JSON du jour existe déjà)
+    fixtures_json = os.path.join(BASE_DIR, f"fixtures_raw_{TODAY}.json")
+    if os.path.exists(fixtures_json) and not args.refresh:
+        print(f"♻️ Fichier détecté ({fixtures_json}) → passage automatique en mode refresh.")
+        args.refresh = True
+
+
     if args.refresh:
         print("♻️ Mode rafraîchissement activé — lecture fixtures sauvegardés")
         path = os.path.join(BASE_DIR, f"fixtures_raw_{TODAY}.json")
@@ -1415,8 +1422,19 @@ def main():
 
         out_name = f"FootBot — Profil Volume — {TODAY} (post-match).html"
         build_html(os.path.join(BASE_DIR, out_name), P, fixtures, TODAY)
-        print(f"📁 Rapport post-match généré → {out_name}")
+
+        #  ✅ Copie automatique du rapport dans le dossier rapports_quotidiens/
+        RAPPORTS_DIR = os.path.join(BASE_DIR, "rapports_quotidiens")
+        os.makedirs(RAPPORTS_DIR, exist_ok=True)
+
+        dest_path = os.path.join(RAPPORTS_DIR, f"FootBot — Profil Volume — {TODAY}.html")
+
+        import shutil
+        shutil.copy2(os.path.join(BASE_DIR, f"FootBot — Profil Volume — {TODAY} (post-match).html"), dest_path)
+
+        print(f"✅ Rapport post-match copié dans → {dest_path}")
         return
+
 
     else:
         # 1️⃣ Chargement des matchs du jour
